@@ -1,0 +1,120 @@
+- Per Kunal/Javier Meeting 27 Feb
+    
+    !IMG_6392.HEIC
+    
+- Questions:
+    - where does/do the blocking study(ies?) fit in?
+        - both flank incision and paw edema?
+    - Is the paw edema really [(GD-CBD + CBD) * 3 doses)+injured veh + uninjured veh] * n=9 = 72?
+    - What are we doing for paw edema biodistribution?
+    - are we for sure pursuing oral CBD?
+        - (IP CBD requires ACN, and we haven’t seen any efficacy
+        standard of care is oral (epidiolex)
+        we should order the oils)
+    - for flank incision, were we thinking 3 total cohorts,
+        - 1 of each normal injured group (3 total), 3 healthy GD-CBD, and 3 blocking
+        
+
+# Distribution/localization (Cy5-GD-CBD)
+
+## Flank incision
+
+## For sectioning
+
+- 24 timepoint only
+- Animals (n=3)
+    - healthy + dendrimer
+    - injured + dendrimer
+    - vehicle?
+- Tissues
+    - Skin - incision & contralateral
+    - DRGs (individuals separated in grid)
+    - Spinal cord
+    - Somatosensory cortex
+- Staining
+    - Skin - H&E, MTC
+    - Nerves - cFOS, ATF3
+        - do these need earlier timepoints?
+
+## For IVIS
+
+1h, 4h, 24h, 48h, 7d 
+
+full body only
+
+n3?
+
+## Paw edema?
+
+# Efficacy
+
+## Incision von Frey
+
+### normal
+
+- 3 mg/kg
+- Groups (4)
+    - injured GD-CBD
+    - injured CBD
+    - vehicle
+    - uninjured GD-CBD
+- Animals
+    - stick with 300g females
+    - currently n=6 for CBD, veh, and GD-CBD
+- Tissues
+    - wound site + contralateral
+        - histology
+    - others?
+    - why are we collecting at 7 days?
+- Plan
+    - remaining (18 animals)
+        - n=3 injured GD-CBD (n=6 → n=9)
+        - n=3 injured CBD (n=6 → n=9)
+        - n=3 injured veh (n=6 → n=9)
+        - n=9 healthy GD-CBD (n=0 → n=9)
+    - separate the healthy GD-CBD into 2 cohorts
+        - how to separate?
+
+### high-dose (30 mg/kg)
+
+start with n=3
+
+CBD vs GD-CBD 
+
+### Blocking studies (in vivo)
+
+- n=10 total
+    - breakdown?
+- do n=3 per cohort of the normal efficacy experiment
+    - 3 cohorts
+        - 1 of each normal injured group (3 total), 3 healthy GD-CBD, and 3 blocking
+- pilot with n=1?
+- what blocker?
+
+## Paw edema
+
+dose determination
+
+0.3, 3, & 30 mg/kg
+
+n=9
+
+4 groups: injured +GD-CBD, injured + CBD, injured+ saline, & healthy controls
+
+Biodistribution
+
+## In vitro
+
+### Blocking studies (in vitro)
+
+Preeti can help, she’s doing this with GD-ket
+
+Look at macrophages and neurons
+
+# Safety/Tox
+
+## Liver metabolism
+
+Kavi?
+
+### Sedation

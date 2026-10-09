@@ -1,0 +1,495 @@
+Speaker A: The TRP-1, what, we need to get a new set?
+
+Speaker B: Yeah, can we find TRP-1?
+
+Speaker C: Yeah, I can check.
+
+Speaker B: Okay, I think we need all of these things by June 15th.
+
+Speaker A: So that means just 2 weeks.
+
+Speaker B: Thank you, Raja. I sent you the link to that document.
+
+Speaker A: Yeah, I saw that.
+
+Speaker B: Okay, awesome, thank you.
+
+Speaker A: June 15th means we We don't have a chance to redo this again.
+
+Speaker C: I am not sure about the cells, but if we get the cells, we can do that. I will just go through quickly a couple of sources if it is available.
+
+Speaker B: Great. In vitro release, we are going to have it by the end of this month, right? Yeah. Okay, solubility we can have by the end of this month. Yeah. CB1, you have the cells, right?
+
+Speaker C: Yeah, CB1 we can.
+
+Speaker B: You are able to get that by the end of the month?
+
+Speaker D: Yeah.
+
+Speaker B: TRIP-B, if we have it, that would be a huge deal. If we can find it quickly in order, even today, in one day, if we can get that, that would be a big deal. And I think that the other thing that we're missing is cell efficacy data. What everyone is unhappy with is that they think that CBD is not a very potent drug. So they're saying, why are you picking CBD? So what you're saying is that dendrimer conjugation increases potency significantly, right? And so I think doing these cell studies are a good way. We already have the data with the 3 mg/kg. Pre-ECV having no effect, but the 3-mic per kg of the GECV having an effect. I think these 2 things would be the nicest things to do. If we can do that, reduce inflammatory cytokine release from macrophages, activated macrophages. Is there any issue, anything that would stop us from doing that?
+
+Speaker A: So, here of course activated macrophage, not HMC.
+
+Speaker F: Activated macrophage, we have human, that THP-1. Yeah.
+
+Speaker B: That we can do it.
+
+Speaker C: That's great.
+
+Speaker B: So we can activate them and it should reduce inflammatory cytokine release, that would be perfect.
+
+Speaker D: Okay.
+
+Speaker B: Do you think we can also do this?
+
+Speaker F: So it is only human macrophage.
+
+Speaker A: So no HMC, no other drugs?
+
+Speaker B: Just human is fine.
+
+Speaker F: Only human macrophage, that's it.
+
+Speaker A: And you don't need HMC or HT-22?
+
+Speaker B: If you want, okay, so if you want to do HMC at the same time, it's easier to do both, you can do both. Both will be useful.
+
+Speaker F: Okay.
+
+Speaker B: But I think macrophages are the primary thing that we are changing.
+
+Speaker F: So, if the compound is ready, I have pHMC, I can do it.
+
+Speaker A: We don't have the post-acute endocarditis. We don't have the capsids in our—
+
+Speaker B: He is talking about inflammatory one, right? Yeah. Are you saying he is ready for inflammatory one? We have macrophages, we can take care of it.
+
+Speaker F: No, I said that if compound is ready, I can start because my cells is running.
+
+Speaker B: Okay, so for inflammatory cytokine reduction, we can do microglia, macrophages, he's got it, right? Yeah.
+
+Speaker D: For neurons—
+
+Speaker F: So it's two cytokine, TNF-alpha and IL-6, and you need any others?
+
+Speaker B: Which ones?
+
+Speaker F: TNF-alpha, IL-6, and IL-10, because pro-inflammatory is TNF-alpha, IL-6, anti-inflammatory is IL-10.
+
+Speaker B: How about IL-1-beta?
+
+Speaker F: IL-1-beta, yeah. Okay.
+
+Speaker B: That's good. That said, it's full.
+
+Speaker D: Yeah.
+
+Speaker B: Okay. Does that sound okay?
+
+Speaker D: Yeah.
+
+Speaker B: Okay. Spencer, if we do get any of this additional distribution data in a meaningful way, we can talk more about that. I think that's useful. Not 100% necessary, but it's useful.
+
+Speaker E: The IVIS?
+
+Speaker B: Yeah. Like we showed a little bit of this.
+
+Speaker E: We can definitely get that, right?
+
+Speaker C: Yeah.
+
+Speaker D: Yeah.
+
+Speaker E: By the 15th?
+
+Speaker B: Yeah. Yeah.
+
+Speaker E: I'm trying to get it next week.
+
+Speaker B: Yeah. I mean, for the Huron folks that they want, like they're calling me about that every day. So, but I think for this, that would be like, it's all the same stuff, that would be quick and easy to do. Okay, does that sound good? For CBD, that's everything for CBD.
+
+Speaker A: Okay. Biodistribution is Cy5-GD-CBD or just Cy5-GD?
+
+Speaker B: If we can only do Cy5, if we can only do GD-Cy5, then we can only do GD-Cy5. I don't know that we should wait the—
+
+Speaker C: Which model it is?
+
+Speaker B: Like the incision model. I think if Spencer is able to like figure out the right timing, dosage, imaging protocols, all this kind of stuff, then we should, it'd be worthwhile to try the Cy5-GDCB. Until then, we should just do the Cy5-GDCB.
+
+Speaker A: Do you know when you will be able to properly time?
+
+Speaker F: You did last time, you showed me the photo of IVIS, so it is, means you kill that rat and you go and check.
+
+Speaker B: Yeah.
+
+Speaker F: So I suggest you If you transfer those rat in 13G, just it is 2-3 days they will take that. You can send the request, they will approve it within 48 hours. Okay. Then we can inject the formulation, you can see in various time point like 2-3 time point, after that immediately you can set, immediately we can capture it.
+
+Speaker C: Awesome.
+
+Speaker F: That will be good because when you kill that, the blood circulation is totally stopped.
+
+Speaker B: Yeah.
+
+Speaker F: And this instrument is very sensitive. If I do not miss, if you did means kill that mice after you take like 1 hour, 2 hours, I think the intensity might be vary. So, if you just kill immediately within 10 minutes or 5 minutes, you just collect the organ, put it and capture the images, that will be great.
+
+Speaker E: Interesting.
+
+Speaker F: And before that, you are already seen in whole body, because you are take like 3 time points enough, like 1 hour, 3 hours, 6 hours, 24 hours, or 1 hour, 3 hours, 12 hours, 24 hours, like 3 to 4 time points is sufficient.
+
+Speaker E: What do you think about time points after 24 hours, like 48 or later?
+
+Speaker F: Yeah, yeah, yeah, that will be also, but I felt that GD, Cy5, injected, immediately the circulation is switched. Which route you are following?
+
+Speaker B: IP.
+
+Speaker F: IP, yeah. So its distribution profile for IP, what I observe, is immediately— like, you can take like 3 hours or 6 hours. After 12 hours, this eliminating phase is very fast. So if you Planning to do 24 hours directly, might be you cannot see that much good signal.
+
+Speaker E: Interesting, yeah.
+
+Speaker F: So, might be you can check 3 hours, 6 hours, 12 hours, and 24 hours or 48 hours, then you can see the good signal. And when you see that whole body, that is signal is there, then you can stack it and check that.
+
+Speaker E: Interesting, yeah, we definitely should do earlier and later time points.
+
+Speaker B: I think that's great. Especially if it only takes a couple of days.
+
+Speaker E: Okay, then we'll transfer some rats there.
+
+Speaker F: So, how many you planning to do? How many you have?
+
+Speaker E: I have 3 that I could do right now. 3?
+
+Speaker F: I can get more. Yeah, yeah, yeah.
+
+Speaker A: That is nice actually.
+
+Speaker B: Okay, you want to talk about noribogaine?
+
+Speaker F: Yeah.
+
+Speaker D: Yeah.
+
+Speaker B: Okay, great. What is your current plan for noribogaine?
+
+Speaker A: Noribogaine, the first one is— so, the characterization part is complete now.
+
+Speaker B: Release is not— Do you have release?
+
+Speaker A: Release, not yet. You know, we were holding it.
+
+Speaker B: How can you say it is complete?
+
+Speaker A: Except the release.
+
+Speaker B: Okay, got it. Okay.
+
+Speaker A: Multiple ways. Including the NMR characterization for that.
+
+Speaker B: Yeah.
+
+Speaker A: We link it.
+
+Speaker B: How much do you need for release to do release studies?
+
+Speaker A: 2 to 3 milligram conjugate.
+
+Speaker B: Drug basis, conjugate basis?
+
+Speaker A: At least conjugate base, 3 milligram conjugate base. Okay, great. And normally we do like replicate.
+
+Speaker B: Okay.
+
+Speaker A: We can make it duplicate now and do a technical duplication from that point of view.
+
+Speaker D: Okay.
+
+Speaker B: It's an injection. Okay.
+
+Speaker A: So that way we can minimize the—
+
+Speaker B: Sure.
+
+Speaker A: What do you call it? Experiment duplication.
+
+Speaker B: Okay.
+
+Speaker A: But it will be an experiment duplication with a technical duplication of the data.
+
+Speaker B: I think that's fine for right now. Okay, otherwise you have HPLC, you have NMR.
+
+Speaker D: Yeah.
+
+Speaker B: You have everything else for characterization, right?
+
+Speaker D: Yeah.
+
+Speaker B: How much do you have right now?
+
+Speaker A: So I would have nearly 1 60 mg/kg.
+
+Speaker B: 560 mg/kg? That's just the first batch? No.
+
+Speaker A: First batch is separate, that's only 60, the remaining is for the second batch.
+
+Speaker B: Okay, and then you're done with all the noribogaine?
+
+Speaker A: The second batch is not tested for anything.
+
+Speaker B: Okay, but you're done with all the noribogaine from Dalton? You already used up all of it?
+
+Speaker A: I still have the conjugate prepared, I mean, linger ready, not conjugated with the gene.
+
+Speaker B: Okay, how much more of that do you have?
+
+Speaker A: We can go for another 200 mg/kg.
+
+Speaker B: Okay, good. Okay, and then now we have the 400 milligrams from—
+
+Speaker A: Yes, that is my test. Okay, so we have a good amount.
+
+Speaker B: Okay, great. Okay, so this is the in vitro characterization, right? Then let us go to binding next. So, for binding we want to do kappa, that is important. NMDA we should also do, which you have done before.
+
+Speaker A: You want to repeat the entire experiment he did, or just something specific from that? So, he found The GG noribogaine showing NMDA agonist, right? Sorry, antagonist. Antagonist, yeah. So you're okay with that concentration, everything you did, or you want to repeat the entire thing, the data you showed? You did one dose?
+
+Speaker C: Yeah, one dose.
+
+Speaker A: You want a dose-dependent one, or you repeat the So, we did, yeah. Can you use that?
+
+Speaker C: So, this is not a direct action, so I do not think so we saw dose dependent should do, because we are checking the NMDA activity. So, until unless we get a clean graph from the FLIPR signal and if we can see that clear, because it is in the same, we cannot do any Changes.
+
+Speaker B: What you have right now is sufficient.
+
+Speaker C: Yeah, I feel so. I mean, I can repeat it one more time because, yeah, I think I will repeat it one more time because that is very old PC. So, when I last time I took it, there is other lines also there. So, I will repeat that.
+
+Speaker B: Did you compare it to free noribogaine?
+
+Speaker C: Yeah.
+
+Speaker D: Okay.
+
+Speaker B: If we have, let's try to get good data with free and . And then I think you looked also for a mu opioid. Yeah, right, line. Yeah, yeah, that was also like $20,000.
+
+Speaker F: No, that is very less, is around $7,000.
+
+Speaker B: Do you think that one we can also rent for 3 months or no?
+
+Speaker F: No, if I did not ask for 3 months, yeah, it's only $7,000. We can keep ours. Yes.
+
+Speaker B: Yeah, do you think we can get— because I think $7,000 we probably can they cannot pay right now.
+
+Speaker F: So I can ask them.
+
+Speaker B: Do you think there's any way that we can do it?
+
+Speaker F: Yeah, yeah, I will ask. Okay. Or else I will email to Charles River also. Sure. Because if they have— okay, we can get for 3 months.
+
+Speaker B: That would be great. Okay. I think if we can do both of those—
+
+Speaker F: we have June, July, August. We have August. Till August, yeah, we have a deadline to finish this.
+
+Speaker B: Correct. Yeah. If we have those 3 things, we're in a really good place.
+
+Speaker D: Okay.
+
+Speaker B: Okay, and then cyclite would be great to do as well.
+
+Speaker A: Maybe ketamine.
+
+Speaker B: And then with the binding studies, it may also be nice to have ibogaine also to compare against. So it'd be nice to maybe be in touch with Spencer, because maybe he'll get ibogaine from the other group. We have to be very careful, we should make sure we document everything, you know, these kinds of things.
+
+Speaker C: Instead of noribogaine, we should use ibogaine?
+
+Speaker B: We should do both if we can. Okay. Yeah, as much as possible. When you're doing kappa, mu, when you're doing an NMDA, if we can also do ibogaine along with those, have data across all three, that's perfect. That would be great. For kappa, the paper that I sent you, they also did just direct kappa, but they also had some other drugs that they added in as well.
+
+Speaker F: Yeah, yeah, we have naltrexone, naloxone, these are the standard.
+
+Speaker B: Nalfene is the other one.
+
+Speaker F: Yeah, yeah, yeah. I checked actually.
+
+Speaker B: This one, NALFeminine.
+
+Speaker F: NALFeminine.
+
+Speaker B: Do you think we can do these studies as well?
+
+Speaker F: Yeah, so they said that you can compare with standard, that how much is showing your— that will be great if we can do that comparison, that will be great.
+
+Speaker B: Awesome, okay. So, I think pretty much for the binding studies for kappa, we want to pretty much just do what they have done here across these. If you have already ordered those things, then we are in a good place. Yeah. Okay, and then Narendra, what are like the neuroplasticity studies that you're doing right now?
+
+Speaker C: So I'm just using one concentration, ibogaine C and CD conjugated, and control, and what is their effect on growth cone and—
+
+Speaker B: In the neuroblastoma.
+
+Speaker C: On neuroblastomas.
+
+Speaker B: Why neuroblastoma?
+
+Speaker C: Human neurons.
+
+Speaker B: What about HT-22?
+
+Speaker C: I mean, we can do HT-22 also, but he said we can— because he did some previous study with neuroblastoma cells.
+
+Speaker A: So, this is mice.
+
+Speaker C: Yeah, HT is mice.
+
+Speaker A: So, I tried— because this has a low response in what is non-primate models, or I believe.
+
+Speaker B: Okay.
+
+Speaker A: That is the reason we picked the neuroblastoma.
+
+Speaker B: Okay.
+
+Speaker A: I do not know.
+
+Speaker B: This is ongoing right now?
+
+Speaker A: I do not know. Yeah, because it is mostly shown effect in the— primates models, ibogaine effect. Like monkey, human, of course monkey and other.
+
+Speaker B: Okay, so you're doing neuroblastoma right now, let's see what the results are.
+
+Speaker A: Even toxicity, you know that ibogaine is, you need more toxic dose than human dose.
+
+Speaker E: For rodents?
+
+Speaker A: Yeah, rodents.
+
+Speaker E: Yeah, it's a different kind of toxicity for rodents.
+
+Speaker A: Yeah, that's okay.
+
+Speaker B: Okay, we have these neuroblastoma cells going on. I do think it's worthwhile to do at least 2 doses. Okay. Yeah. That's the best way to show that we retain the functionality, but then we expand the therapeutic window. I think that's the best way to do it. Okay, I think if we have that, we're in a pretty good place. Okay. You're making progress on the EEG?
+
+Speaker E: It's kind of stalled.
+
+Speaker B: Yeah. Okay, anything we can do to be helpful.
+
+Speaker A: And I have one time experiment.
+
+Speaker E: Try to not be too annoying to that guy.
+
+Speaker B: I have no need to be annoying to the guy.
+
+Speaker E: No, we might get to have a whole podcast.
+
+Speaker A: One experiment finished with the cyclic AMP on HMC, human microglia cells. It's a direct impact.
+
+Speaker B: Okay.
+
+Speaker A: Showing, but only one experiment.
+
+Speaker B: Okay.
+
+Speaker A: Interested in that program, we can do that experiment also one more time. It shows free— normally the free ibogaine impact directly impact the cyclic AMP production, whereas the GDA cyclic AMP did not show that.
+
+Speaker D: Okay.
+
+Speaker A: But it is a negative also. Sometimes people argue whether you lose the drug activity.
+
+Speaker B: Correct.
+
+Speaker A: But we are We have time to say that's not an issue.
+
+Speaker B: We can hold off for now. Yeah. I think these are all good studies to do in the meantime. Anything we can do to help with that guy?
+
+Speaker E: No, it's just a matter of not pushing too hard, but pushing as hard as you can.
+
+Speaker B: Yeah, yeah.
+
+Speaker A: Okay.
+
+Speaker D: We'll get there.
+
+Speaker B: And then for heat hole, I think you were going to respond back to Sujatha, right? I did, yeah.
+
+Speaker E: She hasn't responded yet. I responded on that day, so it's been a few days.
+
+Speaker B: Was that with all of us or just her?
+
+Speaker D: Just her.
+
+Speaker B: Okay.
+
+Speaker E: I can do it again. I can follow up to everyone. Yeah.
+
+Speaker B: Okay.
+
+Speaker E: I don't want her to feel like I'm pushing too hard.
+
+Speaker B: I don't think she would feel that. She was on call like I think 2 days ago, so you probably caught her on the day that she was on call. So I think it's not a bad idea to do that. It's a big priority. And then I think that I'll try to push on the— I think Sungin, we should also just keep pushing on. And then maybe we can— well, what we can do ideally when you're setting up all these studies, we can set up all these studies that we want to do free ibogaine, that we can set them up to do at the same time. This is going to be tough for us to get ibogaine from them because it's controlled, but if we can do it all the same time and make it simple for them to be able to give us a little bit, that'll be great. So I think we should just try to coordinate extremely well in that regard.
+
+Speaker A: And picking the right constant, because this, the IC50 for the ibogaine, noribogaine, start from 50 to 200.
+
+Speaker B: Everything is in this paper. This paper is everything.
+
+Speaker F: Yeah, everything is there.
+
+Speaker A: Every concentration, all —So then we pick the same concentrations they did? Yeah.
+
+Speaker E: Okay.
+
+Speaker B: Is theirs just beyond, like, both lower and higher, or beyond? So we should be able to be covered just by that.
+
+Speaker D: Okay.
+
+Speaker B: And then I think, Narendra, I think for your functional studies, I think that's also key that we have the right concentrations. Like, we should have both, like, safe therapeutic doses, but then also, like, some higher toxic doses. Yeah. Yeah. Okay. Do you think that we should advance any of those, like, baby rapid things?
+
+Speaker E: I don't think that's a top priority. I think getting the cells done is the biggest thing, the single biggest thing for the whole project.
+
+Speaker B: Yeah. Okay, let's push on that then.
+
+Speaker A: And are we planning anything with that cargo mindset, Sujatha?
+
+Speaker E: I think we're going to see how it goes with our collaborator. I think they'll be a better—
+
+Speaker B: we can keep those in our back pocket. Let's do that. Okay? Team? Yep.
+
+Speaker A: We got a deadline for these things? June 8th?
+
+Speaker B: What do you think is appropriate? Let's do one by one. Okay, neuroblastoma stuff, you'll be done by the end of this month, right? Yeah. What is the date? May 22nd. You have until May 31st.
+
+Speaker C: Sorry, no, no, maybe June 1st, you are not there. First week most probably, or June 2nd week, because June 2nd week I will get everything.
+
+Speaker B: Okay, how about June 2nd week? For me? Everything.
+
+Speaker F: For CBD also? Means you are priority with CBD?
+
+Speaker B: No, because I want— CBD, everything has to be done by June 15th.
+
+Speaker F: Oh, yeah, yeah, yeah, June 15th you will need CBD data. Noribogaine, I need help because binding—
+
+Speaker B: You're gone for a little bit?
+
+Speaker C: No, I just have shifting to new apartment. Okay, nice. So, I mean—
+
+Speaker B: Then you're going to invite us over there?
+
+Speaker C: Yeah, of course, anytime you all are invited. And then, yeah, one or two—
+
+Speaker F: So, I think we can—
+
+Speaker A: Yeah, can you be on hold? —receptor one until we finish with the GABA.
+
+Speaker B: Let's just see if we can get it. If we can do them all at the same time, that's better, because we can get an ibogaine at the same time, we can do everything at the same time, that's the better way to go.
+
+Speaker A: But I'm here. Because it's more just for KR, right, not the—
+
+Speaker B: Yeah, KR is the main thing, but it's good if we have it all.
+
+Speaker D: Yeah, okay. Okay.
+
+Speaker B: We should find out that we have submitted some grant for this, we should find out by end of June as well, or by mid-June.
+
+Speaker A: By the time the ibogaine will be legalized in the United States.
+
+Speaker B: Is it useful for me to write up a timeline and all these studies, or do you think that you have— you and Raja? What? Is it useful for me to write up this whole plan and timeline, or do you think you got it?
+
+Speaker F: No, if you send me the timeline also, it will be great.
+
+Speaker B: Then it will be like I can Okay, let's get moving on everything. I'll send also like a line of these studies too.
+
+Speaker F: Yeah, yeah.
+
+Speaker B: Okay, thank you. Thank you. You're making Spencer's dream come true, you know that?

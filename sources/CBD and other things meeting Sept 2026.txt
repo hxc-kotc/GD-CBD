@@ -1,0 +1,70 @@
+Spencer and Kunal Parikh reviewed the full program portfolio, clarified ownership, and agreed how to allocate near-term effort. Kunal Parikh will own noribogaine, with Spencer helping structure the strategic work. They will finish the existing CBD experiments but broaden future work to the overall chronic neuropathic pain indication rather than assuming CBD or CP55 is the best asset. ACTAMP remains a useful near-term execution priority while dendrimer programs await actionable experimental work. For ophthalmology, PCS—not VariaFlow—is now the lead program for funding and first-in-human development, with Atul handling much of the day-to-day work and Kunal Parikh providing technical guidance. The team plans to use Nanofiber Solutions for manufacturing transfer and clinical builds, while targeting a TVST revision in early October.
+
+Program Priorities & Ownership
+
+ACTAMP:Kunal Parikh wants to close out the lingering prototype work. The remaining gaps are mainly detailed engineering and custom tooling rather than fundamental scientific uncertainty. Custom tooling may cost roughly $10,000, but Kunal Parikh does not think the project is ready for that spending yet. Lori is now formally involved. ACTAMP is a practical near-term focus while other programs are waiting for new data or materials.
+Noribogaine:Kunal Parikh will become the clear program owner. Ownership includes defining the complete desired data package, identifying missing studies, keeping collaborators moving, planning future CRO work, obtaining quotes, and ensuring sufficient noribogaine supply for upcoming alcohol-use-disorder, opioid, and other studies. Spencer and Kunal Parikh will initially develop this plan together.
+CBD and chronic neuropathic pain: The current CBD work should be completed because the team has already invested heavily and observed a promising initial signal. Cell work was beginning, and animal habituation could follow if the signal remained clear. However, Kunal Parikh is not strongly committed to CBD as the best long-term drug. Spencer proposed stepping back from the current asset and evaluating the indication itself—including CBD, CP55, tabernanthalog, and other biologically validated, clinically relevant, conjugable candidates—before creating the next action plan.
+Suture/PDO: The continuous-spinning suture program remains important, but Rachel should own near-term PDO execution. Because no full operating plan exists yet, Rachel should draft a detailed week-by-week sequence covering exact activities and experimental designs for Kunal Parikh and Spencer to review. The goal is to turn her work primarily into well-defined execution rather than open-ended planning.
+
+
+PCS as the Lead Ophthalmology Program
+
+Alcon's funding decision is now centered on PCS, not VariaFlow. The team should therefore answer the remaining PCS questions and treat additional VariaFlow optimization as optional work performed only when bandwidth permits.
+Atul should handle most routine PCS development, with Kunal Parikh serving as a technical resource and guide rather than spending multiple days each week on the program. Kunal Parikh's involvement remains important for device design, modeling, development strategy, and the path to first-in-human use.
+The team believes roughly three months of focused work can resolve most open PCS items. A six-month development window should allow rapid studies to run alongside chronic toxicology.
+Kunal Parikh should create a complete, prioritized list of everything that must be resolved before first-in-human use. Spencer will model inner-diameter options, including starting and ending dimensions and the relationship between device length and flow resistance.
+Manufacturing transfer: Nanofiber Solutions in Ohio, led by Ted, is the preferred partner. It appears capable of taking over manufacturing, sterilization, and packaging in a full ISO 13485 facility. A transfer may take about two weeks and is expected to cost approximately $50,000–$100,000 rather than $200,000.
+First-in-human concept: The current concept is an 18-patient study in Panama, potentially testing three inner-diameter variants. The primary assessment would occur at three months, with continued follow-up through 12 months.
+Kunal Parikh will confirm chronic-toxicology pricing with Ian and ask about access to a PreserFlow injector.
+
+
+TVST Manuscript Revision
+
+Reviewer 1 raised the more clinically substantive concerns; reviewers 2 and 3 appear comparatively straightforward to address.
+The revision should explicitly frame residual-acetone variability as a limitation of an exploratory study rather than overstate the precision of the current data.
+Intraocular-pressure data are available, but interpretation is complicated by unusual spikes following anesthesia. The team may include these data as supplemental material if the anesthesia caveat is clearly explained.
+Speaker 3 will send focused questions to Hersh about additional material and mechanical characterization, and to GDB/Sean about examination frequency and available safety data, copying Kunal Parikh and Peter.
+Speaker 3 will circulate a first revision draft by Monday. The target is submission in the first week of October, with the hope that the paper can be in press by year-end.
+
+
+Budget and Development Runway
+
+The working funding model is approximately $1 million from the primary funder plus a supplemental $250,000–$300,000.
+Major anticipated costs include roughly $250,000 for GLP toxicology, $250,000 for the first-in-human study, $50,000–$100,000 for manufacturing transfer, and about $50,000 for regulatory work.
+On current assumptions, this budget should support PCS manufacturing transfer, rapid preclinical studies, chronic toxicology, regulatory preparation, and the proposed first-in-human study.
+
+
+Next Steps
+
+Spencer: Draft the initial strategic frameworks for chronic neuropathic pain and noribogaine, including candidate options, desired data packages, gaps, and proposed studies; then review them with Kunal Parikh.
+Spencer: Model PCS inner-diameter configurations, including starting and ending dimensions and tradeoffs between length and resistance.
+Kunal Parikh: Ask Rachel to draft a week-by-week PDO/suture execution plan with explicit activities and experimental designs for Kunal Parikh and Spencer to review.
+Kunal Parikh: Build and prioritize the complete list of PCS issues that must be resolved before first-in-human use.
+Kunal Parikh: Confirm chronic-toxicology pricing with Ian and investigate access to a PreserFlow injector.
+Kunal Parikh: Schedule separate 15-minute discussions with Dohyun and Kunin about the depot-for-obesity plan.
+Speaker 3: Send targeted questions to Hersh regarding additional material and mechanical characterization, and to GDB/Sean regarding examination frequency and safety data; copy Kunal Parikh and Peter.
+Speaker 3: Send the first TVST revision draft by Monday and work toward submission in the first week of October.
+
+
+Time Allocation and Operating Approach
+
+Kunal Parikh's highest-leverage work is program ownership and strategic planning for noribogaine and chronic neuropathic pain, rather than personally executing every experiment.
+ACTAMP can absorb near-term experimental bandwidth while the dendrimer programs await clearer next actions.
+PCS should receive priority over VariaFlow, but Atul should carry most routine work so Kunal Parikh can contribute selectively where his technical judgment matters most.
+Rachel should execute the near-term PDO program from a tightly specified plan.
+Kunal Parikh will step back from recurring dendrimer meetings until depot work becomes active again and will trade out of the Institute Lab presentation slot.
+
+
+Decisions Made
+
+Kunal Parikh will own the noribogaine program going forward, with Spencer partnering on the initial strategic plan.
+The team will finish the current CBD story but will define subsequent chronic neuropathic pain work from the indication backward, rather than automatically advancing the current asset.
+ACTAMP is an appropriate near-term execution priority, although custom-tooling spending is premature.
+Rachel will lead near-term PDO/suture execution after preparing a detailed plan for review.
+PCS is the priority for funding and first-in-human development; VariaFlow work will continue only when resources allow.
+Atul will carry more of the routine PCS work, with Kunal Parikh contributing as a technical guide.
+Nanofiber Solutions is the intended PCS partner for manufacturing transfer, sterilization, packaging, chronic-toxicology builds, and first-in-human devices.
+The proposed first-in-human study is an 18-patient Panama study with three possible inner-diameter variants, a three-month primary readout, and 12-month follow-up.
+The TVST team will target resubmission in the first week of October and aim for the paper to be in press by year-end.
+Kunal Parikh will pause attendance at regular dendrimer meetings until depot work resumes and will switch out of the Institute Lab presentation slot.

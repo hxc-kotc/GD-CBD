@@ -1,0 +1,84 @@
+
+
+
+
+---
+
+### **Batch Summary**
+
+* **Trial Batch:**
+* **Material:** Cayman CBD
+
+
+* **Details:** Chemistry only; 70 mg
+
+
+
+
+* **Batch 1:**
+* **Material:** Cayman [redacted] CBD
+
+
+* **Status/Results:** Fully characterized, looks good; worked in vivo
+
+
+* **Involved/Tested by:** Javier, Spencer, Preeti
+
+
+
+
+* **Batch 2:**
+* **Material:** Dalton CBD [redacted]
+
+
+* **Status/Results:** Fully characterized, looks good; failed in vivo
+
+
+* **Involved/Tested by:** Spencer
+
+
+
+
+* **Batch 3:**
+* **Material:** Cayman CBD from vial #1
+
+
+* **Status/Results:** Fully characterized, looks good; failed in vivo
+
+
+* **Involved/Tested by:** Spencer, Preeti
+
+
+* **Notes:** Made oxidized, but not at the time of reaction $\rightarrow$ leads to HU-331
+
+
+
+
+* **Batch 4:**
+* **Status/Results:** Current (just finished); Cayman vial #2
+
+
+
+
+
+---
+
+### **Equilibrium & Analytical Notes**
+
+* **Equilibrium Problem:**
+* HU-331 $\rightleftharpoons$ Resonance version
+
+
+* The resonance version is indistinguishable from CBD in NMR
+
+
+* Also applies to THC! Because [redacted] NMR blocks it
+
+
+
+
+* **Analytical Methods Tried:**
+* Mass, NMR, HPLC may work... Nope, peaks bowling
+
+
+
