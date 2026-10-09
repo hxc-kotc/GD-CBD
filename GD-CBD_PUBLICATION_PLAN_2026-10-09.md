@@ -1,224 +1,218 @@
-# GD-CBD year-end publication plan (2026-10-09)
+---
+title: "GD-CBD publication plan, v2"
+subtitle: "Prepared 2026-10-09. Target: submission by 2026-12-29."
+---
 
-Scope: smallest credible package to submit a GD-CBD paper by 2026-12-31. Context only for the GD-nori program (CLAUDE.md: GD-X facts are context, not nori experiments). Sources: `30_SOURCES/internal/cbd/` (nine files, all read in full; the lab-update PDF was read as rendered slides). Second-hand numbers read off slide plots are marked `[plot read]`.
+# Read first
 
-## 0. What the files show
+- **Strategy:** a combined epilepsy-plus-pain paper built on an **inflammation** story, with a pain-only short report as the fallback. The other PIs' approval on the combined paper is still needed.
+- **Pain dataset:** two original cohorts (n=6 per arm, 3 mg/kg IP) showed the effect. A later 40 mg/kg cohort was partially positive. Other cohorts did not reproduce it. Methods were varied and then returned to the original von Frey protocol, and the effect still did not return with other preparations.
+- **The new cohort is the third replicate** (three cohorts, two preparations, preparation labels to be confirmed). It is the first with independent material.
+- **Characterization did not predict outcome.** The dendrimer masks CBD in the NMR, so the in vitro anti-inflammatory activity is the best available quality evidence. It does not prove the batch will work.
+- **Cohort size is small:** 9 rats. Results are descriptive at the cohort level, and the paper leans on the effect size, consistency and the pooled estimate.
+- **Free CBD at 3 mg/kg IP has been reported to reduce incision allodynia by other labs** (see section 7). The paper's claim is duration and magnitude after a single dose, not that free CBD is inactive.
 
-### Bottom line
+# 1. Publication strategy
 
-- **The pain dataset is one positive discovery set (n=6 per arm, 2 cohorts) followed by at least four cohorts that did not replicate.** A paper must say so in a supplement table. It does not have to be the centerpiece.
-- **"Fully characterized, looks good" did not predict in vivo outcome.** Batches 2 and 3 passed the same screen as Batch 1 and failed (batch notes). The TNF-α assay "good" on Batch 4 is a go signal, not evidence the batch will work. Prior: 1 of 3 characterized batches worked `[inference]`. Plan for the cohort to fail.
-- **n=3 and n=4 per arm have the same power under a rank test, and both are weak.** At the realistic effect (d about 1 to 1.7) any feasible cohort has about 25 to 65 percent power. The cohort is a directional replication, not a confirmation. Claims must be sized to that.
-- **No epilepsy data is in the attachments.** Section 1 gives decision criteria; I cannot judge the dataset.
+**Default: combined paper.** Unifying story: GD-CBD reduces inflammatory markers and disease phenotypes in two models, with the same cytokine panel measured in both.
 
-### Evidence ledger
+**What the combined paper needs**
 
-**Completed (data seen)**
+- **Same marker panel, same cytokines** (TNF-α, IL-6, IL-1β, IL-10) across epilepsy (mouse) and pain (rat) tissue and in vitro.
+- **Epilepsy data lock** by Nov 6. The collaborator's dataset covers biochemical data and several seizure measures.
+- **Other PIs' approval** on the combined paper, requested Monday and confirmed by Oct 30.
+- **Neutral title** until the marker data are in.
 
-- **Discovery cohort** (lab update, "Early CBD data"): GD-CBD 3 mg/kg IP vs free CBD 3 mg/kg vs operated control, n=6 per arm, 2 cohorts. 50% threshold about 105 to 115 g at 24 to 120 h vs about 20 g control `[plot read]`. AUC: ** vs vehicle, * vs free CBD. Asterisks on the time course only at 72 to 168 h. At 2 to 6 h GD-CBD is not separated from free CBD (very wide error bars). GD-CBD individual AUCs span about 6,000 to 31,000 `[plot read]`, so the low end overlaps controls: the arm is heterogeneous.
-- **Thresholds above baseline.** GD-CBD arm sits above pre-op baseline (about 80 g) at 24 to 120 h. Check filament ceiling and censoring before analysis.
-- **Non-replications.** V20 (Dalton GD-CBD, younger males, 3 mg/kg): no effect. V22 (Cayman GD-CBD "5x dose", Cremophor free CBD): no effect. V23 (Cayman GD-CBD, older females, 3 and 10 mg/kg, n=3 each, control n=2): no effect. V24 (Cayman, older females, 40 mg/kg, "von Frey pushing", control n=2): modest, about 55 vs 45 g at 24 to 48 h `[plot read]`, not clearly separated.
-- **Baselines differ about 3x between cohorts.** About 80 g in the discovery cohort vs about 25 g in V23 and V24 controls `[plot read]`. A 25 g baseline leaves almost no room to see hypersensitivity. Pooling raw grams across these is invalid.
-- **Batch notes.** Batch 1 Cayman: worked. Batch 2 Dalton: failed. Batch 3 Cayman vial #1: failed, "made oxidized, but not at the time of reaction, leads to HU-331". Batch 4 Cayman vial #2: current. The cohort-to-batch map (which of V20 to V24 used which batch) is not in the files. `[inference]` V20 = Batch 2, V23 = Batch 3.
-- **Ropivacaine.** V21: n=2 per sex, 0.25%, 400 uL, transient rise. Draft and outline say 200 uL on day 7 in a subset. Reconcile.
-- **IVIS.** GD-Cy5 and HD-Cy5 in carrageenan paw edema, 3 h and 24 h (HD also 42 h). Signal is central/abdominal, not evident at the paw. Single images, n not stated. Not publishable as is (you said the same).
-- **R01 preliminary values** (no raw data in the files): 6.04 +/- 0.8 nm, 12.5% w/w CBD, about 7 CBD per dendrimer, 17.6 kDa, CB<sub>2</sub> EC<sub>50</sub> 7.8 uM, solubility >200 mg/mL.
+| Pain cohort result | Paper |
+|:-------------------------|:----------------------------------------------------|
+| **Confirmed (R1)** or **consistent (R2)** | **Combined paper.** Pain is one efficacy figure, exploratory in tone. |
+| **Not confirmed** | **Epilepsy-led paper** with chemistry and in vitro. No pain efficacy claim. Pain cohorts stay in the data record. |
+| Combined paper not approved by the PIs | **Pain-only short report**, restricted claims. |
 
-**Planned, not shown complete**
+Decide at Gate 3 (Nov 13).
 
-- In vitro release, CB<sub>1</sub>/CB<sub>2</sub> binding, THP-1 TNF-α/IL-6/IL-10/IL-1β panel (May plan; only the Batch 4 TNF-α result is reported), blocking studies, 30 mg/kg arm, paw edema dose-response, histology, DRG/dorsal horn colocalization, biodistribution-efficacy correlation, forest plot, power analysis, Cohen's d. The outline sections 3.1 to 3.6 are headings, not results.
-
-**Unsupported or contradicted by the files**
-
-- R01: "onset within 2 hours" (slide shows no separation at 2 to 6 h), "without sedation" (no safety data), "HD-Cy5 and GD-Cy5 label Iba1 and TUJ1 cells in DRG and wound after flank incision" (you say the flank/paw data are unusable).
-- Draft: free CBD at 3, 10, 30 mg/kg as a dose-response (30 mg/kg has n=1), "three independent cohorts" (slide says 2), paw thickness endpoint (no data), "plantar incision" in 1.4 vs flank incision in Methods, "established" in the abstract.
-- Sex: draft says female, outline says male, V20 was male. State the sex and age of the discovery cohorts from the raw sheet.
-- Linker: R01 says releasable, the preclinical plan says non-enzymatic slow release or activity-while-bound. Release data decides which sentence goes in the paper.
-- Free CBD arm: 0.9 mg per rat in 1 mL saline with 5% ACN is far above CBD aqueous solubility. Free CBD is likely a suspension. "GD-CBD beats free CBD" is partly a formulation result, and the paper must say so.
-
-## 1. Recommended publication strategy
-
-**Lead with the strongest dataset. Pain is the supporting indication unless it is the only one that qualifies.**
-
-**Epilepsy qualifies as the lead if all hold** (check against the epilepsy raw files):
-
-- **E1 same lineage:** batch IDs, CBD source and synthesis route are on the same Batch table as the pain material, ideally Batch 1.
-- **E2 controlled:** concurrent vehicle and free CBD comparator, objective scoring (EEG or blinded seizure scoring).
-- **E3 sized:** n of at least 8 per arm or an internal replicate.
-- **E4 comparable dosing:** CBD-equivalent mg/kg and route overlap with the pain dose.
-- **E5 beats free CBD,** not only vehicle.
-
-**Pain is confirmed if** the new cohort meets the prespecified criteria in section 3 (R1 and R2).
-
-| Epilepsy qualifies | Pain confirmed | Paper |
-|---|---|---|
-| Yes | Yes | **Cross-indication, epilepsy leads.** One-sentence hypothesis: one GD-CBD preparation reduces neuronal-hyperexcitability phenotypes in two models. Pain is one figure, labeled exploratory. |
-| Yes | No | **Epilepsy only.** No pain claim. Pain data stays in the KB and is not mentioned as efficacy. |
-| No | Yes | **Pain-only short report** (brief communication tier). Restricted claims, section 5. |
-| No | No | **No efficacy paper this year.** Write the batch-dependence and QC lesson as an internal record and decide divestment on that. Do not run a fourth cohort. |
-
-**Coherence test:** if the unifying sentence needs "also", it is a conglomerate. If the epilepsy used a different preparation or a different dose basis, do not combine.
-
-## 2. Minimum viable package
+# 2. Minimum viable package
 
 | Module | Must have | Nice to have | Do not do now |
-|---|---|---|---|
-| **Chemistry and in vitro** | Batch 4 identity file: lot, CBD vial, loading by NMR, free CBD %, HPLC purity, DLS size. Head-to-head THP-1 TNF-α dose-response, one plate, 3 independent runs: Batch 4, Batch 1 remnant, retained Batch 3 if it exists, free CBD, GD alone. Release profile for Batch 4 (and Batch 1 remnant if mass allows). Bounded HU-331 check (below). | CB<sub>2</sub> functional assay, IL-6/IL-1β/IL-10 on the same supernatants, endotoxin (LAL) on the dosing lot. | CB<sub>1</sub>/GPR55/PPAR-γ/TRP panels, microsomes, DDI, blocking studies, new analytical method development beyond one week. |
-| **Flank incision** | One concurrent cohort, 12 animals (section 3). | GD-only arm n=3, only if linker-capped GD is already in hand. | 30 mg/kg arm, healthy GD-CBD arm, paw edema, gait, thermal, guarding, other models, oral CBD. |
-| **Biodistribution** | Only if QC passes (section 4). | Uninjured control arm. | Chronic-model biodistribution, mouse work, nude mouse. |
+|:------------|:-------------------------------|:-------------------|:--------------------|
+| **Chemistry and in vitro** | Batch 4 identity: lot, CBD vial, loading (about 10% expected), free CBD %, purity, size, release. THP-1 panel (TNF-α, IL-6, IL-1β, IL-10) with a **viability readout on every plate**. Head-to-head with the original material (use existing data if available). GD alone and free CBD on the same plates. CB<sub>1</sub> and CB<sub>2</sub> assays, GD-CBD vs free CBD. HU-331 spike control. LC-MS of the CBD starting vials (Cayman vial #1 vs #2, any retained Dalton CBD). | Any assay on a failed batch, if retained. | GPR55/PPAR-γ/TRP panels, microsomes, DDI, new analytical method development. |
+| **Flank incision** | One concurrent cohort, 9 rats, plus a 72 h satellite marker group of 6. | Bump-up options below. | 30 mg/kg arm, healthy GD-CBD arm, paw edema, gait, thermal, guarding, other pain models, oral CBD. |
+| **Biodistribution** | Level 1, 5 rats, only if Cy5 QC passes. | Level 2 and 3 additions below. | Chronic-model biodistribution, mouse work. |
 
-**Why the TNF-α head-to-head is the highest-value item.** It is cheap, uses micrograms, and tests whether the assay discriminates a batch that worked from one that failed. If retained Batch 3 looks like Batch 4, the assay does not predict in vivo outcome, and the paper must not use it as a quality claim.
+- **Dendrimer-only group in vivo: not essential.** GD alone goes on the in vitro plates, and the limitation is stated. The claim is "GD-CBD vs vehicle and free CBD", never "CBD is the active component".
+- **CB<sub>1</sub> and CB<sub>2</sub> interpretation:** CBD is a weak ligand at these receptors (background knowledge, to be verified), and the earlier CB<sub>2</sub> EC<sub>50</sub> was about 7.8 µM. The assays show what the conjugate retains or loses, not a receptor mechanism.
+- **HU-331 and viability:** HU-331 forms readily from CBD and is a common impurity in isolates. It is a cytotoxic quinone (background knowledge). A cytotoxic compound lowers cytokine release by killing cells, so every cytokine plate needs a viability readout.
+- **Starting-material LC-MS** sidesteps the NMR masking because no dendrimer is present. Vial #1 has aged since use, so a positive result is suggestive, not proof.
 
-**HU-331 bounded check (one week, then stop).** Chemist to confirm, `[inference]` on my part:
+# 3. Final flank-incision cohort
 
-- LC-MS of the CBD starting vial #2 and the CBD-PEG<sub>4</sub>-azide intermediate for m/z about 329 (HU-331, C<sub>21</sub>H<sub>28</sub>O<sub>3</sub>) vs 315 (CBD).
-- UV-vis for a quinone band in the visible range.
-- Report the result either way. If it stays unresolved, state in Methods and Limitations that CBD oxidation state in the conjugate was not analytically resolved and that batch-to-batch efficacy differed.
+**Groups (9 rats): GD-CBD 4, injured vehicle 3, free CBD 3 mg/kg 2.** Free CBD is secondary and already has n=6 historical at this dose. Vehicle is the primary comparator and the check that this cohort behaved like a pain model.
 
-**Dendrimer-only group: not essential.** Handle with (a) GD alone in the TNF-α plate and (b) a limitation statement. The claim is then "GD-CBD vs vehicle and dose-matched free CBD", never "CBD is the active component". Add an in vivo GD-only arm only if material exists with zero new synthesis.
+- **Dose:** GD-CBD at 3 mg/kg CBD-equivalent, IP, immediately after closure, in saline + 5% ACN. Same vehicle in every arm.
+- **Match the original cohorts:** sex, age and weight at surgery, supplier, operator, filaments, up-down method, and the original von Frey technique.
+- **Blinding:** the chemistry team code-labels syringes. Randomize stratified by cage. Testers never see the key. Wound photos scored blind. Analysis script frozen before unblinding.
+- **Time points:** baseline on the two days before surgery, then 2, 4, 6 h, then daily from 24 to 168 h. Ropivacaine in vehicle animals after the final test. Reconcile the volume (200 vs 400 µL).
+- **Historical vehicle animals:** reference band only, from cohorts using the original method, sex and vehicle. They do not replace the concurrent vehicle.
 
-## 3. Final flank-incision cohort
+## Analysis (fixed before unblinding)
 
-**Groups (12 animals): injured vehicle n=4, injured free CBD 3 mg/kg n=3, injured GD-CBD 3 mg/kg CBD-equivalent n=5.**
+- **Primary:** per-animal AUC from 24 to 168 h, expressed as a percent of that animal's baseline. Rank-based exact comparison of GD-CBD vs vehicle within the cohort. Pooled across cohorts with cohort as a stratum.
+- **Secondary:** per-time-point comparisons with a multiple-comparison correction (descriptive at this n). Full time course shown. The 2 to 6 h window reported separately.
+- **Backup:** absolute grams.
+- **Sensitivity:** mixed model on log-transformed thresholds, leave-one-cohort-out, responder analysis (at least 50% of baseline recovered at 3 or more consecutive time points), censoring at the filament ceiling.
 
-- **Why 5/4/3 and not 3/3/3:** power for the one contrast that matters (GD-CBD vs vehicle) rises. Exact rank-test power at d=1.5: 3 vs 3 = 0.44, 4 vs 4 = 0.43, 5 vs 4 = 0.51, 5 vs 5 = 0.66 (my simulation, normal data). Free CBD already has n=6 historical at this dose, so it needs the fewest.
-- **Capacity for 15:** use 5/5/5. Power at d=1.5 is 0.66.
-- **n=3 vs 3 can never give two-sided p below 0.10 by exact rank test** (minimum one-sided p is 0.05).
-- **Material:** about 0.9 mg CBD per 300 g rat, about 7 mg conjugate at 12.5% w/w. Confirm Batch 4 loading before dosing. Twelve rats need under 100 mg.
+## Success criteria
 
-**Match the discovery cohort:** same sex, age (8 to 10 weeks), weight, supplier, vehicle (saline + 5% ACN, 1 mL IP immediately after closure), operator, filaments, up-down method, and the standard (not "pushing") von Frey technique. Same dose basis. Do not change the dose if the batch looks weak. Record the baseline.
+- **R1 (replication):** GD-CBD/vehicle AUC ratio at or above 2 with exact one-sided p at or below 0.05. At 4 vs 3, only complete separation reaches this (p=1/35=0.029; one overlap gives 0.057).
+- **R2 (consistency):** same direction as the original cohorts, with the effect estimate overlapping theirs.
+- **R1 met:** "replicated with an independent preparation". **R2 only:** "consistent, not confirmed". **Neither:** failure to replicate. Section 1 applies.
 
-**Blinding:** chemistry team code-labels syringes; randomization stratified by cage; testers never see the key; wound photos scored blind; analysis script frozen before unblinding.
+## Pooling and wording
 
-**Time points:** baseline on two days, 2, 4, 6 h, then 24 h daily to 168 h. Ropivacaine at 168 h in vehicle animals, with the volume reconciled (200 vs 400 uL).
+- **Unit of replication is the cohort.** Rats in a cohort share a preparation, a day and a tester, so three cohorts count as three tests, not 20 rats.
+- **Tiers:** Tier 1 is the new cohort alone. Tier 2 is the pooled estimate with a per-cohort forest plot. Tier 3 (supplement) is every GD-CBD cohort, with dose, preparation, method, sex, age, baseline and outcome.
+- **Methods wording:** "GD-CBD was prepared from Cayman CBD in independent syntheses (preparation labels to be confirmed). Efficacy was not reproduced with other preparations (Table S1)."
 
-**Cohort validity (treatment-blind, written before unblinding; values to be fixed from the discovery raw sheet):** vehicle baseline at or above about 40 g `[placeholder]`; vehicle drop to 50% of baseline or lower at 24 and 48 h; ropivacaine reversal. An invalid cohort is reported, not analyzed for efficacy.
+## Bump-up options (decide before the order, or add rats later if work allows)
 
-**Endpoints**
+| Option | Extra rats | What it buys |
+|:----------------------------|:-------|:-----------------------------------------|
+| Vehicle 3 to 4, free CBD 2 to 3 | +2 | Better control comparison. |
+| GD-CBD 4 to 5 | +1 | Protects against a non-responder or lost animal. |
+| Satellite 3 to 4 per arm | +2 | Firmer marker estimates. |
+| Biodistribution: add uninjured Cy5-GD-CBD (n=3) | +3 | Whole-body injury effect. |
+| Biodistribution: add an injured 3 h group (n=3) | +3 | Terminal kinetics. |
 
-- **Primary:** linear mixed model on log<sub>10</sub> 50% threshold, 24 to 168 h, fixed effects group, time (categorical), group x time, cohort; random intercept per animal; one prespecified contrast GD-CBD vs vehicle averaged over time, two-sided alpha 0.05, effect with 95% CI.
-- **Supporting:** AUC 24 to 168 h (trapezoidal, absolute and percent of baseline), responder rate (at least 50% of baseline threshold recovered at 3 or more consecutive time points), wound score.
-- **Secondary window:** 2 to 6 h reported separately. The discovery data show no conjugate advantage there.
+# 4. Inflammatory markers in the pain cohort
 
-**Success criteria (prespecified)**
+- **Satellite 72 h group (6 rats):** GD-CBD n=3 and vehicle n=3, unlabeled, operated and dosed on Nov 3, sampled Fri Nov 6. This is at the peak of the effect, which day-7 tissue may miss.
+- **Day-7 tissue from the main cohort:** wound skin (histology) and plasma. Flash-freeze contralateral skin, ipsilateral and contralateral DRG, and spinal cord. Run the panel on wound skin and plasma first. Run the rest only if informative.
+- **Panel:** TNF-α, IL-6, IL-1β, IL-10, same platform as the epilepsy and in vitro work.
+- **Interpretation:** n=3 per group is descriptive. Present as "consistent with", never mechanism.
 
-- **R1 (replication, new cohort alone):** GD-CBD/vehicle AUC ratio at or above 2 and exact one-sided permutation p at or below 0.05, and GD-CBD median above free CBD median.
-- **R2 (consistency):** the cohort-level GD-CBD vs vehicle estimate has the same sign as the discovery estimate, and its 95% CI excludes zero or overlaps the discovery CI.
-- **R1 met:** "replicated with an independent preparation". **R2 only:** "consistent, not confirmed". **Neither:** failure to replicate; pooled analysis is descriptive only, and section 1 row "No" applies if epilepsy also fails.
+# 5. Biodistribution (conditional)
 
-**Historical plus new cohort, without claiming one lot**
+## Go/no-go QC (checkpoint Oct 30; material in hand by Nov 6)
 
-- **Unit of replication is the cohort.** Preparation is a label, reported in a table (lot ID, CBD source and vial, synthesis date, QC), never "same batch". Because preparation and cohort are collinear, the model cannot separate them. Say so.
-- **Tier 1 (confirmatory):** new cohort alone (R1 and R2).
-- **Tier 2 (pooled):** cohorts passing the validity rule, stratified by cohort, per-cohort effects shown side by side in a forest plot, no single pooled p value presented as definitive. The validity rule is applied to every 3 mg/kg GD-CBD cohort, including V23.
-- **Tier 3 (all cohorts, supplement):** every GD-CBD cohort V20 to V24 and the new one, with dose, preparation, sex, age, baseline, n, outcome. Descriptive only.
-- **Sensitivity:** leave-one-cohort-out; rank-based AUC; absolute vs baseline-normalized; censoring at the filament ceiling; responder analysis (Fisher exact).
-- **Methods wording:** "GD-CBD was prepared from Cayman CBD in independent syntheses (Preparation A, cohorts 1 to 2; Preparation B, cohort 3). Efficacy was not observed with two other preparations (Table S1)."
+1. **Free dye** at or below 2% of total fluorescence after purification, rechecked after 24 h in serum at 37 °C.
+2. **Labeling:** at most about 1 Cy5 per dendrimer, checked by HPLC against unlabeled.
+3. **Particle behavior:** size and zeta within error of unlabeled GD-CBD.
+4. **Signal:** a spiked tissue-homogenate dilution series is linear and well above background.
+5. **Activity:** TNF-α activity retained within about 3-fold of unlabeled.
+6. **Lineage:** made from the Batch 4 conjugate.
 
-## 4. Biodistribution (conditional)
+Any failure means omit biodistribution.
 
-**Go/no-go QC (all must pass, check by 2026-10-23):**
+## Design: Level 1, 5 rats
 
-1. **Free dye:** SEC or HPLC shows free Cy5 at or below 2% of total fluorescence after purification, rechecked after 24 h in serum at 37 C.
-2. **Labeling stoichiometry:** at most about 1 Cy5 per dendrimer, with the Cy5 dendrimer species checked by HPLC against unlabeled.
-3. **Particle behavior:** DLS size and zeta within error of unlabeled GD-CBD; retention time not shifted.
-4. **Signal:** a dilution series spiked into vehicle-injected tissue homogenate gives a linear standard curve well above background.
-5. **Activity:** Cy5-GD-CBD retains TNF-α activity (within about 3-fold of unlabeled).
-6. **Same-lineage:** made from the Batch 4 conjugate, not a new CBD lot.
+- **Injured + Cy5-GD-CBD, terminal at 24 h, n=3.** **Injured + vehicle, n=2** (background). Dose Wed Nov 11, terminal Thu Nov 12.
+- **Internal control:** the contralateral side of each injured animal. It supports "higher on the injured side than the contralateral side in the same animal". It cannot separate real uptake from the leakiness any wound gives any nanoparticle, so "targeted" stays off the claims list.
+- **Readouts:** tissue measurements are primary: homogenate fluorescence against a standard curve, plus sections. Live whole-body IVIS at 1, 3, 6 h is optional kinetics only.
+- **DRG:** collect ipsilateral and contralateral DRG (T13 to L2) from all 5 animals, including vehicle, for background. Freeze. Process only if wound and spinal cord signal is positive and neuron evidence is wanted.
+- **n=3** is the floor: "seen in 3 of 3 animals", not statistics.
+- **Material:** about 9 mg of conjugate per rat at about 10% loading and 300 g (planning arithmetic, confirm against Batch 4 loading). About 36 mg for the efficacy cohort and 27 mg for the labeled animals.
 
-Any failure means omit biodistribution. Do not spend animals on a likely failed run.
+## Claims by outcome
 
-**Design (if QC passes), 10 rats:**
+- **Strong** (injured side higher in 3 of 3, above vehicle, QC clean): "Cy5 signal was higher at the injured site than the contralateral side." The label tracks the dendrimer, not CBD.
+- **Modest:** "consistent with renal clearance, with a small injured-side excess". No targeting claim.
+- **Negative or uninterpretable:** omit, or one sentence in Limitations.
 
-- **Injured + Cy5-GD-CBD, terminal at 6 h n=4 and 24 h n=4.** The IVIS operator's advice (May meeting) was that IP clearance is fast after about 12 h, so 24 h alone may miss signal. Image the organs within 10 minutes of euthanasia.
-- **Injured + vehicle n=2** for autofluorescence (low-fluorescence chow).
-- **Nice to have:** uninjured + Cy5-GD-CBD n=3 at 24 h.
-- **Tissues:** incision skin and contralateral skin, ipsilateral and contralateral DRG (T13 to L2), spinal cord, kidney, liver.
-- **Readouts:** ex vivo IVIS plus homogenate fluorescence against the standard curve (per gram tissue), paired ipsilateral vs contralateral within animal. Cryosections for DRG and wound with NeuN/Iba1 only if the quantitative signal is positive, quantified blind.
-- **Statistics:** paired, on log signal. With n=4 the exact signed-rank test cannot go below p=0.125, so present 4 of 4 directional consistency and estimates, not significance.
+**Omit entirely if** QC fails by Oct 30, material is not in hand by Nov 6, or imaging can't finish by Nov 27.
 
-**Claims by outcome**
+# 6. Timeline and actions
 
-- **Strong** (ipsilateral > contralateral in at least 4 of 4 per time point, above vehicle, QC clean): "Cy5-labeled GD-CBD signal was higher at the injured site and ipsilateral DRG than contralateral". Label tracks the dendrimer, not CBD.
-- **Modest** (renal and liver dominant, small injured-side bias): "distribution consistent with renal clearance of GD, with a small injured-side excess". No targeting claim.
-- **Negative or uninterpretable:** omit from the paper, or one sentence in Limitations. No supplement figure.
+Order: Tue Oct 13. Arrival: Tue Oct 20. Facility acclimatization: Oct 20 to 27. Habituation: Oct 27 to Nov 2. Surgery: Tue Nov 3.
 
-**Omit entirely if:** QC fails by 2026-10-23, the efficacy cohort is not underway by 2026-11-02, or imaging cannot be completed by 2026-11-27.
+| Dates | Who | Action |
+|:-----------|:----------|:--------------------------------------------------|
+| **By Mon Oct 12** | You | Talk to the PI. Confirm rat age and weight at surgery from the original cohorts. Confirm habituation length against the original protocol (draft says 10 days, outline 8). Ask the other PIs about the combined paper. |
+| **Tue Oct 13** | You | **Order 21 rats** (9 efficacy, 6 satellite, 5 biodistribution, 1 spare), age specified at surgery. |
+| **By Oct 16** | You | One-page analysis plan frozen: primary endpoint, script, blinding key held by the chemist. Agree the cytokine panel and platform with the epilepsy collaborator. |
+| **By Oct 23** | Chemist | Batch 4 identity (loading, free CBD, size, release). Coded per-rat dose aliquots. |
+| **By Oct 23** | In vitro | Cytokine panel with viability, GD alone, free CBD, head-to-head with original, CB<sub>1</sub>/CB<sub>2</sub>, HU-331 spike. LC-MS on CBD starting vials. |
+| **Oct 30** | Chemist | Cy5 QC checkpoint. Other PIs' approval on the combined paper confirmed. |
+| **Nov 3** | In vivo | Surgery and dosing: main cohort and satellite. |
+| **Nov 6** | In vivo | 72 h behavior read. Satellite tissue sampled. Epilepsy data lock. |
+| **Nov 10 to 11** | In vivo | 168 h read, ropivacaine, tissue collection. |
+| **Nov 11 to 12** | In vivo | Biodistribution dosing (Nov 11) and terminal samples (Nov 12), if QC passed. |
+| **Nov 12 to 13** | You | Unblind, run the frozen script. **Gate 3 Nov 13:** pain result, track decision. |
+| **Nov 13 to 27** | You | Marker panel runs. Biodistribution analysis. **Gate 4 Nov 27:** biodistribution in or out. Draft figures and Methods. |
+| **Nov 27 to Dec 11** | You | Full draft. Integrate epilepsy figure. Table S1. |
+| **Dec 11 to 18** | PIs | Review. |
+| **Dec 18 to 29** | You | Revise, check patent status, submit. |
 
-## 5. Manuscript framing
+If the cohort fails at Gate 3, there is no replacement cohort.
 
-**Titles (pain-led, restrained)**
+# 7. Manuscript framing
+
+## Working titles (keep neutral until marker data are in)
 
 - *Glucose dendrimer conjugation of cannabidiol attenuates incision-evoked mechanical hypersensitivity in rats*
-- *A glucose dendrimer-cannabidiol conjugate reduces postoperative mechanical hypersensitivity in a rat flank incision model*
-- Cross-indication option: *Glucose dendrimer-cannabidiol in models of neuronal hyperexcitability: seizures and postoperative pain* (only if the section 1 table says so).
+- *A glucose dendrimer-cannabidiol conjugate in models of seizures and postoperative pain*
 
-Drop "durable" and "significant" from the title and "single post-operative dose" is fine only if stated as one IP dose.
+## Main figures
 
-**Central claim:** In female rats, a single IP dose of GD-CBD, at a CBD-equivalent dose where free CBD was inactive, reduced mechanical hypersensitivity after flank incision, in two discovery cohorts and one cohort with an independent preparation `[if R1 or R2 met]`.
+1. Chemistry: structure, loading, size, purity, release.
+2. In vitro: cytokine panel with viability, CB<sub>1</sub>/CB<sub>2</sub>, comparison with free CBD and GD.
+3. Epilepsy (the collaborator's figure).
+4. Pain efficacy: time course with individual animals, AUC, per-cohort forest plot.
+5. Inflammatory markers across both indications (same panel).
 
-**Main figures**
+**Supplement:** Table S1 (all GD-CBD cohorts and preparations), Table S2 (batch QC), raw per-animal data and script, surgical technique, spectra, sensitivity analyses, biodistribution if it passes.
 
-1. Chemistry: structure, loading, size, HPLC, release.
-2. In vitro: THP-1 TNF-α, GD-CBD vs free CBD vs GD, with the batch comparison.
-3. Study design and cohort-validity data (baseline, vehicle hypersensitivity, ropivacaine).
-4. Time course, all arms, individual animals shown, cohorts color-coded.
-5. AUC and responder analysis with per-cohort forest plot.
-6. Biodistribution `[only if it passes]`, or histology/wound score if not.
+## Discussion framing from the literature check
 
-**Supplement:** Table S1 (all GD-CBD cohorts and preparations), Table S2 (batch QC), raw per-animal data and analysis script, surgical technique, NMR/HPLC spectra, sensitivity analyses.
+Search summaries only; verify in full text before citing.
 
-**Claims to avoid**
+- **Other labs report free CBD at 3 mg/kg IP reducing incision allodynia:** dorsum incision in male Sprague-Dawley rats (PMC12844942), plantar incision in Wistar rats (2023 Behavioural Brain Research, with estrous-dependent effects in females; 2017 Frontiers in Pharmacology). Frame the finding as "no sustained effect with dose-matched free CBD in our formulation" and show the 2 to 6 h window honestly.
+- **Female-only is a bigger limitation than it looks:** the 2023 study found estrous-phase dependence.
+- **No peer-reviewed dendrimer-CBD pain paper found.** The lab's public conference slides already claim five days of reduced post-operative pain sensitivity and mention a filed patent. Keep the paper consistent with them.
+- **No published DRG or pain-model biodistribution found** for glucose dendrimers. Sharma 2024 supports hyperexcitable-neuron uptake in epilepsy only.
+- **HU-331:** a documented CBD impurity, light sensitive, source-dependent. Plausible, not shown for these lots.
 
-- **Neuronal targeting** or "targeted delivery". No validated labeled conjugate and no usable flank biodistribution.
-- **Localization causes analgesia.** No correlation data and no basis for one.
-- **Intact conjugate retention.** The label follows the dendrimer; release is unproven here.
-- **CBD is the active component.** No dendrimer-only arm.
-- **Dose-sparing multiples** (for example 10x). The 30 mg/kg free CBD arm is n=1.
-- **Rapid onset, no sedation, "durable", "established".** Not supported.
-- **Reproducibility across batches.** Efficacy was batch-dependent.
-- **Mechanism** beyond "TNF-α reduction in THP-1 cells".
-- **Chronic pain relevance** beyond one sentence in Discussion.
+## Claims to avoid
 
-## 6. Timeline (today is 2026-10-09)
+- **Neuronal targeting** or "targeted delivery".
+- **Localization causing analgesia.**
+- **Intact conjugate retention.** The label follows the dendrimer.
+- **"CBD is the active component".**
+- **Dose-sparing multiples.** The 30 mg/kg free CBD arm is n=1.
+- **Rapid onset, no sedation, "durable", "established".**
+- **Reproducibility across batches.**
+- **Receptor mechanism** from CB<sub>1</sub>/CB<sub>2</sub> data.
+- **Inflammation as a mechanism** for analgesia or anti-seizure effect. Markers are associative.
+- **Chronic-pain relevance** beyond one Discussion sentence.
 
-| Dates | Work | Gate |
-|---|---|---|
-| Oct 9 to 16 | Confirm cohort-to-batch map and discovery sex/age. Freeze analysis plan and validity rule in writing. Batch 4 identity file. TNF-α head-to-head. HU-331 check. Order or confirm rats. Retrieve epilepsy batch IDs and design. | **G1 Oct 16:** analysis plan frozen; TNF-α run complete. |
-| Oct 16 to 23 | Cy5 labeling attempt and QC (parallel, one person). Release assay. Habituation begins. | **G2 Oct 23:** Cy5 QC pass, else drop biodistribution. |
-| Oct 23 to Nov 2 | Habituation, baselines, code labeling. | Cohort starts only if G1 passes. |
-| Nov 2 to 9 | Surgery, dosing, 7-day testing, ropivacaine. | |
-| Nov 9 to 13 | Unblind, run frozen script, R1/R2. | **G3 Nov 13:** pain confirmed or not; epilepsy E1 to E5 scored; section 1 row chosen. |
-| Nov 13 to 27 | Biodistribution cohort (if G2 passed and rats available). Figures and Methods drafted. | **G4 Nov 27:** biodistribution in or out, final. |
-| Nov 27 to Dec 11 | Full draft, tables, Table S1. | |
-| Dec 11 to 18 | PI and co-author review. | |
-| Dec 18 to 29 | Revise, format, submit. | **Submit by Dec 29.** |
+## Unsupported claims in existing documents to fix
 
-If the cohort fails (G3), there is no replacement cohort. The epilepsy-only or no-paper rows apply.
+- **R01:** "onset within 2 h", "no sedation", flank-incision DRG labeling.
+- **Draft:** free CBD dose-response, "three cohorts", paw thickness endpoint, plantar vs flank, female vs male, "established".
 
-## 7. Risks and mitigation
+# 8. Risks and mitigation
 
 | Concern | Shortest credible mitigation | Limitation statement |
-|---|---|---|
-| **Small n** | Individual animals shown, effect sizes with CIs, responder analysis, no definitive p from pooled data. | "Group sizes were small; results are hypothesis-supporting." |
-| **Batch history** | Table S1 with every cohort, preparation, QC, outcome. Preparations are named, never merged. | "Efficacy differed between preparations; cause not established." |
-| **Reproducibility** | Prespecified replication with a new preparation, report either result. | "One independent preparation was tested." |
-| **No dendrimer-only control** | GD alone in the TNF-α plate. Claim limited to GD-CBD vs vehicle and free CBD. | "A carrier-only arm was not included in vivo." |
-| **Limited mechanism** | Restrict to the TNF-α result. | "Mechanism was not tested; in vitro anti-inflammatory activity only." |
-| **Single sex** | State sex in Methods and title/abstract. | "Only female rats were tested in the efficacy cohorts." (V20 males were negative with another preparation: say so only if V20 is in Table S1.) |
-| **Biodistribution uncertainty** | Omit unless QC passes. | "Tissue distribution was not established." |
-| **Flank incision vs chronic pain** | One sentence. No chronic claim. | "The model is acute postoperative pain; chronic efficacy was not tested." |
-| **ACN vehicle** | Identical vehicle in every arm. Justify in Methods. | "5% acetonitrile was used for solubilizing free CBD." |
-| **Free CBD formulation** | Report vehicle and appearance. Note Cremophor free CBD was also inactive (V22). | "Free CBD may have had limited bioavailability as a suspension." |
-| **HU-331 / oxidation** | Bounded check, then state the result. | "CBD oxidation state in the conjugate was not analytically resolved." |
-| **Ceiling or floor in von Frey** | Censoring sensitivity analysis. | |
+|:-------------|:-----------------------------|:---------------------------|
+| **Small n** | Individual animals, effect sizes with CIs, responder analysis, no definitive pooled p. | "Group sizes were small." |
+| **Batch history** | Table S1 with every cohort and preparation. | "Efficacy differed between preparations; cause not established." |
+| **Reproducibility** | Prespecified replication with a new preparation; report either result. | "One independent preparation was tested." |
+| **No dendrimer-only control in vivo** | GD alone on in vitro plates. Narrow claim. | "A carrier-only arm was not included in vivo." |
+| **Limited mechanism** | Restrict to markers and in vitro data. | "Mechanism was not tested." |
+| **Single sex** | State sex in Methods and abstract. | "Only female rats were used; estrous phase was not tracked." |
+| **Biodistribution** | Omit unless QC passes. | "Tissue distribution was not established." |
+| **Flank vs chronic pain** | One sentence. | "Chronic efficacy was not tested." |
+| **ACN vehicle** | Identical vehicle in all arms. | "5% acetonitrile was used for free CBD solubility." |
+| **Free CBD formulation** | Report vehicle and appearance. | "Free CBD may have had limited bioavailability as a suspension." |
+| **Oxidation / HU-331** | Starting-material LC-MS and viability controls. | "Oxidation state in the conjugate was not analytically resolved." |
+| **Day-7 tissue too late** | 72 h satellite group. | "Markers were measured at defined time points only." |
+| **Cross-species markers** | Same cytokines, state species. | "Epilepsy tissue was mouse; pain tissue was rat." |
 
-## Open items for the user
+# Open items
 
-- Epilepsy dataset: batch IDs, design, n, comparator, and whether a draft exists.
-- Cohort-to-batch map for V20 to V24 and the discovery cohorts.
-- Sex, age, weight and baseline of the discovery cohorts (raw sheet).
-- Batch 4 loading (NMR) and amount of Batch 1 and Batch 3 retained.
-- Whether release data and the CB<sub>1</sub>/CB<sub>2</sub> assays from the May plan exist.
-- Whether 12 or 15 rats are available for the final cohort.
-- Whether the PI accepts that a cohort failure ends the pain efficacy paper.
+- **Rats:** age and weight at surgery of the original cohorts, and habituation length.
+- **Batch 4 loading** (about 10% expected).
+- **PI approvals:** your PI and the other PIs, for the combined paper.
+- **Epilepsy:** data lock date, and the marker panel and platform agreed.
+- **Retained material:** whether any failed batch or the original has material left for the in vitro comparison.
+- **Release and CB<sub>1</sub>/CB<sub>2</sub> data:** which exist already.
+- **Patent status** before submission.
