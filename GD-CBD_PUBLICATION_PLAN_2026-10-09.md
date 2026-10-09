@@ -34,26 +34,28 @@ subtitle: "v2, 2026-10-09. Target: submission by 2026-12-29."
 
 # What the literature says
 
-A background check (2026-10-09), so claims in this paper don't contradict or duplicate what's already published. Six web searches, titles and search-engine summaries only — the usual paper hosts (PMC, publishers, doi.org) are blocked from this environment, so no full text was read. **Everything below needs to be checked against the actual paper before it goes in a manuscript.** Full notes and links: [`literature/search_notes_2026-10-09.md`](literature/search_notes_2026-10-09.md) in this repo.
+A background check so claims in this paper don't contradict or duplicate what's already published. First pass (2026-10-09, six web searches, titles/summaries only) was superseded the same day by a verification pass with full citations. **Full notes:** [`literature/verified_2026-10-09.md`](literature/verified_2026-10-09.md) (cited, trust this one) and [`literature/search_notes_2026-10-09.md`](literature/search_notes_2026-10-09.md) (first pass, superseded). Neither pass involved anyone on this side reading a full paper; spot-check key numbers before they go in a submitted manuscript.
 
-- **Free CBD already has published efficacy in incision pain, at the same dose we use.** Three other labs report CBD 3 mg/kg IP reducing mechanical hypersensitivity after incision: a dorsum-incision study in male rats (PMC12844942), a plantar-incision study in rats of both sexes (2023, *Behavioural Brain Research*), and an earlier plantar-incision study (2017, *Frontiers in Pharmacology*).
-  - **Consequence for the paper's claim:** we cannot say "free CBD doesn't work." We can say GD-CBD produced a larger and more sustained effect than free CBD did in our hands, with our formulation, and we should show the 2-to-6-hour window honestly, where GD-CBD does not yet separate from free CBD.
-- **In female rats, CBD's effective dose depends on estrous phase** (the 2023 study, above). This sharpens our "single sex" limitation into something specific and gives it a mechanism, and is a plausible (unproven) partial explanation for why this program's cohorts have been so inconsistent.
-- **No one else has published a dendrimer-CBD pain paper.** The only public trace of this work anywhere is the lab's own conference slide deck, which already states a 5-day efficacy claim and a filed patent. The manuscript must not claim more than that deck already claims in public, and patent status should be checked before submission.
-- **No one has published dendrimer biodistribution data in a pain model, or in dorsal root ganglia.** The one published glucose-dendrimer targeting paper (Sharma 2024) is in epilepsy, not pain. This is a second, independent reason (beyond our own uninterpretable biodistribution data) to avoid any neuron-targeting claim in this paper.
+- **Free CBD's published dose-response is an inverted U, not a flat "3 mg/kg works."** Three papers (Redmond 2026, *Pharmaceuticals*; Arantes 2024, *Behavioural Brain Research*; Genaro 2017, *Frontiers in Pharmacology* — full citations and stats in the verified notes) all find 3 mg/kg IP as a frequent sweet spot after incision in male rats, with 10 and 30 mg/kg often weaker or not significant, and the effective dose in females shifting with estrous stage.
+  - **Consequence for the paper's claim:** don't say "free CBD doesn't work." Say GD-CBD at 3 mg/kg gave a larger, more sustained effect than free CBD did in our hands — and dose and time our own free-CBD arm consistently with what's shown to work elsewhere, so the comparison is fair. Show the 2-to-6-hour window honestly, where GD-CBD does not yet separate from free CBD.
+- **In female rats, CBD's effective dose depends on estrous phase** (Arantes 2024, above). Sharpens the "single sex" limitation into something specific, with a citable mechanism, and is a plausible (unproven) partial explanation for this program's cohort-to-cohort inconsistency.
+- **No peer-reviewed dendrimer-CBD pain paper exists anywhere, confirmed.** But two adjacent public disclosures constrain what we can claim: (1) this lab's own 2025 Controlled Release Society conference abstract already states "safe and effective treatment of pain and epilepsy" in public — the manuscript can't claim less than that abstract already does, or more than the data support; (2) a 2025 *Cell Chemical Biology* paper (Feng et al., non-dendrimer CBD nano-micelle, mouse neuropathic pain) is a real, indirect competitor on the "better-delivered CBD treats pain" claim and should be cited and distinguished in Discussion.
+- **A Johns Hopkins patent covering this work is confirmed, pending, and broad.** PCT/US2023/072955, filed 2023, names CBD, glucose and hydroxyl dendrimers, and pain/neuropathic pain explicitly, but claims no specific dose. **Action: loop in Hopkins tech transfer or patent counsel on publication timing before submission** — pending status can interact with disclosure timing, and this needs a real answer, not an assumption.
+- **No one has published dendrimer biodistribution data in a pain model, or in dorsal root ganglia, confirmed.** The one published glucose-dendrimer targeting paper (Sharma 2024) is epilepsy-only (glutamate-excited cultures, ex vivo brain slices, pilocarpine-seizure mice) — no DRG, no peripheral nerve, no pain model. A patent describing DRG/PNS targeting as an intended use is not published biodistribution data and must not be cited as if it were. Second, independent reason (beyond our own uninterpretable biodistribution data) to avoid any neuron-targeting claim.
 
 # Minimum viable package
 
 | Module | Must have | Nice to have | Do not do now |
 |:---|:---|:---|:---|
-| **Chemistry, in vitro** | Batch 4 identity (lot, CBD vial, loading ~10% expected, free CBD %, purity, size, release). THP-1 panel (TNF-α, IL-6, IL-1β, IL-10), **viability readout on every plate**. Head-to-head with original material. GD alone and free CBD on the same plates. CB<sub>1</sub>/CB<sub>2</sub> assays, GD-CBD vs free CBD. HU-331 spike control. LC-MS on CBD starting vials (Cayman vial #1 vs #2, any retained Dalton CBD). | Any assay on a failed batch, if retained. | GPR55/PPAR-γ/TRP panels, microsomes, DDI, new analytical method development. |
+| **Chemistry, in vitro** | Batch 4 identity (lot, CBD vial, loading ~10% expected, free CBD %, purity, size, release). THP-1 panel (TNF-α, IL-6, IL-1β, IL-10), **viability readout on every plate**. Head-to-head with original material. GD alone and free CBD on the same plates. CB<sub>1</sub>/CB<sub>2</sub> assays, GD-CBD vs free CBD. HU-331 QC: stability-indicating LC-MS/MS (or HPLC-UV/DAD at ~409 nm) for parent CBD and HU-331, run on the starting CBD vial, the activated intermediate, the crude conjugation mixture, and the purified conjugate (Cayman vial #1 vs #2, any retained Dalton CBD). Spike control on cytokine plates. | Any assay on a failed batch, if retained. | GPR55/PPAR-γ/TRP panels, microsomes, DDI, new analytical method development. |
 | **Flank incision** | One cohort, 9 rats, plus a 72h satellite marker group of 6. | Bump-up options, below. | 30 mg/kg arm, healthy GD-CBD arm, paw edema, gait, thermal, guarding, other pain models, oral CBD. |
 | **Biodistribution** | Minimal design, 5 rats (below), only if Cy5 QC passes. | Add a no-injury comparison group, or an early time point (below). | Chronic-model biodistribution, mouse work. |
 
 - **Dendrimer-only group in vivo: not essential.** GD alone goes on the in vitro plates. State the limitation. Claim only "GD-CBD vs vehicle and free CBD," never "CBD is the active component."
 - **CB<sub>1</sub>/CB<sub>2</sub> assays show retention, not mechanism.** CBD is a weak ligand at these receptors [unverified, background knowledge]. Prior CB<sub>2</sub> EC<sub>50</sub> was about 7.8 µM.
-- **HU-331 is a documented cytotoxic quinone** [unverified, background knowledge]. A cytotoxic compound lowers cytokine release by killing cells. Every cytokine plate needs a viability control.
+- **HU-331 is a documented cytotoxic quinone.** A cytotoxic compound lowers cytokine release by killing cells. Every cytokine plate needs a viability control.
 - **Starting-material LC-MS sidesteps the NMR masking.** No dendrimer present at that step. Vial #1 has aged since use; a positive result is suggestive, not proof.
+- **HU-331 forms during storage, not just at synthesis** (confirmed, published data: a CBD isolate already carried oxidation before formulation, and storage for 10 weeks raised HU-331 content substantially, more in the dark than under light/dark cycling). QC the conjugation intermediate and the purified conjugate, not only the starting vial.
 
 # Final flank-incision cohort
 
@@ -218,9 +220,11 @@ Keep neutral until marker data are in.
 | **Flank vs chronic pain** | One sentence. | "Chronic efficacy was not tested." |
 | **ACN vehicle** | Identical vehicle in all arms. | "5% acetonitrile was used for free CBD solubility." |
 | **Free CBD formulation** | Report vehicle and appearance. | "Free CBD may have had limited bioavailability as a suspension." |
-| **Oxidation, HU-331** | Starting-material LC-MS, viability controls. | "Oxidation state in the conjugate was not analytically resolved." |
+| **Oxidation, HU-331** | Stability-indicating LC-MS/MS at every synthesis stage, viability controls. | "Oxidation state in the conjugate was not fully analytically resolved." |
 | **Day-7 tissue too late** | 72h satellite group. | "Markers were measured at defined time points only." |
 | **Cross-species markers** | Same cytokines, state species. | "Epilepsy tissue was mouse; pain tissue was rat." |
+| **Overclaiming relative to what's already public** | Check the manuscript against this lab's own 2025 CRS conference abstract and the Feng 2025 nano-micelle paper before submission; claim neither less nor more than the data support. | n/a — this is an internal check, not a manuscript statement. |
+| **Publication timing vs. pending patent** | Confirm with Hopkins tech transfer / patent counsel before submission. | n/a |
 
 # Open items
 
@@ -230,7 +234,7 @@ Keep neutral until marker data are in.
 - **Epilepsy:** data lock date. Marker panel and platform agreed.
 - **Retained material:** whether any failed batch, or the original, has material left for the in vitro comparison.
 - **Release and CB<sub>1</sub>/CB<sub>2</sub> data:** whether they already exist.
-- **Patent status** before submission.
+- **Patent/publication timing:** confirm with Hopkins tech transfer or patent counsel before submission — patent family confirmed pending (PCT/US2023/072955), scope is broad and already covers CBD-dendrimer-pain; the open question is disclosure timing, not whether coverage exists.
 
 # Change history
 
@@ -248,3 +252,4 @@ Keep neutral until marker data are in.
 | 2026-10-09 | v2: single-sex limitation sharpened to estrous-phase dependence | Literature check found a 2023 study showing CBD's effective dose in female rats depends on estrous phase. |
 | 2026-10-09 | v2: schedule fixed to real dates; biodistribution dosing moved to the day after the main cohort's final read | The next-day-after-surgery dissection originally proposed collided with the main cohort's own 72h work; one team cannot do both on the same day. |
 | 2026-10-09 | v2: rat order set to 21 | User: total rat count is not the binding constraint, work and time are. Set once the satellite group was approved. |
+| 2026-10-09 | v3: literature check upgraded from search summaries to a cited verification pass; patent confirmed pending and broad (action item added); two adjacent public disclosures flagged (this lab's 2025 conference abstract, a competing 2025 non-dendrimer CBD nano-micelle pain paper); free-CBD dose-response reframed as a published inverted-U rather than a flat effective dose; HU-331 QC upgraded to a specific stability-indicating method | See `literature/verified_2026-10-09.md`. |
