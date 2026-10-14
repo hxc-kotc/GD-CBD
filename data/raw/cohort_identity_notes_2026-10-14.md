@@ -12,9 +12,11 @@ Working notes reconciling the `prism_exports_2026-10-14/` raw files against the 
   - Resolved 2026-10-14: the apparent conflict with the user's cohort descriptions was a wrong assumption on my part — these files are each just the free-CBD slice of a larger multi-arm cohort, not the full cohort export. Both files' own CBD-dose data are correctly labeled and reliable.
   - The "(ACN; strange animals)" note in the V18 filename is the researcher's own flag on that cohort and should be preserved in any future write-up regardless.
 
-## Open — confirmed data-quality problem (not resolved by the above)
+## Noted, low priority — confirmed but not urgent
 
-- **The three COMBINED master files mislabel V18's free-CBD data as "V16."** Now that both V16 and V18's own files are confirmed distinct and correctly labeled (previous section), this is unambiguous: COMBINED.txt / COMBINED +4.txt / COMBINED w: extra control + V24.txt all have a column labeled "CBD (10/30 mg/kg) V16" whose values are byte-identical to V18's file (7.530, 31.390, ... at the early post-surgery timepoints), not to V16's own file (406.440, 30.425, 82.455, ... at the same timepoints — genuinely different numbers, confirmed much higher and more variable). Whoever rebuilds the combined/master sheets for the manuscript needs to pull V16's real data into that column, or relabel it V18. Do not use the COMBINED files' "V16" column for anything until this is fixed at the source.
+- **The three COMBINED master files mislabel V18's free-CBD data as "V16."** Now that both V16 and V18's own files are confirmed distinct and correctly labeled (previous section), this is unambiguous: COMBINED.txt / COMBINED +4.txt / COMBINED w: extra control + V24.txt all have a column labeled "CBD (10/30 mg/kg) V16" whose values are byte-identical to V18's file (7.530, 31.390, ... at the early post-surgery timepoints), not to V16's own file (406.440, 30.425, 82.455, ... at the same timepoints — genuinely different numbers, confirmed much higher and more variable).
+  - **2026-10-14, user:** confirmed real, noted, not a priority right now. Neither V16 nor V18 (10/30 mg/kg free CBD arms) is load-bearing for the current pain-paper plan — the manuscript's free-CBD comparator is the 3 mg/kg arm from V12, and V16/V18 only matter for the broader "free CBD has been tried at many doses, inconsistently" limitations framing, where getting the exact cohort label right on a 10 or 30 mg/kg point matters less.
+  - Still: whoever rebuilds the combined/master sheets should pull V16's real data into that column (or relabel it V18) before those sheets are used for anything dose-response-related. Not blocking, not re-raising unless it becomes relevant to an actual figure.
 
 ## Not yet addressed
 
