@@ -91,8 +91,14 @@ Two tests, decided before unblinding, read together:
 - **Unit of replication is the cohort.** Rats within a cohort share a preparation, a day, a tester. Three cohorts are three tests, not 20 rats.
 - **Confirmatory analysis (main text):** the new cohort alone, against the success criteria above.
 - **Supporting analysis (main text):** all three cohorts pooled, shown as a per-cohort forest plot so the reader sees each cohort's own estimate, not folded into one number. No single pooled p-value is presented as definitive on its own.
-- **Full record (supplement table):** every GD-CBD cohort ever run, including the non-replicating ones, with dose, preparation, method, sex, age, baseline, and outcome.
-- **Methods wording:** "GD-CBD was prepared from Cayman CBD in independent syntheses (preparation labels to be confirmed). Efficacy was not reproduced with other preparations (Table S1)."
+- **Table S1 (supplement):** the three cohorts in the manuscript (two discovery, one replication), with dose, preparation, method, sex, baseline, and outcome. Does not include other historical cohorts — see "Decision: scope of disclosure," below.
+- **Methods wording:** "GD-CBD was prepared from Cayman CBD in independent syntheses (preparation labels to be confirmed)."
+
+## Decision: scope of disclosure (2026-10-14)
+
+The lab has run additional GD-CBD cohorts beyond V12/V13/the new cohort, using material the user attributes to chemistry or storage problems (not confirmed by documented QC evidence as of this date). **User decision: these cohorts are not included in the manuscript** — not in Table S1, not in the forest plot, not named anywhere. They remain in internal lab records (`data/raw/`, `cohort_identity_notes_2026-10-14.md`) for the team's own use.
+
+This was flagged once as in tension with the original brief's own instruction ("we do not want to misrepresent batch consistency or selectively pool incompatible data") and with this plan's earlier Table S1 design. The user's call stands; noted here rather than silently dropped, per this repo's practice of logging decisions instead of rewriting history. If a reviewer later asks whether other batches or doses were tested, that question will need an answer at that point.
 
 ## Bump-up options
 
@@ -185,7 +191,7 @@ Keep neutral until marker data are in.
 4. **Pain efficacy:** time course with individual animals, AUC, per-cohort forest plot.
 5. **Inflammatory markers** across both indications, same panel.
 
-**Supplement:** Table S1 (all GD-CBD cohorts and preparations), Table S2 (batch QC), raw per-animal data and script, surgical technique, spectra, sensitivity analyses, biodistribution if it passes.
+**Supplement:** Table S1 (the three cohorts in the manuscript — see "Decision: scope of disclosure"), Table S2 (batch QC), raw per-animal data and script, surgical technique, spectra, sensitivity analyses, biodistribution if it passes.
 
 ## Claims to avoid
 
@@ -224,7 +230,7 @@ Four Kannan-lab papers read in full (2026-10-14), ahead of the Friday presentati
 | Concern | Shortest credible mitigation | Limitation statement |
 |:---|:---|:---|
 | **Small n** | Individual animals, effect sizes with CIs, responder analysis, no definitive pooled p. | "Group sizes were small." |
-| **Batch history** | Table S1, every cohort and preparation. | "Efficacy differed between preparations; cause not established." |
+| **Batch history** | Table S1 covers the three disclosed cohorts. A reviewer asking whether other batches or doses were tested has no prepared answer as of 2026-10-14 — see "Decision: scope of disclosure." | n/a unless the question is asked. |
 | **Reproducibility** | Prespecified replication, new preparation, report either result. | "One independent preparation was tested." |
 | **No dendrimer-only control in vivo** | GD alone on in vitro plates. Narrow claim. | "A carrier-only arm was not included in vivo." |
 | **Limited mechanism** | Restrict to markers and in vitro data. | "Mechanism was not tested." |
@@ -269,3 +275,4 @@ Four Kannan-lab papers read in full (2026-10-14), ahead of the Friday presentati
 | 2026-10-14 | v4: original cohorts identified (V12 Dec 2024, 300-350 g; V13 Jan 2025, 250-300 g; both female). Rat order placed one day late (10-14, not 10-13); all downstream in-vivo dates shifted by one day, Gate 3 now 11-14, Gate 4 now 11-28. Submission target held at 12-29 by trimming the full-draft-writing window by one day instead of pushing the whole schedule out. | User reported V12/V13 weights when placing the order. |
 | 2026-10-14 | v4 correction: "age at surgery" dropped as an open item and as a matching variable. The original cohorts were ordered by weight, not age — there was never an age record to chase. | User checked records: no age data exists for V12/V13, only weight. |
 | 2026-10-14 | v5: added "Precedent" section citing four Kannan-lab papers (full text read), confirming this plan's n, lack of in vivo carrier-only control, and biodistribution claim level match the lab's own publication record. Flagged COI disclosure as the one real gap, and checked the R01's "OP-101 reduced mortality by 40%" claim against the trial's own Table 3 (confirmed accurate as absolute risk difference, not relative). | Prep for the Friday publication-plan presentation; papers in `literature/comparator_papers/`. |
+| 2026-10-14 | v6: user decided the manuscript will disclose only V12, V13, and the new cohort — other historical GD-CBD cohorts (attributed to chemistry/storage problems, not yet documented) are internal lab record only, not in Table S1, the forest plot, or named anywhere in the paper. Pooling section, Methods wording, Supplement list, and the "Batch history" risk row updated to match. Figure 4 mockups rebuilt to show only V12/V13 plus a pending slot for the new cohort. | User: "nope, not keeping them." Flagged once as in tension with the original brief's "do not misrepresent batch consistency or selectively pool incompatible data" instruction and with this plan's earlier full-disclosure Table S1 design; the user's call stands, logged here rather than silently dropped. |

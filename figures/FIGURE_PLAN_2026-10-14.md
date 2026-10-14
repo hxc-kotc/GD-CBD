@@ -47,7 +47,7 @@ Modeled on: Porterfield Fig. 6 (timeline diagram + survival/outcome curve + hist
 | 4a | Study design/timeline schematic | **Have** |
 | 4b | Time course of 50% withdrawal threshold, all arms, cohort-coded — **keep the existing von Frey time-course convention**; Sharma 2024's categorical seizure-grade bar panels don't map onto continuous mechanical-threshold data, don't switch to that style here | **Have** historical (V12/V13), plottable now; new cohort overlays in Nov |
 | 4c | AUC, individual animals shown | **Have** historical; **Box** for new cohort |
-| 4d | Per-cohort forest plot (replication tiering) — standard clinical/meta-analysis convention, no lab-specific precedent needed | **Have** enough historical cohorts to compute now; **Box** for new cohort's entry |
+| 4d | Per-cohort forest plot: V12, V13, new cohort — standard clinical/meta-analysis convention, no lab-specific precedent needed. Per the 2026-10-14 scope-of-disclosure decision, no other cohorts appear here. | **Have** V12/V13; **Box** for the new cohort's entry |
 | 4e | Responder analysis — **template: Sharma 2024 Fig. 11b**, compact bar chart of animal counts per outcome category (e.g., "recovered to ≥50% baseline" vs. "did not"), count fraction labeled on each bar | **Box** |
 | 4f | Ropivacaine validation | **Have** some historical (V21); **Box** for new cohort |
 | 4g | Wound histology — **template: Porterfield Fig. 6c-d**, H&E/IHC images + injury-marker quantification bar graph | **Box** |
@@ -81,7 +81,7 @@ Modeled on: Porterfield Figs. 4–5 (organ IVIS, flow cytometry % cells, confoca
 
 | Item | Status |
 |:---|:---|
-| Table S1 — full historical cohort record | **Can build substantially now** — real per-animal data across 19 source files already in `data/raw/` |
+| Table S1 — the three disclosed cohorts (V12, V13, new) | **Have** V12/V13; **Box** for the new cohort |
 | Table S2 — batch QC | **Box** |
 | Raw NMR/HPLC/MALDI spectra | **Box** |
 | Sensitivity analyses | **Box** — analysis plan already written |
