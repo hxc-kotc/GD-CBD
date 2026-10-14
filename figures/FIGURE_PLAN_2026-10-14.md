@@ -44,15 +44,16 @@ Externally supplied by the collaborator. Likely follows Sharma 2024 Fig. 11's ow
 
 Modeled on: Porterfield Fig. 6 (timeline diagram + survival/outcome curve + histology quantification); existing lab convention (the "Standard (g), Avg & SEM" von Frey time-course plot already in use).
 
+**Six panels, a-f, contiguous** (2026-10-14 revision: cut from seven). Per the user's decision, V12 and V13 (same preparation) are pooled with no cohort distinction anywhere in the figure, not even in panel titles — that detail lives in Methods and Table S1 only. The former panel d (a discovery-vs-new-cohort forest plot) is cut entirely rather than emptied: once the new cohort's data pools in, there is no separate "old" and "new" left to plot against each other. The replication finding (whether the new cohort reproduced the effect) is reported in text/Results, not as a figure panel.
+
 | Panel | Content | Status |
 |:---|:---|:---|
 | 4a | Study design/timeline schematic | **Have** |
-| 4b | Time course of 50% withdrawal threshold, all arms, cohort-coded — **keep the existing von Frey time-course convention**; Sharma 2024's categorical seizure-grade bar panels don't map onto continuous mechanical-threshold data, don't switch to that style here | **Have** historical (V12/V13), plottable now; new cohort overlays in Nov |
-| 4c | AUC, individual animals shown | **Have** historical; **Box** for new cohort |
-| 4d | Per-cohort forest plot: V12, V13, new cohort — standard clinical/meta-analysis convention, no lab-specific precedent needed. Per the 2026-10-14 scope-of-disclosure decision, no other cohorts appear here. | **Have** V12/V13; **Box** for the new cohort's entry |
-| 4e | Responder analysis — **template: Sharma 2024 Fig. 11b**, compact bar chart of animal counts per outcome category (e.g., "recovered to ≥50% baseline" vs. "did not"), count fraction labeled on each bar | **Box** |
-| 4f | Ropivacaine validation | **Have** some historical (V21); **Box** for new cohort |
-| 4g | Wound histology — **template: Porterfield Fig. 6c-d**, H&E/IHC images + injury-marker quantification bar graph | **Box** |
+| 4b | Time course of 50% withdrawal threshold, all arms, individual animals, pooled across cohorts with no cohort distinction drawn — **keep the existing von Frey time-course convention**; Sharma 2024's categorical seizure-grade bar panels don't map onto continuous mechanical-threshold data, don't switch to that style here | **Have** V12+V13 pooled; new cohort pools in once dosed |
+| 4c | AUC, individual animals shown, pooled | **Have** V12+V13 pooled; new cohort pools in once dosed |
+| 4d | Responder analysis — **template: Sharma 2024 Fig. 11b**, compact bar chart of animal counts per outcome category (e.g., "recovered to ≥50% baseline" vs. "did not"), count fraction labeled on each bar | **Box** |
+| 4e | Ropivacaine validation | **Have** some historical (V21); **Box** for new cohort |
+| 4f | Wound histology — **template: Porterfield Fig. 6c-d**, H&E/IHC images + injury-marker quantification bar graph | **Box** |
 
 # Figure 5 — Inflammatory markers across indications
 
