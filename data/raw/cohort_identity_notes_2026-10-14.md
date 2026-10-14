@@ -7,15 +7,14 @@ Working notes reconciling the `prism_exports_2026-10-14/` raw files against the 
 - **V23:** GD-CBD 3 & 10 mg/kg, n=3, females. File: `GD-CBD (3 & 10 mg:kg) (n=3) V23 April 2026 - Med + Lat AVERAGE.txt`. User recalls March 2026; file says April 2026 — unreconciled, low priority.
 - **V24 (real):** GD-CP 55,940 pilot (0.3 mg/kg) + GD-CBD 40 mg/kg, June 2026. File: `GD-CBD (40 mg:kg) GD-CP 55,940 (0 3 mg:kg) (n=3) V24 June 2026 - Med + Lat AVERAGE.txt`.
 - **"V24 April 2026" file is a misnamed duplicate of V23**, confirmed by the user and by a byte-level diff (identical values, only the asterisk/selection flags differ). File: `GD-CBD (40 mg:kg) (n=3) V24 April 2026 - Med + Lat AVERAGE.txt`. Treat as non-data — adds nothing beyond V23.
-- **V16:** free CBD 10 & 30 mg/kg, micelle formulation, Mar 2025, n=3 per dose. Matches its own file's header (`CBD 10 & 30 mg:kg (n=3) V16 (micelle formulation) Mar 2025.txt`) and the user's confirmation.
+- **V16:** cohort tested CBD 10 & 30 mg/kg (micelle formulation, this file, n=3 per dose) **and** GD-ketorolac 15 mg/kg (separate arm, not uploaded, not needed for this paper). File: `CBD 10 & 30 mg:kg (n=3) V16 (micelle formulation) Mar 2025.txt`.
+- **V18:** cohort tested CBD 10 & 30 mg/kg (ACN vehicle, this file, n=2 per dose) **and** GD-CBD 3 mg/kg + GD-ket 10 mg/kg (separate arms, not uploaded, not needed for this paper). File: `CBD 10 & 30 mg:kg (n=2) V18 (ACN; strange animals) May 2025.txt`.
+  - Resolved 2026-10-14: the apparent conflict with the user's cohort descriptions was a wrong assumption on my part — these files are each just the free-CBD slice of a larger multi-arm cohort, not the full cohort export. Both files' own CBD-dose data are correctly labeled and reliable.
+  - The "(ACN; strange animals)" note in the V18 filename is the researcher's own flag on that cohort and should be preserved in any future write-up regardless.
 
-## Open — unresolved conflict
+## Open — confirmed data-quality problem (not resolved by the above)
 
-- **V18's labeled content doesn't match the user's recollection.** User states V18 tested **GD-CBD 1 & 3 mg/kg**. The file `CBD 10 & 30 mg:kg (n=2) V18 (ACN; strange animals) May 2025.txt` has header columns "CBD 30 mg/kg" / "CBD 10 mg/kg" — free CBD, not GD-CBD; 10/30 mg/kg, not 1/3 mg/kg.
-  - Leading hypothesis: the file is mislabeled at export — wrong Prism table saved under the V18 filename.
-  - This file's numbers are also what the three COMBINED master files use under a "V16" label (confirmed by exact value match against the real V16 file) — so whatever this file actually is, it has now been mislabeled twice (once as "V18," once folded into COMBINED as "V16").
-  - Needs: either the real V18 (GD-CBD 1 & 3 mg/kg) file if it exists separately, or confirmation that the file on hand is misattributed free-CBD data that should carry neither the V16 nor V18 label.
-  - The "(ACN; strange animals)" note in the filename is the researcher's own flag and should be preserved regardless of which cohort ID this data turns out to belong to.
+- **The three COMBINED master files mislabel V18's free-CBD data as "V16."** Now that both V16 and V18's own files are confirmed distinct and correctly labeled (previous section), this is unambiguous: COMBINED.txt / COMBINED +4.txt / COMBINED w: extra control + V24.txt all have a column labeled "CBD (10/30 mg/kg) V16" whose values are byte-identical to V18's file (7.530, 31.390, ... at the early post-surgery timepoints), not to V16's own file (406.440, 30.425, 82.455, ... at the same timepoints — genuinely different numbers, confirmed much higher and more variable). Whoever rebuilds the combined/master sheets for the manuscript needs to pull V16's real data into that column, or relabel it V18. Do not use the COMBINED files' "V16" column for anything until this is fixed at the source.
 
 ## Not yet addressed
 
