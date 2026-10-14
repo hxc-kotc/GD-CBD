@@ -1,0 +1,4 @@
+	"Male Ropi (n=2)"	"Male Ropi (n=2)"	"Female Ropi (n=2)"	"Female Ropi (n=2)"	"Male Operated Control"	"Male Operated Control"	"Female Operated Control"	"Female Operated Control"
+-2.0	37.400	132.615	73.990	287.195	38.735		94.69	
+2.0	354.930	433.730	332.665	447.000	6.075		4.60	
+4.5	5.245	1.530	23.135	354.930	3.700		12.01	

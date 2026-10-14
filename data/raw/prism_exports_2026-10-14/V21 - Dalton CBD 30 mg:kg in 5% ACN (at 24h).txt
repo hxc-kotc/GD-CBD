@@ -1,0 +1,4 @@
+	"Female CBD (n=1)"	"Male CBD (n=1)"	"Male Operated Control (n=1)"	"Female Operated Control (n=1)"
+-2.0	73.990	132.615	37.400	94.69
+2	61.800	9.075	3.240	3.95
+4	16.025	2.575	2.140	1.73
