@@ -14,7 +14,7 @@ subtitle: "Prepared 2026-10-09. Target submission: 2026-12-29."
 - **Default:** a combined paper, covering both the epilepsy data and the postoperative pain data.
 - **Shared finding the combined paper is built on:** GD-CBD reduces inflammatory markers in both models, measured with the same cytokine panel (TNF-α, IL-6, IL-1β, IL-10) in both species.
 - **Fallback:** a pain-only short report, more conservative claims, if the combined paper isn't approved or the new pain cohort doesn't replicate.
-- **Decision point:** 2026-11-13, once the new pain cohort is unblinded.
+- **Decision point:** 2026-11-14, once the new pain cohort is unblinded.
 
 | If the new pain cohort... | Then the paper is... |
 |:---|:---|
@@ -27,7 +27,7 @@ subtitle: "Prepared 2026-10-09. Target submission: 2026-12-29."
 | Requirement | Due |
 |:---|:---|
 | All PIs sign off | 2026-10-30 |
-| Epilepsy dataset locked (no further changes) | 2026-11-06 |
+| Epilepsy dataset locked (no further changes) | 2026-11-07 |
 | Cytokine panel and assay platform matched between the two indications | 2026-10-16 |
 
 # Where the pain data currently stand
@@ -62,13 +62,13 @@ A literature check (2026-10-09) to keep the manuscript's claims accurate against
 
 | Date | Milestone |
 |:---|:---|
-| 2026-10-13 | Rat order placed. |
-| 2026-10-20 | Rats arrive; facility acclimation begins. |
+| 2026-10-14 | Rat order placed. |
+| 2026-10-21 | Rats arrive; facility acclimation begins. |
 | 2026-10-30 | PI sign-off on the combined-paper plan confirmed. Labeled-material QC checkpoint for biodistribution. |
-| 2026-11-03 | Surgery and dosing: main pain cohort and marker satellite group. |
-| 2026-11-06 | Epilepsy dataset locked. Marker satellite group sampled. |
-| 2026-11-13 | Pain cohort unblinded. **Strategy decision point.** |
-| 2026-11-27 | Biodistribution result finalized, in or out of the paper. |
+| 2026-11-04 | Surgery and dosing: main pain cohort and marker satellite group. |
+| 2026-11-07 | Epilepsy dataset locked. Marker satellite group sampled. |
+| 2026-11-14 | Pain cohort unblinded. **Strategy decision point.** |
+| 2026-11-28 | Biodistribution result finalized, in or out of the paper. |
 | 2026-12-11 | Full draft complete. |
 | 2026-12-18 | PI review complete. |
 | 2026-12-29 | Target submission. |

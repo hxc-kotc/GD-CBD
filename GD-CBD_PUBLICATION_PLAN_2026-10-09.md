@@ -7,7 +7,7 @@ subtitle: "v2, 2026-10-09. Target: submission by 2026-12-29."
 
 - **Default: combined epilepsy-plus-pain paper.** Unifying claim: GD-CBD reduces inflammatory markers and disease phenotypes in two models. Same cytokine panel (TNF-α, IL-6, IL-1β, IL-10) in both species.
 - **Fallback: pain-only short report,** restricted claims, if the combined paper isn't approved or the pain cohort fails.
-- **Decision point:** once the pain cohort is unblinded and read out, on 2026-11-13 ("Gate 3" in the timeline below).
+- **Decision point:** once the pain cohort is unblinded and read out, on 2026-11-14 ("Gate 3" in the timeline below).
 
 | Pain cohort result | Paper |
 |:---|:---|
@@ -17,13 +17,13 @@ subtitle: "v2, 2026-10-09. Target: submission by 2026-12-29."
 
 **Required before the combined paper is real:**
 - Other PIs' sign-off, requested by 2026-10-12, confirmed by 2026-10-30.
-- Epilepsy data locked by 2026-11-06.
+- Epilepsy data locked by 2026-11-07.
 - Cytokine panel and platform matched with the epilepsy collaborator.
 - Title stays neutral until the marker data are in.
 
 # Evidence ledger
 
-- **Two original cohorts** (n=6 per arm, 3 mg/kg IP) showed the effect. Replicate each other.
+- **Two original cohorts** (n=6 per arm, 3 mg/kg IP) showed the effect. Replicate each other. Identified as **V12** (Dec 2024, 300-350 g) and **V13** (Jan 2025, 250-300 g), both female. Age at surgery not on record for either — still an open item.
 - **A later 40 mg/kg cohort** was partially positive.
 - **Other cohorts did not reproduce the effect.** Von Frey method was varied across them, then restored to the original protocol. The effect still did not return with other preparations.
 - **The new cohort is the third replicate,** and the first with independent material. Three cohorts, two preparations (labels to be confirmed).
@@ -108,7 +108,7 @@ Decide before the order, or add rats later if work allows.
 
 # Inflammatory markers, pain cohort
 
-- **72h satellite group (6 rats):** GD-CBD n=3, vehicle n=3, unlabeled. Operated and dosed 2026-11-03. Sampled 2026-11-06, at the peak of the effect. Day-7 tissue likely misses the inflammatory signal; the effect is already fading by 144 to 168 h.
+- **72h satellite group (6 rats):** GD-CBD n=3, vehicle n=3, unlabeled. Operated and dosed 2026-11-04. Sampled 2026-11-07, at the peak of the effect. Day-7 tissue likely misses the inflammatory signal; the effect is already fading by 144 to 168 h.
 - **Day-7 tissue, main cohort:** wound skin (histology) and plasma, run first. Flash-freeze contralateral skin, ipsilateral and contralateral DRG, spinal cord. Run only if the first pass is informative.
 - **Panel:** TNF-α, IL-6, IL-1β, IL-10, same platform as the epilepsy and in vitro work.
 - **n=3 per group is descriptive.** Report as "consistent with," never as mechanism.
@@ -143,27 +143,26 @@ Checkpoint 2026-10-30. Material in hand by 2026-11-06.
 - **Modest:** "consistent with renal clearance, with a small injured-side excess." No targeting claim.
 - **Negative or uninterpretable:** omit, or one sentence in Limitations.
 
-**Omit entirely if** QC fails by 2026-10-30, material is not in hand by 2026-11-06, or imaging can't finish by 2026-11-27.
+**Omit entirely if** QC fails by 2026-10-30, material is not in hand by 2026-11-06, or imaging can't finish by 2026-11-28.
 
 # Timeline and actions
 
-Order 2026-10-13. Arrival 2026-10-20. Facility acclimatization 10-20 to 10-27. Habituation 10-27 to 11-02. Surgery 2026-11-03.
+Order placed 2026-10-14 (one day later than the original 10-13 target; absorbed below without moving the submission date). Arrival 2026-10-21. Facility acclimatization 10-21 to 10-28. Habituation 10-28 to 11-03. Surgery 2026-11-04.
 
 | Dates | Who | Action |
 |:---|:---|:---|
-| **By 10-12** | You | Talk to the PI. Confirm original-cohort rat age and weight at surgery. Confirm habituation length against the original protocol (draft says 10 days, outline says 8). Ask the other PIs about the combined paper. |
-| **10-13** | You | **Order 21 rats** (9 efficacy, 6 satellite, 5 biodistribution, 1 spare), age specified at surgery. |
+| **10-14** | You | **Order 21 rats** (9 efficacy, 6 satellite, 5 biodistribution, 1 spare), weight 250-350 g at surgery (original cohorts V12: 300-350 g, V13: 250-300 g; age at surgery still not on record — flag with supplier if they ask). Confirm habituation length against the original protocol (draft says 10 days, outline says 8). Ask the other PIs about the combined paper. |
 | **By 10-16** | You | One-page analysis plan frozen: primary endpoint, script, blinding key held by the chemist. Cytokine panel and platform agreed with the epilepsy collaborator. |
 | **By 10-23** | Chemist | Batch 4 identity (loading, free CBD, size, release). Coded per-rat dose aliquots. |
 | **By 10-23** | In vitro | Cytokine panel with viability, GD alone, free CBD, head-to-head with original, CB<sub>1</sub>/CB<sub>2</sub>, HU-331 spike. LC-MS on CBD starting vials. |
 | **10-30** | Chemist | Cy5 QC checkpoint. Other PIs' approval on the combined paper confirmed. |
-| **11-03** | In vivo | Surgery and dosing: main cohort and satellite. |
-| **11-06** | In vivo | 72h behavior read. Satellite tissue sampled. Epilepsy data lock. |
-| **11-10 to 11-11** | In vivo | 168h read, ropivacaine, tissue collection. |
-| **11-11 to 11-12** | In vivo | Biodistribution dosing (11-11), terminal samples (11-12), if QC passed. |
-| **11-12 to 11-13** | You | Unblind, run the frozen script. **Gate 3, 11-13: pain result, track decision.** |
-| **11-13 to 11-27** | You | Marker panel runs. Biodistribution analysis. **Gate 4, 11-27: biodistribution in or out.** Draft figures and Methods. |
-| **11-27 to 12-11** | You | Full draft. Integrate epilepsy figure. Table S1. |
+| **11-04** | In vivo | Surgery and dosing: main cohort and satellite. |
+| **11-07** | In vivo | 72h behavior read. Satellite tissue sampled. Epilepsy data lock. |
+| **11-11 to 11-12** | In vivo | 168h read, ropivacaine, tissue collection. |
+| **11-12 to 11-13** | In vivo | Biodistribution dosing (11-12), terminal samples (11-13), if QC passed. |
+| **11-13 to 11-14** | You | Unblind, run the frozen script. **Gate 3, 11-14: pain result, track decision.** |
+| **11-14 to 11-28** | You | Marker panel runs. Biodistribution analysis. **Gate 4, 11-28: biodistribution in or out.** Draft figures and Methods. |
+| **11-28 to 12-11** | You | Full draft. Integrate epilepsy figure. Table S1. |
 | **12-11 to 12-18** | PIs | Review. |
 | **12-18 to 12-29** | You | Revise, check patent status, submit. |
 
@@ -228,7 +227,7 @@ Keep neutral until marker data are in.
 
 # Open items
 
-- **Rats:** age and weight at surgery of the original cohorts. Habituation length.
+- **Rats:** weight at surgery confirmed (below); age still unresolved. Habituation length.
 - **Batch 4 loading** [currently assumed ~10% for dosing-mass arithmetic].
 - **PI approvals:** your PI, and the other PIs, for the combined paper.
 - **Epilepsy:** data lock date. Marker panel and platform agreed.
@@ -253,3 +252,4 @@ Keep neutral until marker data are in.
 | 2026-10-09 | v2: schedule fixed to real dates; biodistribution dosing moved to the day after the main cohort's final read | The next-day-after-surgery dissection originally proposed collided with the main cohort's own 72h work; one team cannot do both on the same day. |
 | 2026-10-09 | v2: rat order set to 21 | User: total rat count is not the binding constraint, work and time are. Set once the satellite group was approved. |
 | 2026-10-09 | v3: literature check upgraded from search summaries to a cited verification pass; patent confirmed pending and broad (action item added); two adjacent public disclosures flagged (this lab's 2025 conference abstract, a competing 2025 non-dendrimer CBD nano-micelle pain paper); free-CBD dose-response reframed as a published inverted-U rather than a flat effective dose; HU-331 QC upgraded to a specific stability-indicating method | See `literature/verified_2026-10-09.md`. |
+| 2026-10-14 | v4: original cohorts identified (V12 Dec 2024, 300-350 g; V13 Jan 2025, 250-300 g; both female, age at surgery still unconfirmed). Rat order placed one day late (10-14, not 10-13); all downstream in-vivo dates shifted by one day, Gate 3 now 11-14, Gate 4 now 11-28. Submission target held at 12-29 by trimming the full-draft-writing window by one day instead of pushing the whole schedule out. | User reported V12/V13 weights when placing the order. |
