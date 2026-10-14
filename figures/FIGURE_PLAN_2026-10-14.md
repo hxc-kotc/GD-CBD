@@ -1,9 +1,13 @@
 ---
 title: "GD-CBD figure plan"
-subtitle: "Prepared 2026-10-14, for the Friday publication-plan presentation. Status markers: Have / Partial / Box (placeholder)."
+subtitle: "Prepared 2026-10-14, revised to match the main plan's figure list. Status markers: Have / Partial / Box (placeholder)."
 ---
 
 Each figure cites the comparator paper (`literature/comparator_papers/`) its layout is modeled on. Built for Friday: show what's buildable now, leave literal boxes for the rest.
+
+**Numbering and figure count match `GD-CBD_PUBLICATION_PLAN_2026-10-09.md`'s "Main figures" list exactly** (chemistry, in vitro, epilepsy, pain efficacy, markers) — five main figures. Biodistribution is **not** a numbered main figure; it stays conditional per that plan's own rule ("Supplement: ... biodistribution if it passes," "omit entirely" on failure). It's included below as its own section so the panels are ready either way, but it does not get a figure number until the QC and effect size actually justify one.
+
+**If the pain cohort doesn't replicate and the paper falls back to epilepsy-led or pain-only** (per the main plan's strategy table), this figure list forks: epilepsy-led drops Figure 4 and the pain half of Figure 5; pain-only drops Figure 3 and the epilepsy half of Figure 5.
 
 # Figure 1 — Chemistry and characterization of GD-CBD
 
@@ -26,18 +30,13 @@ No direct lab precedent for this exact panel type (none of the four comparator p
 | 2b | CB<sub>1</sub>/CB<sub>2</sub> binding or functional assay | **Box** — open item, may not exist |
 | 2c | HU-331 stability-indicating chromatogram (likely supplement) | **Box** |
 
-# Figure 3 — Biodistribution
+# Figure 3 — Epilepsy
 
-Modeled on: Porterfield Figs. 4–5 (organ IVIS, flow cytometry % cells, confocal colocalization, organ PK bar graph); Sah 2023 Fig. 1 (Cy5 colocalization with cell markers, **no n reported** — representative images only); Sharma 2024 Figs. 5/6/8 (quantified uptake as mean fluorescence intensity, **n stated per cell/neuron**, not just per animal).
+Externally supplied by the collaborator. Likely follows Sharma 2024 Fig. 11's own structure (severity/duration/latency bars + categorical SE-onset outcome bars), since that's the platform paper this figure inherits from. Full box until the collaborator sends something.
 
 | Panel | Content | Status |
 |:---|:---|:---|
-| 3a | Study design schematic | **Have** — design is set |
-| 3b | Ex vivo tissue fluorescence, ipsilateral vs contralateral, paired per animal | **Box** — Nov dosing, conditional on Cy5 QC |
-| 3c | Confocal colocalization, wound/DRG/cord with cell markers | **Box** |
-| 3d | Quantified uptake, Sharma-style (mean fluorescence intensity, n cells stated) | **Box**, conditional on whether DRG gets processed |
-
-**Claim-level note:** Sah's biodistribution figure has no n at all. This plan's design (n=3, paired, directional-consistency claim only) is already more rigorous than that precedent — don't let the claim creep past what the design supports just because a looser precedent exists.
+| 3a–3x | Collaborator's figure, structure TBD | **Box** |
 
 # Figure 4 — Flank-incision efficacy
 
@@ -63,9 +62,20 @@ Modeled on: Gusdon 2022 Fig. 5 — per-patient dot plots of marker rate-of-chang
 | 5b | Epilepsy: matched cytokine panel | **Box** — entirely dependent on collaborator's data lock |
 | 5c | Combined/side-by-side summary, two species, same analytes | **Box** |
 
-# Figure 6 — Epilepsy efficacy (if combined paper)
+# Biodistribution — conditional, not a numbered main figure
 
-Externally supplied by the collaborator. Likely follows Sharma 2024 Fig. 11's own structure (severity/duration/latency bars + categorical SE-onset outcome bars), since that's the platform paper this figure inherits from. Full box until the collaborator sends something.
+Only promoted to a main-text figure if the go/no-go QC passes and the result is strong (per the main plan's "Claims by outcome" table). If modest: one Limitations sentence, no figure. If negative/uninterpretable: omitted entirely. Panels below are prepared either way so there's no scramble if it does pass.
+
+Modeled on: Porterfield Figs. 4–5 (organ IVIS, flow cytometry % cells, confocal colocalization, organ PK bar graph); Sah 2023 Fig. 1 (Cy5 colocalization with cell markers, **no n reported** — representative images only); Sharma 2024 Figs. 5/6/8 (quantified uptake as mean fluorescence intensity, **n stated per cell/neuron**, not just per animal).
+
+| Panel | Content | Status |
+|:---|:---|:---|
+| Bio-a | Study design schematic | **Have** — design is set |
+| Bio-b | Ex vivo tissue fluorescence, ipsilateral vs contralateral, paired per animal | **Box** — Nov dosing, conditional on Cy5 QC |
+| Bio-c | Confocal colocalization, wound/DRG/cord with cell markers | **Box** |
+| Bio-d | Quantified uptake, Sharma-style (mean fluorescence intensity, n cells stated) | **Box**, conditional on whether DRG gets processed |
+
+**Claim-level note:** Sah's biodistribution figure has no n at all. This design (n=3, paired, directional-consistency claim only) is already more rigorous than that precedent — don't let the claim creep past what the design supports just because a looser precedent exists.
 
 # Supplement
 
@@ -75,13 +85,13 @@ Externally supplied by the collaborator. Likely follows Sharma 2024 Fig. 11's ow
 | Table S2 — batch QC | **Box** |
 | Raw NMR/HPLC/MALDI spectra | **Box** |
 | Sensitivity analyses | **Box** — analysis plan already written |
-| Biodistribution, if modest/negative (per the main plan's rule: omit from main, one Limitations sentence) | Conditional |
+| Biodistribution, if it doesn't earn a main figure (modest result) | Conditional, see above |
 
 # Comparator-paper cross-reference
 
 | Paper | What it's the template for |
 |:---|:---|
-| Sah et al. 2023, *Dev Neurosci* | Fig. 3's claim-level ceiling (no carrier-only control, biodistribution with no n) |
-| Porterfield & Sharma et al. 2023, *Bioeng Transl Med* | Fig. 1 layout, Fig. 3 biodistribution panels, Fig. 4g histology |
-| Sharma et al. 2024, *Bioeng Transl Med* | Fig. 1c-d (release, spectra), Fig. 3d (quantified uptake convention), Fig. 4e (responder-bar convention) |
+| Sah et al. 2023, *Dev Neurosci* | Biodistribution claim-level ceiling (no carrier-only control, biodistribution with no n) |
+| Porterfield & Sharma et al. 2023, *Bioeng Transl Med* | Fig. 1 layout, biodistribution panels, Fig. 4g histology |
+| Sharma et al. 2024, *Bioeng Transl Med* | Fig. 1c-d (release, spectra), biodistribution-d (quantified uptake convention), Fig. 4e (responder-bar convention) |
 | Gusdon et al. 2022, *Sci Transl Med* | Fig. 5 (per-patient marker dot plots) |
