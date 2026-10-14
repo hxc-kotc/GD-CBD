@@ -23,7 +23,7 @@ subtitle: "v2, 2026-10-09. Target: submission by 2026-12-29."
 
 # Evidence ledger
 
-- **Two original cohorts** (n=6 per arm, 3 mg/kg IP) showed the effect. Replicate each other. Identified as **V12** (Dec 2024, 300-350 g) and **V13** (Jan 2025, 250-300 g), both female. Age at surgery not on record for either — still an open item.
+- **Two original cohorts** (n=6 per arm, 3 mg/kg IP) showed the effect. Replicate each other. Identified as **V12** (Dec 2024, 300-350 g) and **V13** (Jan 2025, 250-300 g), both female. **Ordered by weight, not age** — age was never the matching variable for this program, so there is no age record to chase for either cohort.
 - **A later 40 mg/kg cohort** was partially positive.
 - **Other cohorts did not reproduce the effect.** Von Frey method was varied across them, then restored to the original protocol. The effect still did not return with other preparations.
 - **The new cohort is the third replicate,** and the first with independent material. Three cohorts, two preparations (labels to be confirmed).
@@ -64,7 +64,7 @@ A background check so claims in this paper don't contradict or duplicate what's 
 - **Vehicle gets the larger n.** It is the primary comparator and the check that this cohort behaved like a pain model.
 - **Free CBD gets the smaller n.** Already has n=6 historical at this dose.
 - **Dose:** GD-CBD 3 mg/kg CBD-equivalent, IP, immediately after closure, saline + 5% ACN. Same vehicle in every arm.
-- **Match the original cohorts:** sex, age and weight at surgery, supplier, operator, filaments, up-down method, original von Frey technique.
+- **Match the original cohorts:** sex, weight at surgery (the program's own matching variable; age was never tracked), supplier, operator, filaments, up-down method, original von Frey technique.
 - **Blinding:** chemistry team code-labels syringes. Randomize stratified by cage. Testers never see the key. Wound photos scored blind. Analysis script frozen before unblinding.
 - **Time points:** baseline, two days pre-surgery. 2, 4, 6 h. Daily 24 to 168 h. Ropivacaine in vehicle animals after the final test. Volume to reconcile (200 vs 400 µL in the existing records).
 - **Historical vehicle animals: reference band only,** from cohorts using the original method, sex, and vehicle. Do not replace the concurrent vehicle.
@@ -151,7 +151,7 @@ Order placed 2026-10-14 (one day later than the original 10-13 target; absorbed 
 
 | Dates | Who | Action |
 |:---|:---|:---|
-| **10-14** | You | **Order 21 rats** (9 efficacy, 6 satellite, 5 biodistribution, 1 spare), weight 250-350 g at surgery (original cohorts V12: 300-350 g, V13: 250-300 g; age at surgery still not on record — flag with supplier if they ask). Confirm habituation length against the original protocol (draft says 10 days, outline says 8). Ask the other PIs about the combined paper. |
+| **10-14** | You | **Order 21 rats** (9 efficacy, 6 satellite, 5 biodistribution, 1 spare), weight 250-350 g at surgery (original cohorts V12: 300-350 g, V13: 250-300 g; this program orders by weight, not age). Confirm habituation length against the original protocol (draft says 10 days, outline says 8). Ask the other PIs about the combined paper. |
 | **By 10-16** | You | One-page analysis plan frozen: primary endpoint, script, blinding key held by the chemist. Cytokine panel and platform agreed with the epilepsy collaborator. |
 | **By 10-23** | Chemist | Batch 4 identity (loading, free CBD, size, release). Coded per-rat dose aliquots. |
 | **By 10-23** | In vitro | Cytokine panel with viability, GD alone, free CBD, head-to-head with original, CB<sub>1</sub>/CB<sub>2</sub>, HU-331 spike. LC-MS on CBD starting vials. |
@@ -227,7 +227,7 @@ Keep neutral until marker data are in.
 
 # Open items
 
-- **Rats:** weight at surgery confirmed (below); age still unresolved. Habituation length.
+- **Rats:** weight at surgery confirmed (below); age was never the tracked variable for this program, so there is nothing further to resolve there. Habituation length.
 - **Batch 4 loading** [currently assumed ~10% for dosing-mass arithmetic].
 - **PI approvals:** your PI, and the other PIs, for the combined paper.
 - **Epilepsy:** data lock date. Marker panel and platform agreed.
@@ -252,4 +252,5 @@ Keep neutral until marker data are in.
 | 2026-10-09 | v2: schedule fixed to real dates; biodistribution dosing moved to the day after the main cohort's final read | The next-day-after-surgery dissection originally proposed collided with the main cohort's own 72h work; one team cannot do both on the same day. |
 | 2026-10-09 | v2: rat order set to 21 | User: total rat count is not the binding constraint, work and time are. Set once the satellite group was approved. |
 | 2026-10-09 | v3: literature check upgraded from search summaries to a cited verification pass; patent confirmed pending and broad (action item added); two adjacent public disclosures flagged (this lab's 2025 conference abstract, a competing 2025 non-dendrimer CBD nano-micelle pain paper); free-CBD dose-response reframed as a published inverted-U rather than a flat effective dose; HU-331 QC upgraded to a specific stability-indicating method | See `literature/verified_2026-10-09.md`. |
-| 2026-10-14 | v4: original cohorts identified (V12 Dec 2024, 300-350 g; V13 Jan 2025, 250-300 g; both female, age at surgery still unconfirmed). Rat order placed one day late (10-14, not 10-13); all downstream in-vivo dates shifted by one day, Gate 3 now 11-14, Gate 4 now 11-28. Submission target held at 12-29 by trimming the full-draft-writing window by one day instead of pushing the whole schedule out. | User reported V12/V13 weights when placing the order. |
+| 2026-10-14 | v4: original cohorts identified (V12 Dec 2024, 300-350 g; V13 Jan 2025, 250-300 g; both female). Rat order placed one day late (10-14, not 10-13); all downstream in-vivo dates shifted by one day, Gate 3 now 11-14, Gate 4 now 11-28. Submission target held at 12-29 by trimming the full-draft-writing window by one day instead of pushing the whole schedule out. | User reported V12/V13 weights when placing the order. |
+| 2026-10-14 | v4 correction: "age at surgery" dropped as an open item and as a matching variable. The original cohorts were ordered by weight, not age — there was never an age record to chase. | User checked records: no age data exists for V12/V13, only weight. |
