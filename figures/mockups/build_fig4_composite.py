@@ -91,24 +91,25 @@ gs = GridSpec(3, 6, figure=fig, hspace=0.65, wspace=0.75, top=0.90, bottom=0.08,
 ax_a = fig.add_subplot(gs[0, 0:2])
 box_panel(ax_a, "a", "Study design / timeline", "Surgery -> single IP dose -> daily von Frey to 168h -> ropivacaine", "Have")
 
-# Panels b: time course (V12, V13), spans the rest of row 0
-ax_b1 = fig.add_subplot(gs[0, 2:4])
-ax_b2 = fig.add_subplot(gs[0, 4:6], sharey=ax_b1)
-for ax, cohort in zip([ax_b1, ax_b2], COHORT_ORDER):
+# Panel b: time course, V12+V13 treated as one discovery cohort (same preparation,
+# Batch 1). Individual animal trajectories shown, not binned to a common timepoint
+# grid - V12 and V13 used different von Frey sampling hours, and fabricating a
+# shared timeline would overstate precision. No per-cohort distinction drawn.
+ax_b = fig.add_subplot(gs[0, 2:6])
+for cohort in COHORT_ORDER:
     arms = DATA[cohort]
     for arm in ARM_ORDER:
         if arm not in arms:
             continue
         baselines, hours, values = arms[arm]
-        pct = np.array(pct_baseline(baselines, values))
-        mean = pct.mean(axis=0)
-        sem = pct.std(axis=0, ddof=1) / np.sqrt(pct.shape[0]) if pct.shape[0] > 1 else np.zeros_like(mean)
-        ax.errorbar(hours, mean, yerr=sem, color=COLOR[arm], marker="o", markersize=3, linewidth=1.5, capsize=2, label=arm)
-    ax.axhline(100, color="#bbbbbb", linewidth=0.7, linestyle=":")
-    ax.set_title(cohort, fontsize=8.5)
-    ax.set_xlabel("Hours", fontsize=8)
-ax_b1.set_ylabel("% of baseline")
-ax_b1.text(-0.32, 1.28, "b", transform=ax_b1.transAxes, fontsize=13, fontweight="bold")
+        pct = pct_baseline(baselines, values)
+        for animal in pct:
+            ax_b.plot(hours, animal, color=COLOR[arm], linewidth=1.0, alpha=0.5, marker="o", markersize=2.5)
+ax_b.axhline(100, color="#bbbbbb", linewidth=0.7, linestyle=":")
+ax_b.set_title("Discovery cohort (V12+V13 pooled) — individual animals", fontsize=9)
+ax_b.set_xlabel("Hours", fontsize=8)
+ax_b.set_ylabel("% of baseline")
+ax_b.text(-0.1, 1.2, "b", transform=ax_b.transAxes, fontsize=13, fontweight="bold")
 handles = [Line2D([0], [0], color=COLOR[a], marker="o", markersize=4, label=a) for a in ARM_ORDER]
 fig.legend(handles=handles, loc="upper right", ncol=3, frameon=False, fontsize=8, bbox_to_anchor=(0.97, 0.965))
 
@@ -134,30 +135,29 @@ ax_c.set_ylabel("Time-wtd mean, % baseline", fontsize=8)
 ax_c.set_title("V12+V13 pooled", fontsize=8.5)
 ax_c.text(-0.38, 1.22, "c", transform=ax_c.transAxes, fontsize=13, fontweight="bold")
 
-# Panel d: forest plot
+# Panel d: effect size, discovery (pooled) vs new cohort (pending) — two rows,
+# matching the plan's actual replication test (new/independent preparation vs
+# the discovery data), not a per-cohort breakdown of V12 vs V13.
 ax_d = fig.add_subplot(gs[1, 2:6])
-rows = []
+gd_vals_all, ve_vals_all = [], []
 for cohort in COHORT_ORDER:
     b_gd, h_gd, v_gd = DATA[cohort]["GD-CBD"]
     b_ve, h_ve, v_ve = DATA[cohort]["Vehicle"]
-    gd_vals = time_weighted_mean_pct(h_gd, pct_baseline(b_gd, v_gd))
-    ve_vals = time_weighted_mean_pct(h_ve, pct_baseline(b_ve, v_ve))
-    diff = np.mean(gd_vals) - np.mean(ve_vals)
-    se = np.sqrt(np.var(gd_vals, ddof=1) / len(gd_vals) + np.var(ve_vals, ddof=1) / len(ve_vals))
-    rows.append((cohort, diff, se, len(gd_vals), len(ve_vals)))
-rows = rows[::-1]
-y = np.arange(len(rows) + 1)
-diffs = [r[1] for r in rows]; ses = [r[2] for r in rows]
-short_name = {"V12 (Dec 2024)": "V12", "V13 (Jan 2025)": "V13"}
-labels = [f"{short_name.get(r[0], r[0])} (n={r[3]}/{r[4]})" for r in rows]
-ax_d.errorbar(diffs, y[1:], xerr=[1.96 * s for s in ses], fmt="D", color="#2E7D32", markersize=6, capsize=3, linewidth=1.5, ecolor="#555555")
-ax_d.scatter([0], [0], marker="s", s=90, facecolor="#f2f2f2", edgecolor="#9E9E9E", linewidth=1.1, zorder=3)
-ax_d.text(0, 0, "?", ha="center", va="center", fontsize=8, color="#9E9E9E", fontweight="bold")
+    gd_vals_all.extend(time_weighted_mean_pct(h_gd, pct_baseline(b_gd, v_gd)))
+    ve_vals_all.extend(time_weighted_mean_pct(h_ve, pct_baseline(b_ve, v_ve)))
+diff = np.mean(gd_vals_all) - np.mean(ve_vals_all)
+se = np.sqrt(np.var(gd_vals_all, ddof=1) / len(gd_vals_all) + np.var(ve_vals_all, ddof=1) / len(ve_vals_all))
+
+ax_d.errorbar([diff], [1], xerr=[1.96 * se], fmt="D", color="#2E7D32", markersize=7, capsize=4, linewidth=1.8, ecolor="#555555")
+ax_d.scatter([0], [0], marker="s", s=100, facecolor="#f2f2f2", edgecolor="#9E9E9E", linewidth=1.2, zorder=3)
+ax_d.text(0, 0, "?", ha="center", va="center", fontsize=9, color="#9E9E9E", fontweight="bold")
 ax_d.axvline(0, color="#999999", linewidth=1, linestyle="--")
-ax_d.set_yticks(list(y)); ax_d.set_yticklabels(["New — pending"] + labels, fontsize=8)
-ax_d.tick_params(axis="y", pad=8)
+ax_d.set_xlim(-30, 200)
+ax_d.set_ylim(-0.6, 1.6)
+ax_d.set_yticks([0, 1])
+ax_d.set_yticklabels(["New — pending", "Discovery (pooled)"], fontsize=8.5)
 ax_d.set_xlabel("GD-CBD minus vehicle, % baseline (illustrative CI)", fontsize=8)
-ax_d.set_title("Per-cohort effect", fontsize=8.5)
+ax_d.set_title(f"Discovery vs. replication  —  discovery: GD-CBD n={len(gd_vals_all)}, veh n={len(ve_vals_all)}", fontsize=8.5)
 ax_d.text(-0.2, 1.22, "d", transform=ax_d.transAxes, fontsize=13, fontweight="bold")
 
 # Panels e, f, g: boxes
