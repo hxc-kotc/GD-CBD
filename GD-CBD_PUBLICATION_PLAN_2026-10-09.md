@@ -204,6 +204,20 @@ Keep neutral until marker data are in.
 
 - **R01:** "onset within 2 h," "no sedation," flank-incision DRG labeling.
 - **Draft:** free CBD dose-response, "three cohorts," paw thickness endpoint, plantar vs flank model mismatch, female vs male sex mismatch, "established."
+- **R01's "OP-101 reduced mortality by 40%" claim, checked against the published trial:** correct only as an absolute risk difference (placebo mortality 57.1%, pooled OP-101 17.6%, Table 3). Relative reduction is larger, about 69%. If this number is repeated anywhere, specify "absolute."
+
+# Precedent: this lab's own published claims-to-evidence ratio
+
+Four Kannan-lab papers read in full (2026-10-14), ahead of the Friday presentation, specifically to check whether this plan's n, controls, and claim level are consistent with what this group has actually published and defended through peer review. All four are HD (hydroxyl dendrimer) platform except Sharma 2024, which is GD.
+
+| Paper | What it's precedent for |
+|:---|:---|
+| Sah et al. 2023, *Developmental Neuroscience* (D-2PMPA, rabbit cerebral palsy) | **No carrier-only (dendrimer-alone) control arm** — only healthy control, disease+saline, disease+drug-conjugate. Biodistribution figure reports **no n**, representative colocalization images only. Single IV dose, single 48h endpoint. |
+| Porterfield & Sharma et al. 2023, *Bioeng Transl Med* (Gal-D-NAC, mouse APAP liver failure) | Key positive efficacy arm was **n=5**, in a severe-mortality model, carrying the paper's central claim. A null result (ALT/AST, no significant difference) is reported plainly, not hidden. |
+| Gusdon et al. 2022, *Science Translational Medicine* (OP-101, Phase 2a COVID-19 trial) | **n=5-7 per arm**, explicitly states "not powered for efficacy," descriptive statistics only, "exploratory." Strongest available precedent: a human trial, same lab, published at this n with this disclosure. |
+| Sharma et al. 2024, *Bioeng Transl Med* (GD2-VPA, mouse pilocarpine seizure model) | The platform paper this combined-paper strategy depends on. Single intranasal dose, acute readout, no dose-response required to publish. |
+
+**Implication for Friday:** the GD-CBD plan's 9-rat efficacy cohort, lack of an in vivo dendrimer-only arm, and modest biodistribution claim level are not weaknesses relative to this lab's own publication record — they're consistent with it, in some respects more rigorous (the plan's biodistribution design reports n explicitly; the cerebral palsy paper's doesn't). The one place this plan should match precedent more closely and currently doesn't: **conflict-of-interest disclosure.** All three HD/GD papers above carry detailed, specific COI statements (patent numbers, Ashvattha equity, named consulting and funding arrangements). Given the pending patent (PCT/US2023/072955) already identified in this plan's literature section, the GD-CBD manuscript needs the same level of specificity, not a generic disclosure.
 
 # Risks and mitigation
 
@@ -254,3 +268,4 @@ Keep neutral until marker data are in.
 | 2026-10-09 | v3: literature check upgraded from search summaries to a cited verification pass; patent confirmed pending and broad (action item added); two adjacent public disclosures flagged (this lab's 2025 conference abstract, a competing 2025 non-dendrimer CBD nano-micelle pain paper); free-CBD dose-response reframed as a published inverted-U rather than a flat effective dose; HU-331 QC upgraded to a specific stability-indicating method | See `literature/verified_2026-10-09.md`. |
 | 2026-10-14 | v4: original cohorts identified (V12 Dec 2024, 300-350 g; V13 Jan 2025, 250-300 g; both female). Rat order placed one day late (10-14, not 10-13); all downstream in-vivo dates shifted by one day, Gate 3 now 11-14, Gate 4 now 11-28. Submission target held at 12-29 by trimming the full-draft-writing window by one day instead of pushing the whole schedule out. | User reported V12/V13 weights when placing the order. |
 | 2026-10-14 | v4 correction: "age at surgery" dropped as an open item and as a matching variable. The original cohorts were ordered by weight, not age — there was never an age record to chase. | User checked records: no age data exists for V12/V13, only weight. |
+| 2026-10-14 | v5: added "Precedent" section citing four Kannan-lab papers (full text read), confirming this plan's n, lack of in vivo carrier-only control, and biodistribution claim level match the lab's own publication record. Flagged COI disclosure as the one real gap, and checked the R01's "OP-101 reduced mortality by 40%" claim against the trial's own Table 3 (confirmed accurate as absolute risk difference, not relative). | Prep for the Friday publication-plan presentation; papers in `literature/comparator_papers/`. |
