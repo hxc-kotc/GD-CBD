@@ -5,6 +5,8 @@ subtitle: "Prepared 2026-10-14, revised to match the main plan's figure list. St
 
 Each figure cites the comparator paper (`literature/comparator_papers/`) its layout is modeled on. Built for Friday: show what's buildable now, leave literal boxes for the rest.
 
+**Each numbered figure is one composite, multi-panel page** — this is consistent across all four comparator papers (e.g. Porterfield Fig. 4 has 8 panels on one page, Sharma 2024 Fig. 11 has 7), not a separate image per chart. Mockups in `figures/mockups/` follow this: `fig4_composite.png` is the actual Figure 4 mockup (all panels a-g on one page); `fig4b/c/d_*.png` are the same content at larger size, kept as source material, not a substitute for the composite.
+
 **Numbering and figure count match `GD-CBD_PUBLICATION_PLAN_2026-10-09.md`'s "Main figures" list exactly** (chemistry, in vitro, epilepsy, pain efficacy, markers) — five main figures. Biodistribution is **not** a numbered main figure; it stays conditional per that plan's own rule ("Supplement: ... biodistribution if it passes," "omit entirely" on failure). It's included below as its own section so the panels are ready either way, but it does not get a figure number until the QC and effect size actually justify one.
 
 **If the pain cohort doesn't replicate and the paper falls back to epilepsy-led or pain-only** (per the main plan's strategy table), this figure list forks: epilepsy-led drops Figure 4 and the pain half of Figure 5; pain-only drops Figure 3 and the epilepsy half of Figure 5.
