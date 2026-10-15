@@ -21,21 +21,24 @@ from mock_helpers import panel_letter, status_tag
 
 SRC = "/home/user/gd-cbd/literature/collaborator_figures"
 
-fig = plt.figure(figsize=(14, 10))
+fig = plt.figure(figsize=(14, 6.8))
 fig.suptitle("Figure 3 — GD-CBD reduces seizure severity and improves survival after pilocarpine SE", fontsize=14, fontweight="bold", x=0.02, ha="left", y=0.99)
-fig.text(0.02, 0.965, "Source: collaborator's slides (CRS 2025), 7/2/25 draft. Colors are the collaborator's own (red=Pilo/Sal, green=Pilo/CBD, blue=Pilo/GD-CBD).",
+fig.text(0.02, 0.955, "Source: collaborator's slides (CRS 2025), 7/2/25 draft. Colors are the collaborator's own (red=Pilo/Sal, green=Pilo/CBD, blue=Pilo/GD-CBD).",
          fontsize=8.5, color="#555555", style="italic")
-gs = GridSpec(3, 12, figure=fig, hspace=0.6, wspace=0.3, top=0.91, bottom=0.13, left=0.03, right=0.98, height_ratios=[0.55, 1, 1])
+# Column spans are sized to each image's own aspect ratio (wide schematic vs. narrow
+# portrait bar charts vs. the squarer timecourse/KM panels) so panels pack tightly
+# instead of each sitting in an oversized box with empty flanking space.
+gs = GridSpec(2, 12, figure=fig, hspace=0.45, wspace=0.25, top=0.89, bottom=0.15, left=0.02, right=0.99)
 
 panels = [
-    ("s2_panel_schematic.png", gs[0, 0:12], "a"),
-    ("s3_panel1_total_duration.png", gs[1, 0:3], "b"),
-    ("s3_panel2_pct_generalized.png", gs[1, 3:6], "c"),
-    ("s3_panel3_timecourse.png", gs[1, 6:12], "d"),
-    ("s4_panel1_survival48h.png", gs[2, 0:2], "e"),
-    ("s4_panel2_km_curve.png", gs[2, 2:6], "f"),
-    ("s4_panel3_stacked_stages.png", gs[2, 6:9], "g"),
-    ("s4_panel4_stage6.png", gs[2, 9:12], "h"),
+    ("s2_panel_schematic.png", gs[0, 0:5], "a"),
+    ("s3_panel1_total_duration.png", gs[0, 5:7], "b"),
+    ("s3_panel2_pct_generalized.png", gs[0, 7:9], "c"),
+    ("s3_panel3_timecourse.png", gs[0, 9:12], "d"),
+    ("s4_panel1_survival48h.png", gs[1, 0:2], "e"),
+    ("s4_panel2_km_curve.png", gs[1, 2:6], "f"),
+    ("s4_panel3_stacked_stages.png", gs[1, 6:9], "g"),
+    ("s4_panel4_stage6.png", gs[1, 9:12], "h"),
 ]
 
 for fname, slot, letter in panels:
