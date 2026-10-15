@@ -5,7 +5,7 @@ from mock_helpers import watermark, status_tag, panel_letter, COLOR, RNG
 
 fig = plt.figure(figsize=(11, 7.5))
 fig.suptitle("Figure 5 — Inflammatory markers across indications (MOCKUP)", fontsize=14, fontweight="bold", x=0.02, ha="left", y=0.98)
-gs = GridSpec(2, 2, figure=fig, hspace=0.6, wspace=0.4, top=0.88, bottom=0.08, left=0.08, right=0.95)
+gs = GridSpec(2, 2, figure=fig, hspace=0.35, wspace=0.4, top=0.88, bottom=0.1, left=0.08, right=0.95, height_ratios=[1, 0.85])
 
 analytes = ["TNF-α", "IL-6", "IL-1β", "IL-10"]
 groups = ["Vehicle", "GD-CBD"]

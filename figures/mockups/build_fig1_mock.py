@@ -6,11 +6,11 @@ from mock_helpers import watermark, status_tag, panel_letter, RNG
 
 fig = plt.figure(figsize=(11, 8))
 fig.suptitle("Figure 1 — Chemistry and characterization of GD-CBD (MOCKUP)", fontsize=14, fontweight="bold", x=0.02, ha="left", y=0.98)
-gs = GridSpec(2, 2, figure=fig, hspace=0.5, wspace=0.35, top=0.89, bottom=0.17, left=0.08, right=0.95)
+gs = GridSpec(2, 2, figure=fig, hspace=0.35, wspace=0.35, top=0.89, bottom=0.17, left=0.08, right=0.95)
 
 # 1a: synthesis scheme - schematic diagram, not mock data (no numbers to fake)
 ax_a = fig.add_subplot(gs[0, 0])
-ax_a.set_xlim(0, 10); ax_a.set_ylim(0, 4); ax_a.axis("off")
+ax_a.set_xlim(0, 8.4); ax_a.set_ylim(0.25, 3.15); ax_a.axis("off")
 boxes = [("GD", 0.8), ("GD-linker", 3.6), ("CBD-azide", 3.6), ("GD-CBD", 7.2)]
 ys = [2.6, 2.6, 0.8, 1.7]
 labels_xy = [(0.8, 2.6), (3.6, 2.6), (3.6, 0.8), (7.2, 1.7)]

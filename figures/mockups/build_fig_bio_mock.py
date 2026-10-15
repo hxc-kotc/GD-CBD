@@ -6,7 +6,7 @@ from mock_helpers import watermark, status_tag, panel_letter, empty_box, COLOR, 
 
 fig = plt.figure(figsize=(11, 7))
 fig.suptitle("Figure 6 — Biodistribution of Cy5-GD-CBD (MOCKUP)", fontsize=13.5, fontweight="bold", x=0.02, ha="left", y=0.98)
-gs = GridSpec(2, 2, figure=fig, hspace=0.55, wspace=0.35, top=0.88, bottom=0.16, left=0.08, right=0.95)
+gs = GridSpec(2, 2, figure=fig, hspace=0.4, wspace=0.3, top=0.88, bottom=0.16, left=0.08, right=0.95)
 
 # a: schematic - real design, Have
 ax_a = fig.add_subplot(gs[0, 0])
