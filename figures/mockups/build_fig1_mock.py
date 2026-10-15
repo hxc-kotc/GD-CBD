@@ -1,30 +1,27 @@
 import numpy as np
 import matplotlib.pyplot as plt
+import matplotlib.image as mpimg
 from matplotlib.gridspec import GridSpec
 from matplotlib.patches import FancyArrow, FancyBboxPatch
 from mock_helpers import watermark, status_tag, panel_letter, RNG
 
-fig = plt.figure(figsize=(11, 8))
-fig.suptitle("Figure 1 — Chemistry and characterization of GD-CBD (MOCKUP)", fontsize=14, fontweight="bold", x=0.02, ha="left", y=0.98)
-gs = GridSpec(3, 2, figure=fig, hspace=0.45, wspace=0.35, top=0.91, bottom=0.14, left=0.08, right=0.95, height_ratios=[1, 1, 0.75])
+fig = plt.figure(figsize=(11, 9.2))
+fig.suptitle("Figure 1 — Chemistry and characterization of GD-CBD (MOCKUP)", fontsize=14, fontweight="bold", x=0.02, ha="left", y=0.985)
+gs = GridSpec(3, 2, figure=fig, hspace=0.6, wspace=0.35, top=0.92, bottom=0.14, left=0.08, right=0.95, height_ratios=[1, 1, 0.75])
 
-# 1a: synthesis scheme - schematic diagram, not mock data (no numbers to fake)
+# 1a: synthesis scheme - REAL scheme (panel c of the chemist's own synthesis figure,
+# cropped from the source image; the ketamine-conjugate panel (b) in that source figure
+# is not ours and is excluded). Two real steps: CBD + azido-PEG4-COOH -> bifunctional
+# PEG linker-CBD (in DMF); GD2-OH96 + propargyl bromide -> GD2-acetylene (4), then CuAAC
+# click of (4) with the linker-CBD to give GD-CBD (7). Real route, so status is "Have",
+# not "Box" - this is the one panel in this figure that isn't illustrative.
 ax_a = fig.add_subplot(gs[0, 0])
-ax_a.set_xlim(0, 8.4); ax_a.set_ylim(0.25, 3.15); ax_a.axis("off")
-boxes = [("GD", 0.8), ("GD-linker", 3.6), ("CBD-azide", 3.6), ("GD-CBD", 7.2)]
-ys = [2.6, 2.6, 0.8, 1.7]
-labels_xy = [(0.8, 2.6), (3.6, 2.6), (3.6, 0.8), (7.2, 1.7)]
-for (label, x), y in zip([("GD", 0.8), ("GD-linker", 3.6), ("CBD-N3", 3.6), ("GD-CBD", 7.2)], [2.6, 2.6, 0.8, 1.7]):
-    ax_a.add_patch(FancyBboxPatch((x - 0.7, y - 0.35), 1.6, 0.7, boxstyle="round,pad=0.02", edgecolor="#2E7D32", facecolor="#E8F5E9", linewidth=1.3))
-    ax_a.text(x + 0.1, y, label, ha="center", va="center", fontsize=8, fontweight="bold")
-ax_a.annotate("", xy=(2.9, 2.6), xytext=(1.5, 2.6), arrowprops=dict(arrowstyle="->", color="#555555"))
-ax_a.text(2.2, 2.85, "linker", fontsize=6.5, ha="center", color="#555555")
-ax_a.annotate("", xy=(6.5, 1.9), xytext=(4.3, 2.4), arrowprops=dict(arrowstyle="->", color="#555555"))
-ax_a.annotate("", xy=(6.5, 1.5), xytext=(4.3, 1.0), arrowprops=dict(arrowstyle="->", color="#555555"))
-ax_a.text(5.4, 2.0, "CuAAC click", fontsize=6.5, ha="center", color="#555555")
-ax_a.set_title("Synthesis scheme (schematic, route TBD by chemist)", fontsize=9)
+img_a = mpimg.imread("/home/user/gd-cbd/literature/chemistry_scheme/panel_c_GD2-CBD_clean.png")
+ax_a.imshow(img_a)
+ax_a.axis("off")
+ax_a.set_title("Synthesis scheme (real route)", fontsize=9)
 panel_letter(ax_a, "a")
-status_tag(ax_a, "Box")
+status_tag(ax_a, "Have")
 
 # 1b: physicochemical table - mock values, calibrated to Sharma 2024 (GD2-VPA): same GD
 # platform and same CuAAC click linker chemistry as GD-CBD. GD2 itself: 4.4 nm, nearly
@@ -112,14 +109,16 @@ panel_letter(ax_e, "e")
 status_tag(ax_e, "Box")
 
 fig.text(0.02, 0.01,
-         "Figure 1. Synthesis and characterization of GD-CBD. (a) Synthesis scheme: GD core to GD-linker intermediate to GD-CBD via CuAAC click conjugation with CBD-N3. "
-         "(b) Physicochemical characterization: size (DLS), zeta potential, CBD loading, HPLC purity, and molecular weight. (c) In vitro CBD release under lysosomal-mimetic "
-         "(pH 5.5) vs. plasma-mimetic (pH 7.4) conditions. (d) Stacked 1H NMR traces for CBD, the linker intermediate, and GD-CBD. (e) Hemolysis, complement activation (C3a), "
-         "and platelet activation, GD alone vs. GD-CBD, anticipating a standard nanomedicine preclinical question not otherwise in this plan. "
-         "Panel a reflects the real synthesis route; values in b/c/d/e are illustrative placeholders, not measurements. Panels b and c are scaled to Sharma 2024's GD2-VPA data "
-         "(same GD platform, same CuAAC click linker chemistry: 4.4 nm, near-neutral zeta, 6 wt% loading, 99% purity, ~80% release by day 7 at pH 5.5 vs. <6% by day 7 at pH 7.4), "
-         "not arbitrary numbers. Panel e has no comparator-paper precedent (none of the four run this assay) — scaled instead to published hydroxyl-dendrimer biocompatibility "
-         "ranges. Real data pending: Batch 4 identity (~Oct 23), release profile, spectra; panel e is not yet a planned assay — included to show the shape if added.",
+         "Figure 1. Synthesis and characterization of GD-CBD. (a) Synthesis scheme: CBD + azido-PEG4-COOH gives a bifunctional PEG linker-CBD; GD2 (OH96) + propargyl "
+         "bromide gives GD2-acetylene; CuAAC click of the two gives GD-CBD. (b) Physicochemical characterization: size (DLS), zeta potential, CBD loading, HPLC purity, and "
+         "molecular weight. (c) In vitro CBD release under lysosomal-mimetic (pH 5.5) vs. plasma-mimetic (pH 7.4) conditions. (d) Stacked 1H NMR traces for CBD, the linker "
+         "intermediate, and GD-CBD. (e) Hemolysis, complement activation (C3a), and platelet activation, GD alone vs. GD-CBD, anticipating a standard nanomedicine preclinical "
+         "question not otherwise in this plan. "
+         "Panel a is the chemist's real synthesis scheme, not a mockup. Values in b/c/d/e are illustrative placeholders, not measurements. Panels b and c are scaled to "
+         "Sharma 2024's GD2-VPA data (same GD platform, same CuAAC click linker chemistry: 4.4 nm, near-neutral zeta, 6 wt% loading, 99% purity, ~80% release by day 7 at "
+         "pH 5.5 vs. <6% by day 7 at pH 7.4), not arbitrary numbers. Panel e has no comparator-paper precedent (none of the four run this assay) — scaled instead to "
+         "published hydroxyl-dendrimer biocompatibility ranges. Real data pending: Batch 4 identity (~Oct 23), release profile, spectra; panel e is not yet a planned assay "
+         "— included to show the shape if added.",
          fontsize=7, color="#555555", wrap=True)
 plt.savefig("/home/user/gd-cbd/figures/mockups/fig1_box_layout.png", dpi=200, bbox_inches="tight")
 plt.close()

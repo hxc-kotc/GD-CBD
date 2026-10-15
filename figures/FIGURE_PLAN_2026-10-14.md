@@ -17,7 +17,7 @@ Modeled on: Porterfield & Sharma 2023 Fig. 1 + Scheme 1 (structure + physicochem
 
 | Panel | Content | Status |
 |:---|:---|:---|
-| 1a | Synthesis scheme (GD → linker → CBD click chemistry) | **Box** — need chemist's confirmed Batch 4 route |
+| 1a | Synthesis scheme: CBD + azido-PEG4-COOH → bifunctional PEG linker-CBD; GD2 (OH96) + propargyl bromide → GD2-acetylene; CuAAC click → GD-CBD. **Real scheme from the chemist** (user-supplied image, 2026-10-15), cropped from their own 3-panel figure — not a mockup | **Have** |
 | 1b | Physicochemical table (size, zeta, loading %, purity, MW) — Porterfield Fig. 1b format. **Mock values calibrated to Sharma 2024's GD2-VPA** (same GD platform, same CuAAC click linker as GD-CBD): 4.4 nm, near-neutral zeta, 6 wt% loading, 99% purity — not arbitrary placeholders | **Box** — Batch 4 identity due ~Oct 23 |
 | 1c | Release profile — **template: Sharma 2024 Fig. 10c**, two curves (lysosomal/esterase pH 5.5 vs. plasma PBS pH 7.4) over ~170h, inset zoom on early timepoints. **Mock curve shaped to that paper's own GD2-VPA numbers**: ~80% release by day 7 at pH 5.5, <6% by day 7 (minimal to 48h) at pH 7.4 — same linker chemistry, not a generic sigmoid | **Box** |
 | 1d | Representative NMR/HPLC/MALDI spectra — **template: Sharma 2024 Fig. 10a-b**, stacked traces (free CBD, intermediate, final conjugate), new peak confirming conjugation called out by arrow; single HPLC chromatograph with purity % annotated | **Box** |
