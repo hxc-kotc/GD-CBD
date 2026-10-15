@@ -34,17 +34,18 @@ No direct lab precedent for this exact panel type (none of the four comparator p
 
 # Figure 3 — Epilepsy
 
-Supplied by the collaborator (CRS 2025 speaker slides, 7/2/25 draft), pilocarpine/mecp2 model. Seven panels, a–g, cropped from two of the collaborator's own composite slide images and relettered to match this figure set's convention. Colors are the collaborator's own (red=Pilo/Sal, green=Pilo/CBD, blue=Pilo/GD-CBD), not redrawn in house palette. The collaborator says more data is still coming — this is a draft panel set, not the final n or final figure.
+Supplied by the collaborator (CRS 2025 speaker slides, 7/2/25 draft), pilocarpine/mecp2 model. Eight panels, a–h, cropped from three of the collaborator's own slide images (one schematic, two composite data images) and relettered to match this figure set's convention. Colors are the collaborator's own (red=Pilo/Sal, green=Pilo/CBD, blue=Pilo/GD-CBD), not redrawn in house palette. The collaborator says more data is still coming — this is a draft panel set, not the final n or final figure.
 
 | Panel | Content | Status |
 |:---|:---|:---|
-| 3a | % total duration seizing | **Have** |
-| 3b | % duration of generalized (stage 3-6) seizures | **Have** |
-| 3c | % duration of generalized seizures over time (15-min bins) | **Have** |
-| 3d | % survival at 48h post-SE | **Have** |
-| 3e | Kaplan-Meier probability of survival, 48h | **Have** |
-| 3f | % duration of seizure stages, stacked | **Have** |
-| 3g | % duration of stage 6 (most severe) seizure activity | **Have** |
+| 3a | Dosing and recording timeline (pilocarpine model schematic) | **Have** |
+| 3b | % total duration seizing | **Have** |
+| 3c | % duration of generalized (stage 3-6) seizures | **Have** |
+| 3d | % duration of generalized seizures over time (15-min bins) | **Have** |
+| 3e | % survival at 48h post-SE | **Have** |
+| 3f | Kaplan-Meier probability of survival, 48h | **Have** |
+| 3g | % duration of seizure stages, stacked | **Have** |
+| 3h | % duration of stage 6 (most severe) seizure activity | **Have** |
 
 # Figure 4 — Flank-incision efficacy
 

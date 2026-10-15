@@ -19,9 +19,9 @@ Caption style follows the comparator papers: one paragraph, lettered panel refer
 
 # Figure 3 — Epilepsy (collaborator's real data)
 
-**STATUS: ALL SEVEN PANELS REAL**, from the collaborator's CRS 2025 speaker slides (7/2/25 draft), pilocarpine/mecp2 model. Not the final panel set or final n — the collaborator says more data is still coming. Colors are the collaborator's own (red=Pilo/Sal, green=Pilo/CBD, blue=Pilo/GD-CBD).
+**STATUS: ALL EIGHT PANELS REAL**, from the collaborator's CRS 2025 speaker slides (7/2/25 draft), pilocarpine/mecp2 model. Not the final panel set or final n — the collaborator says more data is still coming. Colors are the collaborator's own (red=Pilo/Sal, green=Pilo/CBD, blue=Pilo/GD-CBD).
 
-> **Figure 3. Acute GD-CBD administration reduces seizure duration and severity and improves survival after pilocarpine-induced status epilepticus.** (a) Percent total duration seizing by arm (Pilo/Sal n=11-13, Pilo/CBD n=5, Pilo/GD-CBD n=7). (b) Percent duration of generalized (stage 3-6) seizures by arm. (c) Percent duration of generalized seizures over time, 15-min bins, 0-120 min. (d) Percent survival at 48h post-SE. (e) Kaplan-Meier probability of survival over 48h. (f) Percent duration of seizure stages, stacked by stage. (g) Percent duration of stage 6 (most severe) seizure activity.
+> **Figure 3. Acute GD-CBD administration reduces seizure duration and severity and improves survival after pilocarpine-induced status epilepticus.** (a) Dosing and recording timeline: methyl scopolamine, pilocarpine 30 min later, saline/CBD/GD-CBD (30 mg/kg IP) 15 min after that, 120 min video recording and scoring. (b) Percent total duration seizing by arm (Pilo/Sal n=11-13, Pilo/CBD n=5, Pilo/GD-CBD n=7). (c) Percent duration of generalized (stage 3-6) seizures by arm. (d) Percent duration of generalized seizures over time, 15-min bins, 0-120 min. (e) Percent survival at 48h post-SE. (f) Kaplan-Meier probability of survival over 48h. (g) Percent duration of seizure stages, stacked by stage. (h) Percent duration of stage 6 (most severe) seizure activity.
 
 # Figure 4 — Flank-incision efficacy
 
