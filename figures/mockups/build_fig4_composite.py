@@ -19,6 +19,7 @@ import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 from matplotlib.lines import Line2D
 from matplotlib.gridspec import GridSpec
+from mock_helpers import watermark, status_tag
 
 plt.rcParams.update({
     "font.family": "DejaVu Sans",
@@ -90,9 +91,9 @@ def box_panel(ax, title, desc, status):
     ax.text(0.91, 0.14, status, fontsize=8, fontweight="bold", ha="right", color=status_color[status])
 
 
-fig = plt.figure(figsize=(13, 6.3))
+fig = plt.figure(figsize=(13, 9.0))
 fig.suptitle("Figure 4 — Flank-incision efficacy (MOCKUP, composite page)", fontsize=14, fontweight="bold", x=0.02, ha="left", y=0.99)
-gs = GridSpec(2, 12, figure=fig, hspace=0.4, wspace=0.9, top=0.87, bottom=0.22, left=0.05, right=0.97)
+gs = GridSpec(3, 12, figure=fig, hspace=0.45, wspace=0.9, top=0.86, bottom=0.15, left=0.05, right=0.97, height_ratios=[1, 1, 0.85])
 
 # Panel a: schematic
 ax_a = fig.add_subplot(gs[0, 0:4])
@@ -114,7 +115,7 @@ ax_b.set_xlabel("Hours", fontsize=8)
 ax_b.set_ylabel("% of baseline")
 ax_b.text(-0.07, 1.2, "b", transform=ax_b.transAxes, fontsize=13, fontweight="bold")
 handles = [Line2D([0], [0], color=COLOR[a], marker="o", markersize=4, label=a) for a in ARM_ORDER]
-fig.legend(handles=handles, loc="upper right", ncol=3, frameon=False, fontsize=8, bbox_to_anchor=(0.97, 0.955))
+fig.legend(handles=handles, loc="upper right", ncol=3, frameon=False, fontsize=8, bbox_to_anchor=(0.97, 0.935))
 
 # Panel c: AUC, pooled
 ax_c = fig.add_subplot(gs[1, 0:3])
@@ -151,17 +152,52 @@ ax_f = fig.add_subplot(gs[1, 9:12])
 box_panel(ax_f, "Wound histology", "H&E + injury-marker quantification\n[template: Porterfield Fig. 6c-d]", "Box")
 ax_f.text(-0.08, 1.18, "f", transform=ax_f.transAxes, fontsize=13, fontweight="bold")
 
+# Panels g, h: anticipate predicate-literature questions (CBD-field reviewers, not just
+# this lab's own precedent) - hepatotoxicity and a locomotor/sedation confound control.
+# Neither is a planned assay yet; included so the shape exists if the terminal serum
+# turns out to be banked (g) or an open-field check gets added as a cheap bump-up (h).
+ax_g = fig.add_subplot(gs[2, 0:6])
+groups = ["Vehicle", "CBD", "GD-CBD"]
+alt = [38, 42, 40]; alt_err = [6, 7, 6]
+ast = [95, 102, 98]; ast_err = [12, 14, 11]
+xpos = np.arange(3)
+w = 0.32
+ax_g.bar(xpos - w / 2, alt, width=w, yerr=alt_err, color="#9E9E9E", capsize=3, label="ALT (U/L)", edgecolor="white")
+ax_g.bar(xpos + w / 2, ast, width=w, yerr=ast_err, color="#5B8DB8", capsize=3, label="AST (U/L)", edgecolor="white")
+ax_g.axhline(55, color="#9E9E9E", linewidth=0.8, linestyle=":")
+ax_g.axhline(130, color="#5B8DB8", linewidth=0.8, linestyle=":")
+ax_g.set_xticks(xpos); ax_g.set_xticklabels(groups, fontsize=8)
+ax_g.set_ylabel("U/L", fontsize=8)
+ax_g.legend(fontsize=7.5, frameon=False)
+watermark(ax_g, "MOCK")
+ax_g.set_title("Hepatic transaminases, terminal serum (dotted = normal range ceiling)", fontsize=8.5)
+ax_g.text(-0.08, 1.18, "g", transform=ax_g.transAxes, fontsize=13, fontweight="bold")
+status_tag(ax_g, "Box")
+
+ax_h = fig.add_subplot(gs[2, 6:12])
+dist = [48, 44, 41]; dist_err = [9, 8, 7]
+ax_h.bar(xpos, dist, width=0.5, yerr=dist_err, color=[COLOR["Vehicle"], COLOR["CBD"], COLOR["GD-CBD"]], capsize=3, edgecolor="white")
+ax_h.set_xticks(xpos); ax_h.set_xticklabels(groups, fontsize=8)
+ax_h.set_ylabel("Open-field distance (m, 10 min)", fontsize=8)
+watermark(ax_h, "MOCK")
+ax_h.set_title("Locomotor/sedation control — rules out motor confound in von Frey", fontsize=8.5)
+ax_h.text(-0.06, 1.18, "h", transform=ax_h.transAxes, fontsize=13, fontweight="bold")
+status_tag(ax_h, "Box")
+
 fig.text(0.02, 0.01,
          "Figure 4. GD-CBD efficacy in flank-incision mechanical allodynia. (a) Study design and dosing timeline. (b) Time course of 50% mechanical withdrawal "
          "threshold (von Frey), individual animals, vehicle vs. free CBD vs. GD-CBD, pooled across the discovery cohort; an independent replication cohort pools "
          "in without cohort distinction once dosed. (c) Area under the threshold-vs-time curve (time-weighted mean, % of baseline), individual animals, same "
          "pooling. (d) Responder analysis: fraction of animals recovering to >=50% of baseline threshold by arm. (e) Ropivacaine positive-control validation of "
-         "the mechanical-threshold assay. (f) Wound histology, H&E/IHC with injury-marker quantification. "
+         "the mechanical-threshold assay. (f) Wound histology, H&E/IHC with injury-marker quantification. (g) Hepatic transaminases (ALT/AST) from terminal "
+         "serum, anticipating the most common CBD-field safety question. (h) Open-field locomotor activity, ruling out a motor-confound explanation for the "
+         "von Frey result. "
          "Panels b/c use real V12+V13 data, pooled (n=4 vehicle, 3 CBD, 6 GD-CBD; simplified time-weighted-mean calculation, not the locked rank-based primary "
-         "analysis). Panels a/d/e/f are placeholders. V12 and V13 are the same preparation and are not distinguished anywhere in this figure - that detail lives "
-         "in Methods and Table S1.",
+         "analysis). Panels a/d/e/f are placeholders. Panels g/h are not yet planned assays - included to show the shape if terminal serum is banked (g) or an "
+         "open-field check is added (h). V12 and V13 are the same preparation and are not distinguished anywhere in this figure - that detail lives in Methods "
+         "and Table S1.",
          fontsize=7, color="#555555", wrap=True)
 
 plt.savefig("/home/user/gd-cbd/figures/mockups/fig4_composite.png", dpi=200, bbox_inches="tight")
 plt.close()
-print("Saved fig4_composite.png (6 panels: a-f)")
+print("Saved fig4_composite.png (8 panels: a-h)")

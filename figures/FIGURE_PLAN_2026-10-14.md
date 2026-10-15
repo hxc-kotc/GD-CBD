@@ -21,6 +21,7 @@ Modeled on: Porterfield & Sharma 2023 Fig. 1 + Scheme 1 (structure + physicochem
 | 1b | Physicochemical table (size, zeta, loading %, purity, MW) — Porterfield Fig. 1b format | **Box** — Batch 4 identity due ~Oct 23 |
 | 1c | Release profile — **template: Sharma 2024 Fig. 10c**, two curves (lysosomal/esterase pH 5.5 vs. plasma PBS pH 7.4) over ~170h, inset zoom on early timepoints | **Box** |
 | 1d | Representative NMR/HPLC/MALDI spectra — **template: Sharma 2024 Fig. 10a-b**, stacked traces (free CBD, intermediate, final conjugate), new peak confirming conjugation called out by arrow; single HPLC chromatograph with purity % annotated | **Box** |
+| 1e | Hemocompatibility/complement activation (hemolysis, C3a, platelet activation), GD alone vs. GD-CBD — anticipates a standard nanomedicine preclinical question (CARPA), not currently a planned assay | **Box**, not yet scheduled — added 2026-10-15 per "Anticipated predicate-literature questions" |
 
 # Figure 2 — In vitro activity
 
@@ -61,6 +62,8 @@ Modeled on: Porterfield Fig. 6 (timeline diagram + survival/outcome curve + hist
 | 4d | Responder analysis — **template: Sharma 2024 Fig. 11b**, compact bar chart of animal counts per outcome category (e.g., "recovered to ≥50% baseline" vs. "did not"), count fraction labeled on each bar | **Box** |
 | 4e | Ropivacaine validation | **Have** some historical (V21); **Box** for new cohort |
 | 4f | Wound histology — **template: Porterfield Fig. 6c-d**, H&E/IHC images + injury-marker quantification bar graph | **Box** |
+| 4g | Hepatic transaminases (ALT/AST), terminal serum — anticipates the most common CBD-field safety question | **Box**, conditional on whether terminal serum is banked — added 2026-10-15 |
+| 4h | Open-field locomotor activity — rules out a motor-confound explanation for the von Frey result | **Box**, not yet scheduled — added 2026-10-15 |
 
 # Figure 5 — Inflammatory markers across indications
 
