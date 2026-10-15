@@ -17,11 +17,11 @@ Caption style follows the comparator papers: one paragraph, lettered panel refer
 
 > **Figure 2. In vitro anti-inflammatory activity of GD-CBD.** (a) TNF-α release from LPS-stimulated THP-1 cells, normalized to vehicle, across vehicle, GD alone, free CBD, GD-CBD (Batch 4), and GD-CBD (Batch 1) [MOCK bar heights; real Batch 4 data due ~Oct 23 — do not cite these numbers]. Overlaid line, right axis: cell viability (%). n per group TBD. (b) CB<sub>2</sub> functional activation by free CBD vs. GD-CBD across a concentration range; curves are illustrative dose-response shapes only, not fitted EC<sub>50</sub> values from real data [MOCK — this assay may not be run]. (c) Representative stability-indicating LC-MS/UV chromatogram, CBD vs. putative HU-331 degradation product [MOCK chromatogram shape, not a real injection].
 
-# Figure 3 — Epilepsy (collaborator's figure)
+# Figure 3 — Epilepsy (collaborator's real data)
 
-**STATUS: ALL PANELS MOCK AND SPECULATIVE.** Structure guessed from Sharma 2024 Fig. 11; not confirmed by the collaborator. Collaborator's data lock due ~Nov 7 and may look nothing like this — do not present these group differences as expected results.
+**STATUS: ALL SEVEN PANELS REAL**, from the collaborator's CRS 2025 speaker slides (7/2/25 draft), pilocarpine/mecp2 model. Not the final panel set or final n — the collaborator says more data is still coming. Colors are the collaborator's own (red=Pilo/Sal, green=Pilo/CBD, blue=Pilo/GD-CBD).
 
-> **Figure 3. Effect of GD-CBD on pilocarpine-induced status epilepticus [placeholder title, pending collaborator's actual framing].** (a) Maximum seizure severity score by treatment arm (saline, free CBD, GD-CBD) [MOCK, n and stats test TBD]. (b) Outcome category by arm: no SE, SE with death, SE with survival [MOCK counts]. (c) Duration of high-grade seizure activity by arm [MOCK]. (d) Latency to first high-grade seizure by arm [MOCK]. (e) Duration of low-grade seizure activity by arm [MOCK]. (f) Inflammatory marker panel — see Figure 5b.
+> **Figure 3. Acute GD-CBD administration reduces seizure duration and severity and improves survival after pilocarpine-induced status epilepticus.** (a) Percent total duration seizing by arm (Pilo/Sal n=11-13, Pilo/CBD n=5, Pilo/GD-CBD n=7). (b) Percent duration of generalized (stage 3-6) seizures by arm. (c) Percent duration of generalized seizures over time, 15-min bins, 0-120 min. (d) Percent survival at 48h post-SE. (e) Kaplan-Meier probability of survival over 48h. (f) Percent duration of seizure stages, stacked by stage. (g) Percent duration of stage 6 (most severe) seizure activity.
 
 # Figure 4 — Flank-incision efficacy
 
