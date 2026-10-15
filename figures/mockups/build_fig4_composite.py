@@ -92,7 +92,7 @@ def box_panel(ax, title, desc, status):
 
 fig = plt.figure(figsize=(13, 6.3))
 fig.suptitle("Figure 4 — Flank-incision efficacy (MOCKUP, composite page)", fontsize=14, fontweight="bold", x=0.02, ha="left", y=0.99)
-gs = GridSpec(2, 12, figure=fig, hspace=0.75, wspace=1.1, top=0.87, bottom=0.1, left=0.05, right=0.97)
+gs = GridSpec(2, 12, figure=fig, hspace=0.75, wspace=1.1, top=0.87, bottom=0.22, left=0.05, right=0.97)
 
 # Panel a: schematic
 ax_a = fig.add_subplot(gs[0, 0:4])
@@ -152,9 +152,14 @@ box_panel(ax_f, "Wound histology", "H&E + injury-marker quantification\n[templat
 ax_f.text(-0.08, 1.18, "f", transform=ax_f.transAxes, fontsize=13, fontweight="bold")
 
 fig.text(0.02, 0.01,
-         "MOCKUP — panels b/c use real V12+V13 data, pooled (simplified time-weighted-mean calculation, not the locked rank-based primary analysis). "
-         "Panels a/d/e/f are placeholders. V12 and V13 are the same preparation and are not distinguished anywhere in this figure - that detail lives in Methods and Table S1. "
-         "The new cohort (independent preparation) pools in here once dosed; the replication finding itself is reported in text, not as a separate figure panel.",
+         "Figure 4. GD-CBD efficacy in flank-incision mechanical allodynia. (a) Study design and dosing timeline. (b) Time course of 50% mechanical withdrawal "
+         "threshold (von Frey), individual animals, vehicle vs. free CBD vs. GD-CBD, pooled across the discovery cohort; an independent replication cohort pools "
+         "in without cohort distinction once dosed. (c) Area under the threshold-vs-time curve (time-weighted mean, % of baseline), individual animals, same "
+         "pooling. (d) Responder analysis: fraction of animals recovering to >=50% of baseline threshold by arm. (e) Ropivacaine positive-control validation of "
+         "the mechanical-threshold assay. (f) Wound histology, H&E/IHC with injury-marker quantification. "
+         "Panels b/c use real V12+V13 data, pooled (n=4 vehicle, 3 CBD, 6 GD-CBD; simplified time-weighted-mean calculation, not the locked rank-based primary "
+         "analysis). Panels a/d/e/f are placeholders. V12 and V13 are the same preparation and are not distinguished anywhere in this figure - that detail lives "
+         "in Methods and Table S1.",
          fontsize=7, color="#555555", wrap=True)
 
 plt.savefig("/home/user/gd-cbd/figures/mockups/fig4_composite.png", dpi=200, bbox_inches="tight")

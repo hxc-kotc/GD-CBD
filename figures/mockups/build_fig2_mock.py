@@ -5,7 +5,7 @@ from mock_helpers import watermark, status_tag, panel_letter, COLOR, RNG
 
 fig = plt.figure(figsize=(11, 4.3))
 fig.suptitle("Figure 2 — In vitro activity (MOCKUP)", fontsize=14, fontweight="bold", x=0.02, ha="left", y=0.99)
-gs = GridSpec(1, 3, figure=fig, wspace=0.45, top=0.8, bottom=0.18, left=0.06, right=0.97)
+gs = GridSpec(1, 3, figure=fig, wspace=0.45, top=0.8, bottom=0.26, left=0.06, right=0.97)
 
 # 2a: TNF-a cytokine panel - mock bars, GD-CBD vs free CBD vs GD alone vs original batch, + viability line
 ax_a = fig.add_subplot(gs[0, 0])
@@ -59,8 +59,11 @@ panel_letter(ax_c, "c")
 status_tag(ax_c, "Box")
 
 fig.text(0.02, 0.01,
-         "MOCKUP — panel a bar heights are illustrative, not the real Batch 4 result (some prior TNF-α data exists, due ~Oct 23). "
-         "Panels b/c entirely synthetic — CB₂ assay may not happen; HU-331 chromatogram is a plausible shape only, not a real injection.",
+         "Figure 2. In vitro anti-inflammatory activity of GD-CBD. (a) TNF-α release from LPS-stimulated THP-1 cells, normalized to vehicle, across vehicle, GD alone, "
+         "free CBD, GD-CBD (Batch 4), and GD-CBD (Batch 1), with cell viability overlaid (right axis). (b) CB2 functional activation by free CBD vs. GD-CBD across a "
+         "concentration range. (c) Representative stability-indicating LC-MS/UV chromatogram, CBD vs. putative HU-331 degradation product. "
+         "Panel a bar heights are illustrative, not the real Batch 4 result (some prior TNF-α data exists, due ~Oct 23). Panels b/c are entirely synthetic — "
+         "the CB2 assay may not happen; the HU-331 chromatogram is a plausible shape only, not a real injection.",
          fontsize=7, color="#555555", wrap=True)
 plt.savefig("/home/user/gd-cbd/figures/mockups/fig2_box_layout.png", dpi=200, bbox_inches="tight")
 plt.close()

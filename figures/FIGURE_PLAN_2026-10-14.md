@@ -7,7 +7,7 @@ Each figure cites the comparator paper (`literature/comparator_papers/`) its lay
 
 **Each numbered figure is one composite, multi-panel page** — this is consistent across all four comparator papers (e.g. Porterfield Fig. 4 has 8 panels on one page, Sharma 2024 Fig. 11 has 7), not a separate image per chart. Mockups in `figures/mockups/` follow this: `fig4_composite.png` is the actual Figure 4 mockup (all panels a-g on one page); `fig4b/c/d_*.png` are the same content at larger size, kept as source material, not a substitute for the composite.
 
-**Numbering and figure count match `GD-CBD_PUBLICATION_PLAN_2026-10-09.md`'s "Main figures" list exactly** (chemistry, in vitro, epilepsy, pain efficacy, markers) — five main figures. Biodistribution is **not** a numbered main figure; it stays conditional per that plan's own rule ("Supplement: ... biodistribution if it passes," "omit entirely" on failure). It's included below as its own section so the panels are ready either way, but it does not get a figure number until the QC and effect size actually justify one.
+**Numbering and figure count match `GD-CBD_PUBLICATION_PLAN_2026-10-09.md`'s "Main figures" list** (chemistry, in vitro, epilepsy, pain efficacy, markers) — five main figures, plus biodistribution as Figure 6, built assuming the Cy5-GD-CBD dosing study succeeds (QC ~Oct 30, material ~Nov 6).
 
 **If the pain cohort doesn't replicate and the paper falls back to epilepsy-led or pain-only** (per the main plan's strategy table), this figure list forks: epilepsy-led drops Figure 4 and the pain half of Figure 5; pain-only drops Figure 3 and the epilepsy half of Figure 5.
 
@@ -65,18 +65,16 @@ Modeled on: Gusdon 2022 Fig. 5 — per-patient dot plots of marker rate-of-chang
 | 5b | Epilepsy: matched cytokine panel | **Box** — entirely dependent on collaborator's data lock |
 | 5c | Combined/side-by-side summary, two species, same analytes | **Box** |
 
-# Biodistribution — conditional, not a numbered main figure
-
-Only promoted to a main-text figure if the go/no-go QC passes and the result is strong (per the main plan's "Claims by outcome" table). If modest: one Limitations sentence, no figure. If negative/uninterpretable: omitted entirely. Panels below are prepared either way so there's no scramble if it does pass.
+# Figure 6 — Biodistribution of Cy5-GD-CBD
 
 Modeled on: Porterfield Figs. 4–5 (organ IVIS, flow cytometry % cells, confocal colocalization, organ PK bar graph); Sah 2023 Fig. 1 (Cy5 colocalization with cell markers, **no n reported** — representative images only); Sharma 2024 Figs. 5/6/8 (quantified uptake as mean fluorescence intensity, **n stated per cell/neuron**, not just per animal).
 
 | Panel | Content | Status |
 |:---|:---|:---|
-| Bio-a | Study design schematic | **Have** — design is set |
-| Bio-b | Ex vivo tissue fluorescence, ipsilateral vs contralateral, paired per animal | **Box** — Nov dosing, conditional on Cy5 QC |
-| Bio-c | Confocal colocalization, wound/DRG/cord with cell markers | **Box** |
-| Bio-d | Quantified uptake, Sharma-style (mean fluorescence intensity, n cells stated) | **Box**, conditional on whether DRG gets processed |
+| 6a | Study design schematic | **Have** — design is set |
+| 6b | Ex vivo tissue fluorescence, ipsilateral vs contralateral, paired per animal | **Box** — Nov dosing |
+| 6c | Confocal colocalization, wound/DRG/cord with cell markers | **Box** |
+| 6d | Quantified uptake, Sharma-style (mean fluorescence intensity, n cells stated) | **Box**, pending whether DRG gets processed |
 
 **Claim-level note:** Sah's biodistribution figure has no n at all. This design (n=3, paired, directional-consistency claim only) is already more rigorous than that precedent — don't let the claim creep past what the design supports just because a looser precedent exists.
 
@@ -88,7 +86,6 @@ Modeled on: Porterfield Figs. 4–5 (organ IVIS, flow cytometry % cells, confoca
 | Table S2 — batch QC | **Box** |
 | Raw NMR/HPLC/MALDI spectra | **Box** |
 | Sensitivity analyses | **Box** — analysis plan already written |
-| Biodistribution, if it doesn't earn a main figure (modest result) | Conditional, see above |
 
 # Comparator-paper cross-reference
 

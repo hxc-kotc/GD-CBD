@@ -6,7 +6,7 @@ from mock_helpers import watermark, status_tag, panel_letter, RNG
 
 fig = plt.figure(figsize=(11, 8))
 fig.suptitle("Figure 1 — Chemistry and characterization of GD-CBD (MOCKUP)", fontsize=14, fontweight="bold", x=0.02, ha="left", y=0.98)
-gs = GridSpec(2, 2, figure=fig, hspace=0.5, wspace=0.35, top=0.89, bottom=0.08, left=0.08, right=0.95)
+gs = GridSpec(2, 2, figure=fig, hspace=0.5, wspace=0.35, top=0.89, bottom=0.17, left=0.08, right=0.95)
 
 # 1a: synthesis scheme - schematic diagram, not mock data (no numbers to fake)
 ax_a = fig.add_subplot(gs[0, 0])
@@ -76,8 +76,10 @@ panel_letter(ax_d, "d")
 status_tag(ax_d, "Box")
 
 fig.text(0.02, 0.01,
-         "MOCKUP — panel a is a schematic (no numeric data to fake). Panels b/c/d show synthetic, illustrative values only — not real measurements. "
-         "Real data pending: Batch 4 identity (~Oct 23), release profile, spectra.",
+         "Figure 1. Synthesis and characterization of GD-CBD. (a) Synthesis scheme: GD core to GD-linker intermediate to GD-CBD via CuAAC click conjugation with CBD-N3. "
+         "(b) Physicochemical characterization: size (DLS), zeta potential, CBD loading, HPLC purity, and molecular weight. (c) In vitro CBD release under lysosomal-mimetic "
+         "(pH 5.5) vs. plasma-mimetic (pH 7.4) conditions. (d) Stacked 1H NMR traces for CBD, the linker intermediate, and GD-CBD. "
+         "Panel a reflects the real synthesis route; values in b/c/d are illustrative placeholders, not measurements. Real data pending: Batch 4 identity (~Oct 23), release profile, spectra.",
          fontsize=7, color="#555555", wrap=True)
 plt.savefig("/home/user/gd-cbd/figures/mockups/fig1_box_layout.png", dpi=200, bbox_inches="tight")
 plt.close()

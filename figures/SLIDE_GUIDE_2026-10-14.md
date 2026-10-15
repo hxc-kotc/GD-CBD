@@ -12,7 +12,7 @@ Short mapping of slide -> content -> figure file. Pulls directly from `GD-CBD_PU
 | 6 | Figure 3 — Epilepsy | Full box, collaborator-owned. Say what you need from them (data lock date) and what you're guessing at (the Sharma 2024-style panel structure) | `fig3_box_layout.png` |
 | 7 | Figure 4 — Pain efficacy | **The main event.** Panels b/c are real data — walk the room through them before anything else. Say the primary endpoint and success criteria out loud; this is where "did it work" gets decided in November | `fig4_composite.png` |
 | 8 | Figure 5 — Inflammatory markers | Full box both halves. 5a depends on the Nov satellite group; 5b entirely on the epilepsy collaborator | `fig5_box_layout.png` |
-| 9 | Biodistribution | Lead with "conditional, not a guaranteed figure" before anything else — this is the one place the room might assume more certainty than exists. One panel (a) is real (design is set) | `fig_bio_box_layout.png` |
+| 9 | Figure 6 — Biodistribution | Panel a (study design) is real; panels b–d are mock, built assuming the Cy5-GD-CBD dosing study (QC ~Oct 30, material ~Nov 6) succeeds | `fig6_biodistribution.png` |
 | 10 | Precedent | The four Kannan-lab papers — this is your answer to "why is n this small" or "why no carrier control" before anyone asks | — (cite `literature/comparator_papers/`) |
 | 11 | Timeline | Gates: Oct 23 (chemistry), Oct 30 (QC + sign-off), Nov 4 (surgery), Nov 14 (Gate 3 — replication decision), Nov 28 (Gate 4 — biodistribution in/out), Dec 29 (submit) | — |
 | 12 | Risks | Pull straight from the plan's risk table — COI disclosure is the one gap with no mitigation yet, flag it explicitly | — |
@@ -21,5 +21,4 @@ Short mapping of slide -> content -> figure file. Pulls directly from `GD-CBD_PU
 ## Three things to say out loud, not just show
 
 - **Figure 4 is the one slide people will actually scrutinize.** Know the primary endpoint and the two success criteria (replicated / consistent / failed) cold before you're asked.
-- **The biodistribution slide needs the "conditional" framing stated before the figure, not after** — otherwise a room that only half-listens walks away thinking it's locked in.
 - **If anyone asks whether other batches or doses were tested:** you don't have a prepared answer written into the plan right now (flagged in the risk table). Decide before Friday what you'll say if asked, rather than deciding live in the room.

@@ -35,11 +35,11 @@ Caption style follows the comparator papers: one paragraph, lettered panel refer
 
 > **Figure 5. Inflammatory marker response to GD-CBD across pain and epilepsy models.** (a) Percent change from baseline in wound/plasma TNF-α, IL-6, IL-1β, and IL-10, vehicle vs. GD-CBD, flank-incision model (n = 3/arm, 72 h satellite cohort) [MOCK]. (b) Percent change from baseline in the same four analytes, vehicle vs. GD-CBD, epilepsy model (n TBD) [MOCK]. (c) Median percent change (GD-CBD vs. vehicle) for each analyte, side by side across the two species/models [MOCK].
 
-# Biodistribution — conditional, not a numbered main figure
+# Figure 6 — Biodistribution of Cy5-GD-CBD
 
-**STATUS: Panel a is the real study design. Panels b–d are mock and conditional on Cy5 QC passing (~Oct 30) and material in hand (~Nov 6).** This whole figure is cut or reduced to one Limitations sentence if QC fails or the effect is modest — per the main plan. Caption below is written for the case it's promoted to a main figure; if it stays supplementary, drop "Figure N" numbering.
+**STATUS: Panel a is the real study design. Panels b–d are mock, built assuming the Cy5-GD-CBD dosing study succeeds (QC ~Oct 30, material in hand ~Nov 6).**
 
-> **Figure N (conditional). Tissue distribution of Cy5-labeled GD-CBD after flank-incision injury.** (a) Study design: injured animals received Cy5-GD-CBD (n = 3) or vehicle (n = 2), tissue harvested at 24 h. (b) Ex vivo fluorescence intensity, paired ipsilateral vs. contralateral tissue, per animal [MOCK]. (c) Representative confocal colocalization of Cy5 signal with a cell marker in wound/DRG/cord tissue [schematic cartoon, not real imaging — actual panel will be representative micrographs]. (d) Quantified uptake, mean fluorescence intensity per cell, vehicle vs. GD-CBD (n cells stated per Sharma 2024 convention) [MOCK].
+> **Figure 6. Tissue distribution of Cy5-GD-CBD after flank-incision injury.** (a) Study design: injured animals received Cy5-GD-CBD (n = 3) or vehicle (n = 2), tissue harvested at 24 h. (b) Ex vivo fluorescence intensity, paired ipsilateral vs. contralateral tissue, per animal [MOCK]. (c) Representative confocal colocalization of Cy5 signal with a cell marker in wound/DRG/cord tissue [schematic cartoon, not real imaging — actual panel will be representative micrographs]. (d) Quantified uptake, mean fluorescence intensity per cell, vehicle vs. GD-CBD (n cells stated per Sharma 2024 convention) [MOCK].
 
 ---
 

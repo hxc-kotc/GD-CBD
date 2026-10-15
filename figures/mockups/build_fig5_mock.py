@@ -59,7 +59,10 @@ panel_letter(ax_c, "c")
 status_tag(ax_c, "Box")
 
 fig.text(0.02, 0.015,
-         "MOCKUP — all three panels fully synthetic. Panel a depends on the Nov satellite group; panel b entirely on the epilepsy collaborator's data lock (~Nov 7).",
+         "Figure 5. Inflammatory marker response to GD-CBD across pain and epilepsy models. (a) Percent change from baseline in wound/plasma TNF-α, IL-6, IL-1β, "
+         "and IL-10, vehicle vs. GD-CBD, flank-incision model (n=3/arm, 72h satellite cohort). (b) Percent change from baseline in the same four analytes, vehicle "
+         "vs. GD-CBD, epilepsy model (n TBD). (c) Median percent change (GD-CBD vs. vehicle) for each analyte, side by side across the two models. "
+         "All three panels fully synthetic. Panel a depends on the Nov satellite group; panel b entirely on the epilepsy collaborator's data lock (~Nov 7).",
          fontsize=7, color="#555555", wrap=True)
 plt.savefig("/home/user/gd-cbd/figures/mockups/fig5_box_layout.png", dpi=200, bbox_inches="tight")
 plt.close()

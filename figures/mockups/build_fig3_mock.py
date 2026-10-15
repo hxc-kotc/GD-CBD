@@ -62,7 +62,10 @@ ax_f.text(0.5, 0.5, "Inflammatory markers\n(shared panel, see Figure 5)",
 panel_letter(ax_f, "f")
 
 fig.text(0.02, 0.015,
-         "MOCKUP — all panels fully synthetic. Structure guessed from Sharma 2024 Fig. 11; the collaborator's actual data lock is due ~Nov 7 and may look nothing like this.",
+         "Figure 3. Effect of GD-CBD on pilocarpine-induced status epilepticus [placeholder title, pending the collaborator's framing]. (a) Maximum seizure severity "
+         "score by arm. (b) Outcome category by arm: no SE, SE with death, SE with survival. (c) Duration of high-grade seizure activity by arm. "
+         "(d) Latency to first high-grade seizure by arm. (e) Duration of low-grade seizure activity by arm. (f) Inflammatory marker panel — see Figure 5b. "
+         "All panels fully synthetic. Structure guessed from Sharma 2024 Fig. 11; the collaborator's actual data lock is due ~Nov 7 and may look nothing like this.",
          fontsize=7, color="#555555", wrap=True)
 plt.savefig("/home/user/gd-cbd/figures/mockups/fig3_box_layout.png", dpi=200, bbox_inches="tight")
 plt.close()
