@@ -92,7 +92,7 @@ def box_panel(ax, title, desc, status):
 
 fig = plt.figure(figsize=(13, 6.3))
 fig.suptitle("Figure 4 — Flank-incision efficacy (MOCKUP, composite page)", fontsize=14, fontweight="bold", x=0.02, ha="left", y=0.99)
-gs = GridSpec(2, 12, figure=fig, hspace=0.75, wspace=1.1, top=0.87, bottom=0.22, left=0.05, right=0.97)
+gs = GridSpec(2, 12, figure=fig, hspace=0.4, wspace=0.9, top=0.87, bottom=0.22, left=0.05, right=0.97)
 
 # Panel a: schematic
 ax_a = fig.add_subplot(gs[0, 0:4])
