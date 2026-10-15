@@ -100,34 +100,36 @@ ax_a = fig.add_subplot(gs[0, 0:4])
 box_panel(ax_a, "Study design / timeline", "Surgery -> single IP dose -> daily von Frey to 168h -> ropivacaine", "Have")
 ax_a.text(-0.08, 1.15, "a", transform=ax_a.transAxes, fontsize=13, fontweight="bold")
 
-# Panel b: time course, pooled, mean +/- SEM per arm per time bin - matches the
-# collaborator's own timecourse convention (Figure 3b: group mean+error bars across
-# time bins, not individual-animal spaghetti lines), not the earlier per-animal version.
-# V12 and V13 each sample 9 timepoints at closely matching bin positions (e.g. ~2-4h,
-# ~22-24h, ~45-48h...), so pooling by bin index across cohorts/animals is well-defined
-# and draws no cohort distinction, same as before. No significance brackets are drawn -
-# this is real pooled data but a simplified calculation (caption says so), not the
-# locked rank-based primary analysis, so no p-values exist yet to annotate honestly.
+# Panel b: time course, pooled, mean +/- SEM per arm, binned into 24h chunks on the
+# x-axis - matches the collaborator's own timecourse convention (Figure 3b: group
+# mean+error bars across discrete time bins, not individual-animal spaghetti lines or a
+# continuous-hours axis). V12 and V13 sample at slightly different raw hours (e.g. 23.5
+# vs 22, 100 vs 92), so binning by floor(hour/24) - not by matching index position -
+# pools both cohorts into the same 24h-wide window regardless of the exact hour each was
+# actually read, which is the more honest way to combine two cohorts with offset
+# schedules. No significance brackets are drawn - this is real pooled data but a
+# simplified calculation (caption says so), not the locked rank-based primary analysis,
+# so there's no p-value yet to annotate honestly.
 ax_b = fig.add_subplot(gs[0, 4:12])
-n_bins = 9
+n_chunks = 8  # 0-24, 24-48, ..., 168-192
 for arm in ARM_ORDER:
-    bin_hours = [[] for _ in range(n_bins)]
-    bin_vals = [[] for _ in range(n_bins)]
+    chunk_vals = [[] for _ in range(n_chunks)]
     for cohort in COHORTS:
         if arm not in cohort:
             continue
         baselines, hours, values = cohort[arm]
         for animal in pct_baseline(baselines, values):
-            for i in range(n_bins):
-                bin_hours[i].append(hours[i])
-                bin_vals[i].append(animal[i])
-    mean_h = [np.mean(h) for h in bin_hours]
-    mean_v = [np.mean(v) for v in bin_vals]
-    sem_v = [np.std(v, ddof=1) / np.sqrt(len(v)) for v in bin_vals]
-    ax_b.errorbar(mean_h, mean_v, yerr=sem_v, color=COLOR[arm], linewidth=1.8, marker="o",
+            for h, v in zip(hours, animal):
+                chunk_vals[int(h // 24)].append(v)
+    xpos = [i for i in range(n_chunks) if chunk_vals[i]]
+    mean_v = [np.mean(chunk_vals[i]) for i in xpos]
+    sem_v = [np.std(chunk_vals[i], ddof=1) / np.sqrt(len(chunk_vals[i])) if len(chunk_vals[i]) > 1 else 0 for i in xpos]
+    ax_b.errorbar(xpos, mean_v, yerr=sem_v, color=COLOR[arm], linewidth=1.8, marker="o",
                   markersize=4.5, capsize=3, elinewidth=1, label=arm)
 ax_b.axhline(100, color="#bbbbbb", linewidth=0.7, linestyle=":")
 ax_b.set_title("GD-CBD 3 mg/kg vs. free CBD vs. vehicle — mean ± SEM", fontsize=9)
+ax_b.set_xticks(range(n_chunks))
+ax_b.set_xticklabels([f"{24*i}-{24*(i+1)}" for i in range(n_chunks)], fontsize=7)
 ax_b.set_xlabel("Hours", fontsize=8)
 ax_b.set_ylabel("% of baseline")
 ax_b.text(-0.07, 1.2, "b", transform=ax_b.transAxes, fontsize=13, fontweight="bold")
@@ -208,7 +210,7 @@ status_tag(ax_h, "Box")
 
 fig.text(0.02, 0.01,
          "Figure 4. GD-CBD efficacy in flank-incision mechanical allodynia. (a) Study design and dosing timeline. (b) Time course of 50% mechanical withdrawal "
-         "threshold (von Frey), mean ± SEM per arm by time bin, vehicle vs. free CBD vs. GD-CBD, pooled across the discovery cohort; an independent replication "
+         "threshold (von Frey), mean ± SEM per arm in 24h bins, vehicle vs. free CBD vs. GD-CBD, pooled across the discovery cohort; an independent replication "
          "cohort pools in without cohort distinction once dosed. (c) Area under the threshold-vs-time curve (time-weighted mean, % of baseline), individual animals, same "
          "pooling. (d) Responder analysis: fraction of animals recovering to >=50% of baseline threshold by arm. (e) Ropivacaine positive-control validation of "
          "the mechanical-threshold assay. (f) Wound histology, H&E/IHC with injury-marker quantification. (g) Hepatic transaminases (ALT/AST) from terminal "

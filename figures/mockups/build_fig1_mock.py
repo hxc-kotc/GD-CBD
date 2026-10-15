@@ -54,6 +54,7 @@ lyso = 80 / (1 + np.exp(-(t - 55) / 22)) + RNG.normal(0, 2, len(t))
 plasma = 5.5 * (1 - np.exp(-t / 130)) + RNG.normal(0, 0.4, len(t))
 ax_c.plot(t, lyso, color="#2E7D32", linewidth=1.8, label="Lysosomal (pH 5.5)")
 ax_c.plot(t, plasma, color="#757575", linewidth=1.8, label="Plasma (pH 7.4)")
+ax_c.set_xticks(range(0, 169, 24))  # 24h chunks, consistent with the other long time-series panels
 ax_c.set_xlabel("Hours", fontsize=8); ax_c.set_ylabel("% CBD released", fontsize=8)
 ax_c.legend(fontsize=7, frameon=False)
 watermark(ax_c)
