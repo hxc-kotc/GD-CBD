@@ -62,8 +62,10 @@ fig.text(0.02, 0.01,
          "Figure 2. In vitro anti-inflammatory activity of GD-CBD. (a) TNF-α release from LPS-stimulated THP-1 cells, normalized to vehicle, across vehicle, GD alone, "
          "free CBD, GD-CBD (Batch 4), and GD-CBD (Batch 1), with cell viability overlaid (right axis). (b) CB2 functional activation by free CBD vs. GD-CBD across a "
          "concentration range. (c) Representative stability-indicating LC-MS/UV chromatogram, CBD vs. putative HU-331 degradation product. "
-         "Panel a bar heights are illustrative, not the real Batch 4 result (some prior TNF-α data exists, due ~Oct 23). Panels b/c are entirely synthetic — "
-         "the CB2 assay may not happen; the HU-331 chromatogram is a plausible shape only, not a real injection.",
+         "Panel a bar heights are illustrative, not the real Batch 4 result (some prior TNF-α data exists, due ~Oct 23); the free-CBD vs. vehicle direction follows published "
+         "CBD/LPS-macrophage data, and GD-CBD's greater potency reflects the activated-macrophage preferential dendrimer uptake seen in Gusdon 2022. Panel b's free-CBD EC50 "
+         "(0.3 µM) is in range for published CB2 potency for CBD (~0.3-4 µM across assays, inverse-agonist pharmacology); GD-CBD's right-shifted curve is illustrative only — "
+         "the assay may not happen. Panel c's HU-331 chromatogram is a plausible shape only, not a real injection.",
          fontsize=7, color="#555555", wrap=True)
 plt.savefig("/home/user/gd-cbd/figures/mockups/fig2_box_layout.png", dpi=200, bbox_inches="tight")
 plt.close()

@@ -18,10 +18,10 @@ Modeled on: Porterfield & Sharma 2023 Fig. 1 + Scheme 1 (structure + physicochem
 | Panel | Content | Status |
 |:---|:---|:---|
 | 1a | Synthesis scheme (GD → linker → CBD click chemistry) | **Box** — need chemist's confirmed Batch 4 route |
-| 1b | Physicochemical table (size, zeta, loading %, purity, MW) — Porterfield Fig. 1b format | **Box** — Batch 4 identity due ~Oct 23 |
-| 1c | Release profile — **template: Sharma 2024 Fig. 10c**, two curves (lysosomal/esterase pH 5.5 vs. plasma PBS pH 7.4) over ~170h, inset zoom on early timepoints | **Box** |
+| 1b | Physicochemical table (size, zeta, loading %, purity, MW) — Porterfield Fig. 1b format. **Mock values calibrated to Sharma 2024's GD2-VPA** (same GD platform, same CuAAC click linker as GD-CBD): 4.4 nm, near-neutral zeta, 6 wt% loading, 99% purity — not arbitrary placeholders | **Box** — Batch 4 identity due ~Oct 23 |
+| 1c | Release profile — **template: Sharma 2024 Fig. 10c**, two curves (lysosomal/esterase pH 5.5 vs. plasma PBS pH 7.4) over ~170h, inset zoom on early timepoints. **Mock curve shaped to that paper's own GD2-VPA numbers**: ~80% release by day 7 at pH 5.5, <6% by day 7 (minimal to 48h) at pH 7.4 — same linker chemistry, not a generic sigmoid | **Box** |
 | 1d | Representative NMR/HPLC/MALDI spectra — **template: Sharma 2024 Fig. 10a-b**, stacked traces (free CBD, intermediate, final conjugate), new peak confirming conjugation called out by arrow; single HPLC chromatograph with purity % annotated | **Box** |
-| 1e | Hemocompatibility/complement activation (hemolysis, C3a, platelet activation), GD alone vs. GD-CBD — anticipates a standard nanomedicine preclinical question (CARPA), not currently a planned assay | **Box**, not yet scheduled — added 2026-10-15 per "Anticipated predicate-literature questions" |
+| 1e | Hemocompatibility/complement activation (hemolysis, C3a, platelet activation), GD alone vs. GD-CBD — anticipates a standard nanomedicine preclinical question (CARPA), not currently a planned assay. **No comparator paper runs this assay**; mock values set to published hydroxyl-dendrimer biocompatibility ranges instead, not paper-specific | **Box**, not yet scheduled — added 2026-10-15 per "Anticipated predicate-literature questions" |
 
 # Figure 2 — In vitro activity
 
@@ -29,8 +29,8 @@ No direct lab precedent for this exact panel type (none of the four comparator p
 
 | Panel | Content | Status |
 |:---|:---|:---|
-| 2a | TNF-α/cytokine panel: GD-CBD vs free CBD vs GD alone vs original batch, viability overlay | **Partial** — some prior TNF-α data exists per batch notes; new-batch panel due ~Oct 23 |
-| 2b | CB<sub>1</sub>/CB<sub>2</sub> binding or functional assay | **Box** — open item, may not exist |
+| 2a | TNF-α/cytokine panel: GD-CBD vs free CBD vs GD alone vs original batch, viability overlay. **Direction grounded in published free-CBD/LPS-macrophage data**; GD-CBD's greater mock potency reflects the activated-macrophage preferential dendrimer uptake mechanism reported in Gusdon 2022, not an arbitrary assumption | **Partial** — some prior TNF-α data exists per batch notes; new-batch panel due ~Oct 23 |
+| 2b | CB<sub>1</sub>/CB<sub>2</sub> binding or functional assay. **Free-CBD mock EC<sub>50</sub> (0.3 µM) set within the published CB<sub>2</sub> potency range for CBD** (~0.3-4 µM across assays) | **Box** — open item, may not exist |
 | 2c | HU-331 stability-indicating chromatogram (likely supplement) | **Box** |
 
 # Figure 3 — Epilepsy
