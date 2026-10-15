@@ -156,6 +156,11 @@ ax_f.text(-0.08, 1.18, "f", transform=ax_f.transAxes, fontsize=13, fontweight="b
 # this lab's own precedent) - hepatotoxicity and a locomotor/sedation confound control.
 # Neither is a planned assay yet; included so the shape exists if the terminal serum
 # turns out to be banked (g) or an open-field check gets added as a cheap bump-up (h).
+# Flat/normal values in both panels are literature-grounded, not a reassuring default:
+# published acute rodent CBD hepatotoxicity only appears at >=738 mg/kg (our dose, 30
+# mg/kg, is ~25x below that), and published locomotor suppression only emerges at
+# >=100 mg/kg acute or with chronic (6-week) 20 mg/kg dosing; a single 3-30 mg/kg acute
+# dose is below both thresholds.
 ax_g = fig.add_subplot(gs[2, 0:6])
 groups = ["Vehicle", "CBD", "GD-CBD"]
 alt = [38, 42, 40]; alt_err = [6, 7, 6]
@@ -194,8 +199,9 @@ fig.text(0.02, 0.01,
          "von Frey result. "
          "Panels b/c use real V12+V13 data, pooled (n=4 vehicle, 3 CBD, 6 GD-CBD; simplified time-weighted-mean calculation, not the locked rank-based primary "
          "analysis). Panels a/d/e/f are placeholders. Panels g/h are not yet planned assays - included to show the shape if terminal serum is banked (g) or an "
-         "open-field check is added (h). V12 and V13 are the same preparation and are not distinguished anywhere in this figure - that detail lives in Methods "
-         "and Table S1.",
+         "open-field check is added (h). The flat/normal shape in both is literature-grounded, not assumed: published acute rodent CBD hepatotoxicity needs "
+         ">=738 mg/kg (our dose is ~25x below that) and published locomotor suppression needs >=100 mg/kg acute or chronic 20 mg/kg dosing; a single 3-30 mg/kg "
+         "dose is below both. V12 and V13 are the same preparation and are not distinguished anywhere in this figure - that detail lives in Methods and Table S1.",
          fontsize=7, color="#555555", wrap=True)
 
 plt.savefig("/home/user/gd-cbd/figures/mockups/fig4_composite.png", dpi=200, bbox_inches="tight")

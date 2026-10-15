@@ -12,12 +12,21 @@ groups = ["Vehicle", "GD-CBD"]
 group_colors = ["#111111", COLOR["GD-CBD"]]
 
 
+# Real CBD in vivo cytokine literature is mixed, not uniformly clean - one rat pain
+# model found CBD *increased* IL-6 while decreasing IL-1beta/IL-10/IFN-gamma. GD-CBD's
+# mock direction below follows that pattern (TNF-a/IL-1b down, consistently reported;
+# IL-6 up, not down; IL-10 ambiguous) rather than making all four analytes improve, which
+# would overstate how clean these panels usually look.
+GD_CBD_BASE = {"TNF-α": -15, "IL-6": +10, "IL-1β": -15, "IL-10": None}  # None = ambiguous, random
+
+
 def dotplot(ax, title, species_n):
     xpos = np.arange(len(analytes))
     width = 0.3
     for gi, g in enumerate(groups):
         for ai, a in enumerate(analytes):
-            base = -15 if g == "GD-CBD" and ai in (0, 2) else RNG.uniform(-5, 15)
+            forced = GD_CBD_BASE[a] if g == "GD-CBD" else None
+            base = forced if forced is not None else RNG.uniform(-5, 15)
             vals = RNG.normal(base, 8, species_n)
             xs = xpos[ai] + (gi - 0.5) * width + RNG.uniform(-0.05, 0.05, species_n)
             ax.scatter(xs, vals, color=group_colors[gi], s=22, alpha=0.85,
@@ -44,8 +53,8 @@ status_tag(ax_b, "Box")
 
 ax_c = fig.add_subplot(gs[1, :])
 xpos = np.arange(len(analytes))
-pain_effect = [-32, -18, -25, 12]
-epi_effect = [-28, -22, -19, 9]
+pain_effect = [-32, 11, -25, 12]
+epi_effect = [-28, 14, -19, 9]
 w = 0.32
 ax_c.bar(xpos - w / 2, pain_effect, width=w, color="#2E7D32", alpha=0.85, label="Pain (rat)")
 ax_c.bar(xpos + w / 2, epi_effect, width=w, color="#5B8DB8", alpha=0.85, label="Epilepsy (mouse)")
@@ -62,7 +71,9 @@ fig.text(0.02, 0.015,
          "Figure 5. Inflammatory marker response to GD-CBD across pain and epilepsy models. (a) Percent change from baseline in wound/plasma TNF-α, IL-6, IL-1β, "
          "and IL-10, vehicle vs. GD-CBD, flank-incision model (n=3/arm, 72h satellite cohort). (b) Percent change from baseline in the same four analytes, vehicle "
          "vs. GD-CBD, epilepsy model (n TBD). (c) Median percent change (GD-CBD vs. vehicle) for each analyte, side by side across the two models. "
-         "All three panels fully synthetic. Panel a depends on the Nov satellite group; panel b entirely on the epilepsy collaborator's data lock (~Nov 7).",
+         "All three panels fully synthetic. Panel a depends on the Nov satellite group; panel b entirely on the epilepsy collaborator's data lock (~Nov 7). "
+         "GD-CBD's direction per analyte (TNF-α/IL-1β down, IL-6 up, IL-10 ambiguous) follows a real rat pain-model finding that CBD increased IL-6 while "
+         "decreasing IL-1β/IL-10/IFN-γ, rather than assuming every marker improves together.",
          fontsize=7, color="#555555", wrap=True)
 plt.savefig("/home/user/gd-cbd/figures/mockups/fig5_box_layout.png", dpi=200, bbox_inches="tight")
 plt.close()

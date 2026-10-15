@@ -62,8 +62,8 @@ Modeled on: Porterfield Fig. 6 (timeline diagram + survival/outcome curve + hist
 | 4d | Responder analysis — **template: Sharma 2024 Fig. 11b**, compact bar chart of animal counts per outcome category (e.g., "recovered to ≥50% baseline" vs. "did not"), count fraction labeled on each bar | **Box** |
 | 4e | Ropivacaine validation | **Have** some historical (V21); **Box** for new cohort |
 | 4f | Wound histology — **template: Porterfield Fig. 6c-d**, H&E/IHC images + injury-marker quantification bar graph | **Box** |
-| 4g | Hepatic transaminases (ALT/AST), terminal serum — anticipates the most common CBD-field safety question | **Box**, conditional on whether terminal serum is banked — added 2026-10-15 |
-| 4h | Open-field locomotor activity — rules out a motor-confound explanation for the von Frey result | **Box**, not yet scheduled — added 2026-10-15 |
+| 4g | Hepatic transaminases (ALT/AST), terminal serum — anticipates the most common CBD-field safety question. **Flat/normal mock shape is literature-grounded**: published acute rodent CBD hepatotoxicity needs ≥738 mg/kg, ~25x above this cohort's dose | **Box**, conditional on whether terminal serum is banked — added 2026-10-15 |
+| 4h | Open-field locomotor activity — rules out a motor-confound explanation for the von Frey result. **Mild non-significant mock decline is literature-grounded**: published locomotor suppression needs ≥100 mg/kg acute or chronic 20 mg/kg, well above this cohort's dose | **Box**, not yet scheduled — added 2026-10-15 |
 
 # Figure 5 — Inflammatory markers across indications
 
@@ -71,8 +71,8 @@ Modeled on: Gusdon 2022 Fig. 5 — per-patient dot plots of marker rate-of-chang
 
 | Panel | Content | Status |
 |:---|:---|:---|
-| 5a | Pain: wound/plasma cytokine panel, per-animal dots by arm | **Box** |
-| 5b | Epilepsy: matched cytokine panel | **Box** — entirely dependent on collaborator's data lock |
+| 5a | Pain: wound/plasma cytokine panel, per-animal dots by arm. **Mock direction per analyte follows a real rat pain-model finding** (CBD increased IL-6 while decreasing IL-1β/IL-10/IFN-γ), not a uniform "every marker improves" assumption | **Box** |
+| 5b | Epilepsy: matched cytokine panel. Same mixed-direction convention as 5a | **Box** — entirely dependent on collaborator's data lock |
 | 5c | Combined/side-by-side summary, two species, same analytes | **Box** |
 
 # Figure 6 — Biodistribution of Cy5-GD-CBD
@@ -82,7 +82,7 @@ Modeled on: Porterfield Figs. 4–5 (organ IVIS, flow cytometry % cells, confoca
 | Panel | Content | Status |
 |:---|:---|:---|
 | 6a | Study design schematic | **Have** — design is set |
-| 6b | Ex vivo tissue fluorescence, ipsilateral vs contralateral, paired per animal | **Box** — Nov dosing |
+| 6b | Ex vivo tissue fluorescence, ipsilateral vs contralateral, paired per animal. **Mock ~6x ipsi/contra ratio grounded**, not arbitrary — set below this platform's own reported 8-14x (IV dendrimer vs. contralateral brain, same activated-cell targeting mechanism), since no local-injection precedent exists for this route | **Box** — Nov dosing |
 | 6c | Confocal colocalization, wound/DRG/cord with cell markers | **Box** |
 | 6d | Quantified uptake, Sharma-style (mean fluorescence intensity, n cells stated) | **Box**, pending whether DRG gets processed |
 

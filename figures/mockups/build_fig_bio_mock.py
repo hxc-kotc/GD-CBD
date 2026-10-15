@@ -14,9 +14,14 @@ empty_box(ax_a, "Study design", "Injured + Cy5-GD-CBD (n=3, 24h) vs injured + ve
 panel_letter(ax_a, "a")
 
 # b: tissue fluorescence, ipsi vs contra - mock, paired lines
+# Ipsi/contra ratio set to ~6x, not the platform's own reported 8-14x (IV dendrimer vs.
+# contralateral brain tissue in a tumor model, same activated-cell targeting mechanism
+# this lab has described for GD-type dendrimers) - no direct precedent exists for local
+# IP injection near an incision, so this sits deliberately below that IV/CNS number
+# rather than importing it wholesale, while still well above the previous ~4x guess.
 ax_b = fig.add_subplot(gs[0, 1])
 n = 3
-ipsi = RNG.normal(850, 150, n)
+ipsi = RNG.normal(1300, 200, n)
 contra = RNG.normal(220, 60, n)
 for i in range(n):
     ax_b.plot([0, 1], [contra[i], ipsi[i]], color="#999999", linewidth=1, zorder=1)
@@ -63,7 +68,8 @@ fig.text(0.02, 0.015,
          "tissue harvested at 24h. (b) Ex vivo fluorescence intensity, paired ipsilateral vs. contralateral tissue, per animal. (c) Representative confocal "
          "colocalization of Cy5 signal with a cell marker in wound/DRG/cord tissue. (d) Quantified uptake, mean fluorescence intensity per cell, vehicle vs. "
          "GD-CBD. Panel a reflects the real design and dosing. Panels b/c/d are illustrative placeholders pending the Cy5 dosing study (~Oct 30 QC, ~Nov 6 "
-         "material in hand); panel c is a schematic cartoon, not a micrograph.",
+         "material in hand); panel c is a schematic cartoon, not a micrograph. Panel b's ~6x ipsi/contra ratio is set below this platform's own reported "
+         "8-14x (IV dendrimer vs. contralateral brain, same activated-cell targeting mechanism) since no local-injection precedent exists for this route.",
          fontsize=7, color="#555555", wrap=True)
 plt.savefig("/home/user/gd-cbd/figures/mockups/fig6_biodistribution.png", dpi=200, bbox_inches="tight")
 plt.close()
