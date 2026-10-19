@@ -13,6 +13,7 @@ Spencer presented a GD-CBD figure/publication plan to Kannan, Sujatha, and the l
 - **Formulation is the lead value, not a side note.** Kannan: "dendrimer conjugation significantly improves the formulation... we often don't do this for other drugs," don't underplay it. Sujatha: this is what the medical community will be most excited by. **This has no figure in our current 6-figure plan at all.** See §3.
 - **Pain cohort target: n=9** (currently 6, i.e. our pooled GD-CBD arm n=6 — matches the slide's "N of 6 now... shooting for 9"). Consistent with what we already show; just confirms the replication-cohort target isn't arbitrary.
 - **No staged preprints.** Settled against. Not relevant to figures, but worth a line in the plan if preprint strategy is ever mentioned there.
+- **Submission timeline gap, not yet reflected in the plan.** Kannan wants submission within about a month; this repo's plan targets 2026-12-29 (Gate 3 at 11-14, full draft/review/revise cycle 11-28 through 12-29 — itself about as long as the deadline Kannan wants). Spencer's own words in the room: "stretching it to get there." Real, acknowledged tension, not something to silently resolve — add a Risks row naming it.
 - **Safety arm: genuinely open, not settled** — the live discussion rejected one specific design (a dose-matched *conjugate* tox study — too much scarce material) but the slide deck's own Figure 6 proposes a different, cheaper design that's still an open question ("Worthwhile?"). See §4.
 
 # 2. Figure structure: real plan vs. this repo's current plan
@@ -54,6 +55,8 @@ We already built ALT/AST and open-field locomotor panels (4g/4h in the current F
 | Status | Box, framed as "literature-grounded, not yet planned" | **Explicitly open** — "Worthwhile? vs Oral? Liver histology? Chronic?" — not committed either way |
 
 **Recommendation:** don't just relabel what exists — rebuild this as its own candidate Figure 6 matching the real proposed design (different dose, route, animals, and readouts), explicitly marked as reflecting the PI's own proposed design rather than our predicate-literature anticipation. Keep "Worthwhile?" as an open question in the caption rather than presenting it as decided, since the group hasn't decided it. This is a bigger rebuild than a caption edit — recommend confirming before building.
+
+Worth noting the live discussion (notes §2.4) and the slide's own Figure 6 pull in different directions: the room explicitly declined to spend scarce *conjugate* on a dose-matched tox study ("that would use up the good conjugate"), and the agreed fallback was a Discussion-only safety argument (cite GD-Ket precedent), not a figure. The slide's Figure 6 sidesteps that objection by using free CBD at literature doses in healthy animals — no conjugate spent — which is probably why it's still open rather than dropped. Three options once you decide whether to build it: (a) build it as its own main figure, (b) build it but keep it Supplement-only ("if a reviewer asks" material, not signaling a safety arm to anyone skimming the figure list), or (c) skip the figure and keep safety to the Discussion paragraph as originally agreed. Your call, not a default to pick silently.
 
 # 5. Figure 5 (cytokine/inflammatory markers): likely cut
 
