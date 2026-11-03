@@ -1,0 +1,1449 @@
+Kannan / Speaker A: Yeah. Right? Yeah. Okay, maybe it'll be good to show that it's not changing its profile. Sure.
+
+Durgadas / Speaker B: Next week we are just repeating the CB2 binding with more points because now the curve is like a— So,
+
+Kannan / Speaker A: it's more CB2. CB2. So, then if you're doing microglial cells, then you're saying it's a CB2 agonist. LPS increases CB2. Who's doing the cell studies?
+
+Durgadas / Speaker B: Me then. So, we just look at very high concentration CBD. required to suppress the inflammation, that is what we want.
+
+Kannan / Speaker A: Very high concentration of GD, CBD.
+
+Durgadas / Speaker B: Yeah, both, even pure drug also.
+
+Kannan / Speaker A: GD, how much do you need?
+
+Durgadas / Speaker B: GD we need to use up to— the lowest one was 0.5 millimolar. Do you have that data here?
+
+Spencer / Speaker C: I do not know if I have that.
+
+Kannan / Speaker A: You have the data here, show that.
+
+Spencer / Speaker C: I have it deep in here.
+
+Durgadas / Speaker B: The one Milan sent you.
+
+Kannan / Speaker A: Okay. Oh, you have all of this. Okay. Oh, this is all right.
+
+Spencer / Speaker C: Okay, let's go.
+
+Kannan / Speaker A: Okay. We have SFN coming up, right guys? You're all presenting there, so.
+
+Spencer / Speaker C: Is this— oh, this— yeah, it would—
+
+Preeti / Speaker D: This is mock data.
+
+Spencer / Speaker C: Yeah, this is all— it was helping me generate how the figures would be shaped. I might have it—
+
+Kannan / Speaker A: Okay, those graphs are ugly, okay? You're not going to make those.
+
+Spencer / Speaker C: I agree, that's why I didn't show it.
+
+Kannan / Speaker A: Yeah.
+
+Spencer / Speaker C: Yeah. Yeah, Kunal and I put these together and then we looked at them and we thought—
+
+Kannan / Speaker A: It's very—
+
+Spencer / Speaker C: We'll just talk through them. Yeah.
+
+Kannan / Speaker A: Let's actually— I want to focus a bit on how the images are looking. We need to have good-looking images.
+
+Spencer / Speaker C: Yeah.
+
+Kannan / Speaker A: Okay. And I know I told Preeti this, Lin Peng's papers—
+
+Preeti / Speaker D: Yeah, I can share that paper with you.
+
+Spencer / Speaker C: Okay.
+
+Kannan / Speaker A: Her papers are the model to look at for how figures should look.
+
+Spencer / Speaker C: What is— like, what, is she in the same space, like pain space?
+
+Kannan / Speaker A: Not pain, nanomedicine dendrimer, different dendrimers, but it doesn't matter whether it's pain space or not. You're not looking at the— it's only to see how the pictures are going to look. They're not going to look like Excel graphs.
+
+Durgadas / Speaker B: Yeah, we had to use up to 0.5 millimolar to get there. 0.5 millimolar.
+
+Kannan / Speaker A: Okay, LPS control. You're not bringing it down to control levels until you use 10 millimolar of GD?
+
+Durgadas / Speaker B: GD-CB.
+
+Preeti / Speaker D: Millimolar, but why are we using this big—
+
+Durgadas / Speaker B: Because—
+
+Kannan / Speaker A: Can you tell me what is a milligram per mL or microgram per mL?
+
+Durgadas / Speaker B: So 10 millimolar is—
+
+Kannan / Speaker A: On a drug basis.
+
+Durgadas / Speaker B: Okay, 10 millimolar is 3.4 milligrams per mL. 3.4 milligrams per mL.
+
+Kannan / Speaker A: Of dendro— not dendro— of drug. Drug. 3.4, okay. I think we do— we have been doing for NAC and all that, what did we do? 10— no, that is the 10.
+
+Preeti / Speaker D: So, you can—
+
+Kannan / Speaker A: What were we doing for NAC?
+
+Durgadas / Speaker B: 3.1 milligram, this is 3.1 milligram per mL, the 10 milligram.
+
+Kannan / Speaker A: That is 10—
+
+Durgadas / Speaker B: Yeah, the highest one is 3.1 milligram per mL.
+
+Kannan / Speaker A: Milligram per mL.
+
+Durgadas / Speaker B: And this will be half, like 1.5 milligram per mL.
+
+Kannan / Speaker A: Okay, so by about 1 milligram per mL we are seeing some good efficacy because that probably is not very different from control, 5 millimolar. It is—
+
+Durgadas / Speaker B: And this was reproducible as well, he did twice.
+
+Kannan / Speaker A: Millimolar potency is less exciting, but that is fine, it is what it is. Okay.
+
+Durgadas / Speaker B: And this was the batch we used.
+
+Kannan / Speaker A: But this is looking at inflammation,
+
+Durgadas / Speaker B: right?
+
+Kannan / Speaker A: Yeah, just inflammation. Okay. Does Javier have enough allodynia data?
+
+Preeti / Speaker D: I think it's enough for like a—
+
+Kannan / Speaker A: Just to show the decrease in edema, and I think, but then we are not showing— do we have any tissue or anything where we can do that?
+
+Preeti / Speaker D: We collected whatever animals he did, I'm pretty sure we collected everything.
+
+Kannan / Speaker A: Okay, okay, let's see what you have, Spencer, for the incision model.
+
+Spencer / Speaker C: Yeah, okay, so—
+
+Kannan / Speaker A: Can you pull up—
+
+Preeti / Speaker D: Javier's— I
+
+Kannan / Speaker A: can see what is there in Javier's file. Here, this is yours, right? It's mine. I can label.
+
+Spencer / Speaker C: So this data comes from 2 cohorts, or really it's 3 cohorts, um, from 2025.
+
+Kannan / Speaker A: Okay.
+
+Spencer / Speaker C: Uh, do you just want to see the plots?
+
+Kannan / Speaker A: Yeah, just show me the plots first. Okay. This is your control non-treated, right? Black.
+
+Spencer / Speaker C: That's right, yes.
+
+Kannan / Speaker A: And this is CBD.
+
+Durgadas / Speaker B: Yeah, so yeah, here is the CBD from Javier.
+
+Kannan / Speaker A: Javier's, but how many animals is it? Can you pull up the graph, actual graph? I want to see how many animals are there.
+
+Preeti / Speaker D: Go to the—
+
+Kannan / Speaker A: I mean data file, sorry, data table. Yeah, just open this.
+
+Preeti / Speaker D: Or even if you look—
+
+Kannan / Speaker A: Yeah, yeah, CBD 3 in GD-CBD saline. He's got— does he have free CBD? Scroll.
+
+Preeti / Speaker D: Why?
+
+Kannan / Speaker A: CP55. No, no, no free CBD. Yeah, okay.
+
+Durgadas / Speaker B: 0.3. Yeah, he tried only one concentration earlier.
+
+Kannan / Speaker A: 0.3 of GD-CBD. Okay. Okay.
+
+Spencer / Speaker C: I think one of the things was we had a lot of trouble formulating the CBD.
+
+Durgadas / Speaker B: Yeah, pure CBD.
+
+Kannan / Speaker A: We've got it. So I think we can, we can use that as a secondary model. You know, if it looks strong and say that, you know, because free CBD was difficult to formulate.
+
+Preeti / Speaker D: If we have N of 3, it can still go—
+
+Kannan / Speaker A: Yeah, we can dump it into a— because it's a secondary model. It's not a primary model. We'll have this as the primary model.
+
+Preeti / Speaker D: We can just say we tried Because pre-CBD was not showing efficacy here or in seizure model, we just tried—
+
+Kannan / Speaker A: Yeah, yeah, sounds good. So here, so tell me what this baseline is. Wait, so tell me, you did your surgery here, this is your baseline?
+
+Spencer / Speaker C: Yes. Correct? This is baseline after like a week of habituation.
+
+Kannan / Speaker A: Okay, week of habituation, then you poked von Frey and your 50% withdrawal threshold is about 75 or so. Right, that's 75 grams or something, right?
+
+Spencer / Speaker C: Yeah.
+
+Kannan / Speaker A: Of force and you're seeing that. Okay. And surgery and you treat them over here.
+
+Spencer / Speaker C: Yeah.
+
+Kannan / Speaker A: So what is this? You are extending it from here, is that what it is?
+
+Spencer / Speaker C: So this is just, yeah, just trying to show the relationship, so just visually show—
+
+Kannan / Speaker A: That they're coming from there kind of thing?
+
+Spencer / Speaker C: Yeah.
+
+Kannan / Speaker A: Okay, so that it's dropping from there to here, right?
+
+Spencer / Speaker C: Yeah.
+
+Kannan / Speaker A: I think you can just connect it up because it's the same animals anyway, because this piece is a bit confusing over here.
+
+Spencer / Speaker C: Okay.
+
+Kannan / Speaker A: Okay, and then you can, you know, surgery at— you can maybe split up here and say when is the surgery, when is the treatment. Okay, so here with CBD alone, it's interesting because you have an acute effect.
+
+Spencer / Speaker C: Well, it's highly variable, but yes, yeah, there's something.
+
+Kannan / Speaker A: Yeah.
+
+Spencer / Speaker C: Yeah.
+
+Kannan / Speaker A: But is— it didn't come out significant?
+
+Spencer / Speaker C: No. No, because if you look at the individuals—
+
+Kannan / Speaker A: Yeah.
+
+Spencer / Speaker C: And we can look at how the error looks.
+
+Kannan / Speaker A: Let's look at that. Let's look at the individuals.
+
+Spencer / Speaker C: So, even between these 2 batches we saw significant variability.
+
+Kannan / Speaker A: Is your variability based on the batch? In every cohort are you having—
+
+Spencer / Speaker C: We've— so I think we've gone through 4 batches or maybe 5, like chemistry batches, and then from those I think we've had maybe 8 different rat batches. So—
+
+Preeti / Speaker D: I think we should—
+
+Kannan / Speaker A: You know, should we nest on the formulation?
+
+Preeti / Speaker D: Yeah.
+
+Kannan / Speaker A: Let's nest based on formulation. Why is the formulation different? Is it because of the company that it came from?
+
+Durgadas / Speaker B: Yeah. The third one was— The first 2 worked, third one was from Dalton, exclusively we got from Dalton and it did not work, even the free drug also did not work, you know, any model.
+
+Kannan / Speaker A: So, you threw that out?
+
+Preeti / Speaker D: I think I removed that cohort from— that is what you said.
+
+Kannan / Speaker A: So, you have removed that cohort, right?
+
+Durgadas / Speaker B: Yeah, we do not have it.
+
+Preeti / Speaker D: From everywhere, from all models.
+
+Spencer / Speaker C: From the very first batch.
+
+Durgadas / Speaker B: And the third one, it partially worked, like it Higher concentration for like 40 mg/kg for your model, and it worked in her model, but it didn't work as good as the first batch.
+
+Preeti / Speaker D: So, like partial efficacy.
+
+Kannan / Speaker A: So, what animals are these, Spencer? From which batch, which formulation are these?
+
+Spencer / Speaker C: These are 2 cohorts from the first batch.
+
+Kannan / Speaker A: First batch, okay. These are 2 cohorts from the first batch. This is the best functioning batch.
+
+Spencer / Speaker C: By far, yeah.
+
+Kannan / Speaker A: And that's where you got the 2 cohorts. from. Okay. And in that you're seeing variability. Are you seeing variability? Can you show me the table? Okay. And are these like 3 animals were one batch and these 3 were one— you did them to— when did— how did you do them?
+
+Spencer / Speaker C: Yeah, one was in December of 2024, I think, and one was in January 2025.
+
+Kannan / Speaker A: Okay.
+
+Spencer / Speaker C: Or yeah, we can look at that. I can pull that up.
+
+Kannan / Speaker A: Should we nest them? Yeah,
+
+Spencer / Speaker C: that's right.
+
+Kannan / Speaker A: But we might lose— but it is the same formulation. We might lose power if we nest things.
+
+Preeti / Speaker D: Are we going to talk about batch variability or anything here?
+
+Kannan / Speaker A: No, because this is the one— this is one batch. So, I don't think we need to do batch variability.
+
+Preeti / Speaker D: Yeah.
+
+Kannan / Speaker A: Okay, then maybe we won't nest. I'm just wondering if there is a difference. Your baseline is a little variable, I guess.
+
+Spencer / Speaker C: Yeah, yeah, it's definitely variable. This model is really pretty tricky, I think, compared to like Pa, von Frey.
+
+Kannan / Speaker A: How many times did you do it to elicit your—
+
+Spencer / Speaker C: Like for each time point?
+
+Kannan / Speaker A: Yeah.
+
+Spencer / Speaker C: Uh, it's like I just did the full up-down protocol once per time point. So I probably poked them like 10 to 12 times per— you know the like up-down thing that we do?
+
+Kannan / Speaker A: Uh, remind me.
+
+Spencer / Speaker C: Basically you start at a lower end of the fiber and then you work up and it's binary, right? And there's an algorithm to choosing, uh, whether to go up or down and then you take all of that information The last 6 points, that goes into a calculator that statistically derives the 50% withdrawal threshold. So—
+
+Preeti / Speaker D: It is when you use every filament, at least like—
+
+Kannan / Speaker A: So you use multiple filaments, right? You use multiple from 50 to 250 or whatever your range you showed over there, right?
+
+Spencer / Speaker C: Yeah.
+
+Kannan / Speaker A: Okay, and so it's how many filaments totally?
+
+Spencer / Speaker C: Well, it's adaptive.
+
+Kannan / Speaker A: Oh, so you do it till you lose withdrawal?
+
+Spencer / Speaker C: Yeah, and then you, and then you come back down,
+
+Kannan / Speaker A: and
+
+Spencer / Speaker C: then you go up again, and you come back down. You're supposed to go back and forth.
+
+Kannan / Speaker A: How many times?
+
+Spencer / Speaker C: 3 times.
+
+Kannan / Speaker A: 3 times to identify that loss?
+
+Spencer / Speaker C: Yeah, but it's not always the case.
+
+Kannan / Speaker A: Or that sensation, sorry.
+
+Spencer / Speaker C: It's not exactly that, actually. So you, from the first response that you get, you're supposed to do 6 more bupivacaine. And if they don't respond, you go up a fiber. If they do respond, you go down a fiber. Go back and forth. And then you take those 6, those go into the calculator, and then it gives you this number. So
+
+Kannan / Speaker A: it's just that, you know, you have some— Yeah,
+
+Spencer / Speaker C: there's definitely outliers, you know, like there's some huge variability.
+
+Kannan / Speaker A: Huge ones and some really like 5 over here, you know. Like this one's response, overall response is different.
+
+Preeti / Speaker D: Oh, it's like—
+
+Spencer / Speaker C: Yeah, these 3 versus these 3.
+
+Kannan / Speaker A: This is 2.5 is what?
+
+Spencer / Speaker C: Hours.
+
+Kannan / Speaker A: Hours. So at 2.5 hours it's 214 and 4.5 hours it's 26.
+
+Spencer / Speaker C: Yeah.
+
+Kannan / Speaker A: That kind of doesn't make sense, right?
+
+Spencer / Speaker C: Yeah, that's—
+
+Kannan / Speaker A: Like this, this, this, and this are kind of But what is happening?
+
+Spencer / Speaker C: So
+
+Kannan / Speaker A: later time points is fine, I think. It's super behavioral.
+
+Spencer / Speaker C: Like, some of the animals buckle down and they kind of grit their teeth and they're like, I'm not gonna move, you know. And some of the animals are much more finicky and sensitive. That's like, that's the point of the habituation, because they are extremely variable at the very beginning. This is at least, you know, they've come together.
+
+Kannan / Speaker A: Do you have videos of this?
+
+Spencer / Speaker C: I have videos of everything that we've done.
+
+Preeti / Speaker D: Can we—
+
+Kannan / Speaker A: I think these which are off, we should probably look at it.
+
+Preeti / Speaker D: Look at it and do like a—
+
+Kannan / Speaker A: The ones that are off, we need to do an observation to see if the animal is behaving like a little strange at any point. It may not be the whole thing, but you're putting everything into the calculation, right? So I'm wondering if some of the points that you put into your calculation, you might have to eliminate some of the up-down screens, or you already eliminated those, maybe.
+
+Spencer / Speaker C: Definitely. Like, it took a long time to get to where we felt like it was somewhat reliable, but the problem with reviewing it— so the reviewing is great, we have the record, we can go back and see the response, like the binary response, but because it's adaptive, the von Frey and this up-down protocol, is adaptive, you can't retrospectively really change it or like pull a point. So we're kind of stuck with the data that we have here.
+
+Preeti / Speaker D: So either you eliminate the whole animal or you— Yeah. Yeah.
+
+Durgadas / Speaker B: Eliminate— we've got 4 animals here.
+
+Spencer / Speaker C: So like 3 animals total.
+
+Kannan / Speaker A: 3 and 3.
+
+Spencer / Speaker C: Yeah. So the way we usually structure it is 3 free drug, 3 GDCBD, and then controls.
+
+Kannan / Speaker A: Look at the vehicles.
+
+Spencer / Speaker C: But it's— the bottom line is—
+
+Kannan / Speaker A: It is very, very low.
+
+Spencer / Speaker C: It's not a very good model.
+
+Kannan / Speaker A: I also think, you know, it's an incision model. There are going to be some areas that are going to have a little more swelling. So if you kind of pick the areas where the If the swelling is more, then, you know, you will get less response. So—
+
+Spencer / Speaker C: We tried to standardize everything that we could. And this is like a big part of the effort. Like when we saw this variability in the different batches, we were like, oh, is it the model? You know, we really went crazy trying to make everything perfect.
+
+Kannan / Speaker A: But— So you picked— this is the baseline that you picked, -1. What is this baseline average?
+
+Spencer / Speaker C: So I have the previous 3 days average there or the max. So I looked at both of these to try and see what worked better, like the max withdrawal threshold over those 3 days or the average. The average is better.
+
+Kannan / Speaker A: Yeah, average will be better. I would not— yeah, the max might just give us a false value. Okay, okay. So you use that baseline, the average of the baseline. Okay. And you picked 2.5 and 4.5. I'm just wondering how we can reduce your— is it— Does it make sense to make this a log scale?
+
+Spencer / Speaker C: Yeah. Have you tried that too? Yeah, I can show you that. This is—
+
+Preeti / Speaker D: Oh, you already tried it?
+
+Kannan / Speaker A: Yeah. Good, good job.
+
+Spencer / Speaker C: So this— these are more recent cohorts. This is the one with the 40 mg/kg that I was talking about.
+
+Kannan / Speaker A: Do you want to just exclude your recent cohorts on your graph? The recent ones are the ones you're not sure about, right? Those are
+
+Spencer / Speaker C: the
+
+Kannan / Speaker A: things that didn't work.
+
+Spencer / Speaker C: Yeah. Help us diagnose whether the CB55 and the high dose were working at all. Okay. And they're kind of middling, right? Even though it's 10x the dose.
+
+Kannan / Speaker A: Yeah.
+
+Spencer / Speaker C: This blue is the— yeah, but I can pull—
+
+Kannan / Speaker A: This blue is this one. Okay. Okay. I think you are at least coming down on your crazy variability. And this seems to stick to what we were seeing before where Free CBD is having an acute effect, which I think would make sense. And GD-CBD, we have some acute effect, but most of it is delayed. And it doesn't last up to 168, it lasts up to 120 hours is probably what we're going to have to say.
+
+Spencer / Speaker C: Yeah.
+
+Kannan / Speaker A: Right, and then it starts coming down after that. Okay. But your GD— your CBD alone is— seems a little funky. Well, I guess it's plateauing is how this is. And this is kind of plateauing here is the way I would think. I don't know what this thing is, this one point is.
+
+Spencer / Speaker C: Yeah, I— so when we— when I was—
+
+Kannan / Speaker A: So this would be like it's plateauing here, it's plateauing here.
+
+Preeti / Speaker D: These are just 2 different doses.
+
+Spencer / Speaker C: I would like to do this in paw incision. I think it would give us a better read if we want to go to the next level.
+
+Kannan / Speaker A: We have the 3 paw incision animals already, the rats. We can add a few more, but then there is like interperson variability too, so we'll have to—
+
+Spencer / Speaker C: Yeah, I just think that the paw incision is more like lifting a foot is more of a binary behavior change than like different flinches or like, yeah, it's just a more established model. That's what it really is. The reason that we started with this model in the first place was from the suture perspective. It's really a great fit for that, like our anesthetic sutures. And then we just shoot this in. But if I could go back to 2024, I would have started with the incision.
+
+Kannan / Speaker A: I mean, if you're only going to do the behavioral phenotype, then I think it's probably not going to take that much time for you to do, you know, N of 3 for the incision and N of 3 for the paw. That won't— because it's only behavior, it's not going to be anything else. You're not sitting and dissecting out the DRGs and things like that.
+
+Preeti / Speaker D: Yes.
+
+Kannan / Speaker A: Yeah, I mean—
+
+Preeti / Speaker D: What figures you are planning?
+
+Kannan / Speaker A: So, I think a lot of it should be— it should be heavy quite a bit on the in vitro stuff, okay. So, I think we should have, and that's quite a bit there. And then what do you have for epilepsy?
+
+Preeti / Speaker D: I think he has the old data, but I have more numbers.
+
+Kannan / Speaker A: You have more numbers than what he has?
+
+Spencer / Speaker C: I think I have your whole figure that's not locked in here.
+
+Preeti / Speaker D: Yeah, but we added more numbers to this.
+
+Durgadas / Speaker B: Yeah, this is the very first.
+
+Kannan / Speaker A: This is your first cohort, right?
+
+Preeti / Speaker D: First few cohorts. So this is like 7 or—
+
+Kannan / Speaker A: And 7 animals, okay.
+
+Preeti / Speaker D: Yeah, 6 or 7.
+
+Kannan / Speaker A: Okay, and how many did you add after?
+
+Preeti / Speaker D: I think at least 3, 4 per group. If I eliminate the bad one— Nonworking one. Yeah.
+
+Kannan / Speaker A: If you added 3 or 4, how is it going to look like?
+
+Preeti / Speaker D: Do we want to add the one that partially worked or no?
+
+Kannan / Speaker A: No.
+
+Preeti / Speaker D: No? Okay, then 3 or 4 more per group I have. Yeah, okay.
+
+Kannan / Speaker A: Okay, why don't we put that in? Okay, then we'll just throw in all the models. Wow. Okay, so we are testing it in multiple models.
+
+Preeti / Speaker D: Yeah, I think if I add those, this is like a— enough for like satisfying any review?
+
+Kannan / Speaker A: The question is GDCBD is CB2 receptor in the brain, which is going to be only microglia. Is there CB2 in neurons?
+
+Durgadas / Speaker B: I think peripheral nerves also.
+
+Preeti / Speaker D: I think—
+
+Kannan / Speaker A: No, but seizure is not peripheral nerve.
+
+Durgadas / Speaker B: Oh, seizure.
+
+Kannan / Speaker A: I'm talking about for the seizure, can we explain it? If we cannot explain it, then we might be shooting ourselves in the foot by putting it in. CBD, I guess.
+
+Preeti / Speaker D: Subpopulation of neurons.
+
+Kannan / Speaker A: Have CB2?
+
+Preeti / Speaker D: Yeah. CB2, CA2, CA1, dentate gyrus, there is expression.
+
+Kannan / Speaker A: Oh, it is just multimodal mechanism. Yeah, right, they do not know what is going on. Yeah, they do not know what is going on. Trip 1, trip 1,
+
+Durgadas / Speaker B: GPR55. Which region is actually working, hypothalamus or somewhere else?
+
+Preeti / Speaker D: For this model, so it is more like global, but initially hippocampus And maybe some part of cortex, entorhinal cortex, amygdala a little bit. After some time it spreads everywhere, but at this point I would say hippocampus and cortex, some parts of cortex. So,
+
+Durgadas / Speaker B: you are trying to say we should have a CB2 expression in the hippocampal area neuron?
+
+Kannan / Speaker A: CB2, I do not know, that is the thing. I think we just see seizures increase CB2, forget What CBD does, people probably don't know. Seizing neurons overexpress.
+
+Preeti / Speaker D: I think I'm really liking the date with Spencer. I'm very happy.
+
+Kannan / Speaker A: What happened? Why?
+
+Preeti / Speaker D: My life is so good ever since I started paying for my friend. The—
+
+Kannan / Speaker A: Oh, your friend?
+
+Preeti / Speaker D: Yeah.
+
+Kannan / Speaker A: Yeah.
+
+Spencer / Speaker C: Yeah.
+
+Kannan / Speaker A: Your bestie. You can call it by some other name too. They do overexpress CB2.
+
+Preeti / Speaker D: That could be.
+
+Kannan / Speaker A: Okay. Do you have any seizure suctions?
+
+Preeti / Speaker D: From this?
+
+Kannan / Speaker A: Yeah. Not, not these animals necessarily. Any— I think so.
+
+Preeti / Speaker D: Pilocarpine suctions? Yeah, yeah, yeah.
+
+Kannan / Speaker A: Maybe just stain for CB2 and show overexpression. and then we can—
+
+Preeti / Speaker D: Okay.
+
+Kannan / Speaker A: Explain that.
+
+Preeti / Speaker D: It makes sense.
+
+Kannan / Speaker A: Yeah.
+
+Preeti / Speaker D: I
+
+Kannan / Speaker A: mean, and then because we're going to say that CB2, even though it's a weak CB2 agonist, it's better than CBD alone, right? Is that what you're showing? Yeah. In your in vitro data?
+
+Durgadas / Speaker B: Yeah.
+
+Kannan / Speaker A: That is better than CBD alone. Yeah. Okay.
+
+Durgadas / Speaker B: Okay.
+
+Kannan / Speaker A: And then we have— okay, let's then go back to the incision model. The incision model is where we had Um, Javier's images, correct? For localization?
+
+Spencer / Speaker C: That's right, yeah.
+
+Kannan / Speaker A: Okay. Uh, and do you have that with you here?
+
+Spencer / Speaker C: I don't have it.
+
+Kannan / Speaker A: Don't worry about it. It's like, uh, but just pull it up and keep it for later.
+
+Durgadas / Speaker B: Yeah, this is the CBD on the CB2 binding.
+
+Preeti / Speaker D: That's Hopkins.
+
+Kannan / Speaker A: This is EC50 for CBD is 80. Oh, so it's about 6-fold better. And this is based on the CBD concentration?
+
+Durgadas / Speaker B: Yeah.
+
+Kannan / Speaker A: Not the conjugate?
+
+Durgadas / Speaker B: No.
+
+Kannan / Speaker A: Actually, if you did the conjugate, it'd be even lower, right?
+
+Durgadas / Speaker B: Yeah. So this is the drug basis.
+
+Kannan / Speaker A: On the drug basis. Yeah. It's 6-fold lower. This is nice. Okay. Is this enough number of points? No, no. We need to do more. We're going to do more, right? Yeah, yeah. You'll improve how the curve is looking.
+
+Durgadas / Speaker B: And we have a positive control THC here.
+
+Kannan / Speaker A: You see that? THC is your positive, okay.
+
+Durgadas / Speaker B: THC binds to CB1 and CB2 like immediately. Yeah, it's nanomolar potency. But CBD, CBD, that's the advantage of CBD over THC. But because THC binds to almost all the cannabinoid receptors, and that's why it causes the, you know, all the hallucination. But CBD do not bind it. But suppressed all the inflammation or any other related.
+
+Kannan / Speaker A: So I think what we should do to add to this because in the pain model, in the incision model, what are we saying? It's locally there's macrophages that are expressing— actually, sorry, you'll have to pull up Javier's image. Can you do that? I just want to see what are the areas he found.
+
+Preeti / Speaker D: Do you also want me to look at inflammation after 48 hours in the tissue?
+
+Kannan / Speaker A: You have the tissue already?
+
+Preeti / Speaker D: Yeah.
+
+Kannan / Speaker A: You want to do that?
+
+Preeti / Speaker D: We can do that. I have tissue from these animals, microdissected.
+
+Kannan / Speaker A: Yeah. Okay.
+
+Preeti / Speaker D: So, I think it's not a bad idea.
+
+Kannan / Speaker A: Yeah, yeah. So, we can do that and then we can see if—
+
+Preeti / Speaker D: So, it ties into—
+
+Kannan / Speaker A: We have incision, where do we have tissue? We have any local tissue?
+
+Spencer / Speaker C: Just DRG. We tried biodistribution a few times in this model and it didn't— the GD-CBD wasn't working for us. It was Cy5-CBD. It wasn't working for us.
+
+Kannan / Speaker A: Oh, this is the one where you tried IVIS. Yeah, that's fine. But you did biodistribution with sections, correct? I thought Javier did that, right?
+
+Spencer / Speaker C: Yes, we have some from very early on.
+
+Kannan / Speaker A: Yeah, yeah. He had one image, I think, before a couple of images. I think he made a schematic which went into the grant.
+
+Spencer / Speaker C: Yeah.
+
+Kannan / Speaker A: Is it— okay, I think, yeah, I remember this. So these are the DRG Macrophages. Who is this? GD-Cy5 in— but GD-Cy5 alone. This is not GD-CBD-Cy5.
+
+Spencer / Speaker C: Yeah.
+
+Kannan / Speaker A: And this is comparing GD and HT.
+
+Spencer / Speaker C: This is the closest to local that we have, but—
+
+Kannan / Speaker A: Okay.
+
+Spencer / Speaker C: We also had a really hard time replicating this. Afterwards? We tried this in 2 other cohorts of animals, just looking at the skin, or whole body IVIS. That's the images that you've seen. But we think that was a Cy5 problem.
+
+Kannan / Speaker A: You shaved the animal?
+
+Spencer / Speaker C: Yeah, we went all out. We shaved the whole body.
+
+Kannan / Speaker A: Okay.
+
+Spencer / Speaker C: Yeah, we really, after the first failure, we really Tried before.
+
+Kannan / Speaker A: I think, you know, for the brain we can do— we have DRG that we have saved, correct?
+
+Spencer / Speaker C: Uh-huh, we do.
+
+Kannan / Speaker A: What is the role of CBD Overexpression in neurons?
+
+Preeti / Speaker D: No, I was asking.
+
+Kannan / Speaker A: It triggers ionic current changes that shifts the cells to its hyperpolarization. So this decreases neuronal excitability. Okay, so then if you give an agonist, that helps the— so it's essentially a protective mechanism.
+
+Spencer / Speaker C: Do you know why we chose CBD in the beginning for this?
+
+Kannan / Speaker A: No. It was something I think it went by— I think Kunal had some people who were interested in it, so that's why he picked that. I think it's also that the thought was this is like a mild, mild-ish drug which is used and—
+
+Spencer / Speaker C: It's kind of pop right now. Yeah.
+
+Kannan / Speaker A: And would it be possible to get it away from— I mean, I think maybe more— no, we did try— remember, Hu is the— what is that?
+
+Spencer / Speaker C: Hu something.
+
+Kannan / Speaker A: Which is a CB2-specific agonist, and that somehow did not work as well.
+
+Spencer / Speaker C: Yeah, it failed in the—
+
+Durgadas / Speaker B: it failed, it failed for the pain model.
+
+Preeti / Speaker D: It even did not work in CP. We— you remember we initially injected—
+
+Kannan / Speaker A: No, why did we try in CP?
+
+Preeti / Speaker D: 2023.
+
+Kannan / Speaker A: Yeah, into everything.
+
+Durgadas / Speaker B: Yeah, even in the failed formulation when we got the The compound from K-Med that had some oxidized HU-13.
+
+Kannan / Speaker A: So I think rather than a synthetic cannabinoid, I think plant extract like this probably, which is a weak agonist and we can improve that, may fly better. I know for the grant I think they're interested because of that, but I think just maybe saying that we, when we attach it, Conjugates better is probably a better way to think about it. But the cells that are overexpressing, if it's only getting into the cells that are overexpressing
+
+Preeti / Speaker D: it,
+
+Kannan / Speaker A: then it's perfect.
+
+Spencer / Speaker C: Okay. Yeah, it just seems like CBD is, you know, it's not that toxic.
+
+Kannan / Speaker A: That was a big— that was the biggest question for the— reviewers. They're like, why are you doing CBD? Yeah.
+
+Preeti / Speaker D: Of all the things. Even they asked Javier in neurotherapeutics thing. Yeah, yeah, yeah.
+
+Kannan / Speaker A: Why? Why? Yeah. Everybody is like, why CBD? It's like a nothing drug. It's really weak.
+
+Preeti / Speaker D: It's difficult to solubilize it, right?
+
+Spencer / Speaker C: Yeah. Yeah. It's probably the biggest—
+
+Kannan / Speaker A: Yeah. But that's what we are completely overcoming, right? We are overcoming the solubility and we are overcoming And we're preserving
+
+Preeti / Speaker D: efficacy
+
+Kannan / Speaker A: and
+
+Preeti / Speaker D: making it better.
+
+Kannan / Speaker A: So I think that's, that's, you know, that's probably the way to spin it. I think that's how the story has to be written, that, you know, it's a solubility. This is like a completely, you know, it's just for— it's not for— it's formulation, but we're also improving the CB2 activity. Okay.
+
+Durgadas / Speaker B: Since everyone is here. Should we plan something about the figures?
+
+Kannan / Speaker A: Yeah, that's what we're doing.
+
+Durgadas / Speaker B: Yeah. No.
+
+Kannan / Speaker A: Oh, sorry.
+
+Durgadas / Speaker B: So, what to be included in the main, what— Yeah,
+
+Kannan / Speaker A: yeah, that's what we are looking at, right? That's essentially what we're going through. We're looking at the data to figure out what all needs to be included.
+
+Spencer / Speaker C: I have like a skeleton of that we can work from.
+
+Preeti / Speaker D: I saw it from your, yeah, one of your slides.
+
+Spencer / Speaker C: Yeah,
+
+Kannan / Speaker A: yeah. So synthesis, you have all of that, right? This is all set for Durga.
+
+Durgadas / Speaker B: And should we?
+
+Kannan / Speaker A: In vitro, I think we should put in. Okay.
+
+Preeti / Speaker D: Yeah, I think should we do liver metabolism?
+
+Kannan / Speaker A: Yeah, yeah. Especially CBD. Especially here. Yeah, especially CBD has. Yeah.
+
+Preeti / Speaker D: Stable.
+
+Kannan / Speaker A: Correct.
+
+Spencer / Speaker C: Okay. So all these things are good.
+
+Durgadas / Speaker B: So. There we are looking for the stability of not toxicity because CBD won't show any toxicity.
+
+Kannan / Speaker A: No, we are not going to be able to show toxicity with CBD because CBD itself is not that toxic. All of its toxicity are chronic toxicity and so we're not going to be able to show that. So I think it's okay. We can just show this. So in vitro studies you have the microglia, that's fine, we can just leave it with microglia. Do you think HT-22, if they're exposed to glutamate, they will overexpress CBD? For microglia, somebody should take notes. We're recording it. You're recording
+
+Spencer / Speaker C: it?
+
+Kannan / Speaker A: Yeah. So for the microglia, the LPS study is fine, but we need to show that CB2 is overexpressed with LPS. Okay, so we will need to do a Western or staining or something something. So, we have to show that the target is there and we're going after the target.
+
+Durgadas / Speaker B: Okay.
+
+Kannan / Speaker A: So, CB2 has to be overexpressed on the—
+
+Preeti / Speaker D: Otherwise it won't make sense.
+
+Kannan / Speaker A: Yeah, otherwise it won't make sense. It'll be like, you know, so we are saying that—
+
+Durgadas / Speaker B: Glutamate injury,
+
+Kannan / Speaker A: right? No, microglia can be LPS injury.
+
+Durgadas / Speaker B: No.
+
+Kannan / Speaker A: And neuron glutamate injury. Yeah. Both of them should be one— the— First thing that we need to show is that CB2 expression is going up in both of these cell lines with the insult, okay. And then you look at the efficacy, then you can do them, you know, TNF-alpha. You could just do inflammatory for both of them, that's totally fine. And I don't care whether you do HMC3 or— BV2, you can even do BV2, that is fine too.
+
+Durgadas / Speaker B: Okay.
+
+Kannan / Speaker A: So, if it is all mouse, then you can just do one MSD plate and get it over with.
+
+Durgadas / Speaker B: CB2, just immunostaining fine, or we need to get a protein expression?
+
+Kannan / Speaker A: Either, either Western or immuno, whichever. In some fashion, we have to show that the CB2 expression was low before it got exposed to LPS or glutamate, and after exposure it went up, and therefore our treatment makes sense, right? Okay.
+
+Preeti / Speaker D: I think I have to put next 2 rabbits for her.
+
+Kannan / Speaker A: Okay.
+
+Preeti / Speaker D: I'll come back. Sorry.
+
+Kannan / Speaker A: Yeah.
+
+Spencer / Speaker C: Thanks, Preeti.
+
+Kannan / Speaker A: Okay, so that can be the— I think that'll be like a good background study to show that you have like, you know, with all of the in vitro synthesis, I think this will be a good background study.
+
+Durgadas / Speaker B: So—
+
+Kannan / Speaker A: I think we can do— well, there's one more thing. I can ask Gokul to give that. Gokul had done a modeling to show how the CBD will intracellularly bind to the receptor.
+
+Durgadas / Speaker B: Oh, that would be good.
+
+Kannan / Speaker A: So, we can maybe put that in, I can ask him.
+
+Durgadas / Speaker B: Yeah.
+
+Kannan / Speaker A: To, you know, put— give a figure for that.
+
+Durgadas / Speaker B: Yeah, that would be great, right, because we do not have direct evidence how it is like.
+
+Kannan / Speaker A: No, no, this is also not direct evidence, this is simulation, that is it.
+
+Durgadas / Speaker B: But these days it is like—
+
+Kannan / Speaker A: It is just— yeah. you know, it's just a model.
+
+Durgadas / Speaker B: Yeah.
+
+Kannan / Speaker A: But he showed how it intracellularly it can bind CBD because that's the risk, the receptor is transmembrane. So people will always be like, oh, how is it binding outside? But I think he showed that if it's internalized then it can bind. The binding site is inside, in the cytoplasmic site. So, so we can, you know, so maybe that is something something to add, so maybe just note that down. So, you know, I'll ask. Okay.
+
+Durgadas / Speaker B: Do you want that macrophage study to be there?
+
+Kannan / Speaker A: I would not do macrophage and microglia. Pick just one.
+
+Durgadas / Speaker B: The microglia would be right.
+
+Kannan / Speaker A: Yeah, do whichever, it doesn't matter. Macrophage is peripheral, microglia is CNS. Microglia is DRG, satellite glia are neither, so you're essentially mimicking it.
+
+Durgadas / Speaker B: Since we're talking about the pain model, Do we need the macrophages?
+
+Kannan / Speaker A: It doesn't matter, that's why I'm saying it's fine. In the DRG, they are like microglia.
+
+Durgadas / Speaker B: Okay.
+
+Kannan / Speaker A: But they are all— people can consider them as macrophages, it doesn't matter. The easier thing is if you're going to redo all of it, make sure they're the same species. You don't need to do— you can just make them both mouse or both human or whatever.
+
+Durgadas / Speaker B: Yeah, that would be easy to do.
+
+Kannan / Speaker A: Okay, just whatever. Yeah, whatever he's got, whatever Milan has got, okay? And then we'll— that way we can just get 1 or 2 plates to test everything together. We'll get like an MSD plate and test all of the cytokines at one shot. Okay. Okay, then the— I would— so SC flank incision, We don't need to show everything for everybody, okay?
+
+Spencer / Speaker C: Yeah.
+
+Kannan / Speaker A: So I think either—
+
+Spencer / Speaker C: Do we need more than just IVIS? Do we need To have the, like, more sectioning than we already have?
+
+Kannan / Speaker A: No, I wouldn't want— I think we should just keep this heavily phenotypic-based. The only thing is— For the flank incision, what do we have? We have the incision area sectioned?
+
+Spencer / Speaker C: Uh—
+
+Kannan / Speaker A: No, right? DRG? We've collected the DRG and the spinal cord.
+
+Spencer / Speaker C: And we do have some DRG section.
+
+Kannan / Speaker A: We have some section DRG. Okay, great. Okay. Do you have spinal cord or anything else sectioned?
+
+Spencer / Speaker C: No, but we have— well, we do have some sections, yeah, but I have it all saved. It's all in blocks.
+
+Kannan / Speaker A: You have them sectioned in paraffin or cryosection?
+
+Spencer / Speaker C: Cryosection.
+
+Kannan / Speaker A: Cryosection and slides, right? Okay.
+
+Spencer / Speaker C: Yeah.
+
+Kannan / Speaker A: Okay, let me look at this.
+
+Spencer / Speaker C: Yeah, the images that Javier gave us were— are the best that we have.
+
+Kannan / Speaker A: But those are— let's not do biodistribution. I'm not doing— talking about biodistribution. I'm just saying that now what we're going to do is we're going to show— I mean, we'll— the SE model, we're not going to show biodistribution here because we've already done it in 10 different ways in the SE. So I would not do biodistribution there because it's not going to give us anything more. You're talking about for biodistribution studies. So localization, we have the Cy5 with the incision model, GD, maybe that just that is enough, okay. The paw edema, I think he's talking about the paw edema. did not do it. He said he has collected it. I don't think it's necessary. I think we just need to show one. And if he— if we can show with GD-Cy5 in the incision model— that was the incision model, right? GD-Cy5 incision model. I think that's all. We'll just show that and say it's getting into the DRG neurons, DRG glia. That's all he looked at, right? No spinal cord? I thought he had this comprehensive image. Where is that funny image with the rat and then it goes into this? Is it in the—
+
+Spencer / Speaker C: I don't know, but I— there is one, yeah, in the grant there is a big—
+
+Kannan / Speaker A: There's a big figure, right? Do you have the grant here with you? Can you open it?
+
+Spencer / Speaker C: Uh, that was an R01, right?
+
+Kannan / Speaker A: Yeah.
+
+Preeti / Speaker D: Are we putting biodistribution as the main?
+
+Kannan / Speaker A: Biodistribution, this is all I think we will do. Is this the incision model? What model is this? No, this is sciatic nerve ligation. No, I think that's all he has. This is it. Okay. And this is— I think it's stretched out in a So this is GD, Cy5. We have— oh, so we did 2, we didn't do— oh, because it's RAC, we didn't do PERT.
+
+Preeti / Speaker D: Yeah.
+
+Kannan / Speaker A: Okay.
+
+Preeti / Speaker D: For SNI, we did PERT, but I don't know if you want to put this here.
+
+Kannan / Speaker A: No, no, this image looked better in your slide than here. This is essentially what's in the slide. I think this is what we'll do. We'll just do GD-Cy5 images, okay. And I think there are more sections. Just make sure that there are more sections that are available.
+
+Spencer / Speaker C: Okay.
+
+Kannan / Speaker A: I think for biodistribution, okay. If not, we might have to do a couple of animals for biodistribution and collect them. So, you know, I think we, we have to do some screenings, Spencer, so we can say this is the representative.
+
+Preeti / Speaker D: This is paw incision model. No, this is the same.
+
+Kannan / Speaker A: This is the incision, his flank incision model. So I think we need to make sure we have N of 3 of the flank incision model.
+
+Spencer / Speaker C: Okay.
+
+Kannan / Speaker A: Okay, for GD-Cy5.
+
+Spencer / Speaker C: I think we have that.
+
+Kannan / Speaker A: We have that? Perfect.
+
+Spencer / Speaker C: Okay.
+
+Preeti / Speaker D: We collected a bunch.
+
+Spencer / Speaker C: It's like so many, yeah.
+
+Kannan / Speaker A: For biodistribution?
+
+Preeti / Speaker D: Yeah.
+
+Kannan / Speaker A: Okay, okay, great. So if you have— can you go back and can you make— Provide a table of what was collected.
+
+Preeti / Speaker D: Do you also have like different time points? I remember there were different time points.
+
+Spencer / Speaker C: I think we have one hour.
+
+Kannan / Speaker A: Oh, I know. There was one time that you were killing yourself.
+
+Preeti / Speaker D: I remember that.
+
+Spencer / Speaker C: That's 3 of us.
+
+Kannan / Speaker A: Yeah, you were all like—
+
+Preeti / Speaker D: You scolded us.
+
+Kannan / Speaker A: Yes, I came and yelled at you for killing yourself. Okay, yes.
+
+Preeti / Speaker D: Yeah, so we have—
+
+Kannan / Speaker A: I remember that. So can you give a— provide a table? Of what you collected, what is the status? Has it been sectioned? It's not been sectioned? Where it is? Okay. And among that we will pick a few, keep the rest available in case a reviewer comes up with a question. Okay. Okay. But we'll pick a few to say that we have done, got N of 3. Okay. You don't have to— we don't have to extensively image, but we should at least get a sense that we are seeing it in the DRG.
+
+Spencer / Speaker C: Yeah.
+
+Kannan / Speaker A: In a similar fashion.
+
+Spencer / Speaker C: Okay.
+
+Kannan / Speaker A: So, we should section and keep it available, make sure that it's kind of fitting this, and we need a— we need some negative controls, maybe.
+
+Preeti / Speaker D: Yeah, I was going to say we need no dendrimer.
+
+Kannan / Speaker A: We need no dendrimer negative for— I
+
+Spencer / Speaker C: think this is the more recent version.
+
+Kannan / Speaker A: Okay. Okay. This looks good.
+
+Preeti / Speaker D: I think— This is in the grant, correct. We don't have it, right?
+
+Spencer / Speaker C: For?
+
+Preeti / Speaker D: Dendrimer control for that figure.
+
+Spencer / Speaker C: Like the animal that didn't receive GD-Cy5? Yeah.
+
+Preeti / Speaker D: Yeah,
+
+Spencer / Speaker C: I think we have that.
+
+Preeti / Speaker D: We have that?
+
+Spencer / Speaker C: I think so. I'll go back through. This was a long time ago.
+
+Kannan / Speaker A: I would skip— I think we might have several. Just go back and check and make a table of what is available.
+
+Preeti / Speaker D: We can even— For the paper, I will take out the IVIS, okay.
+
+Kannan / Speaker A: We're struggling with IVIS, let's take that out. We'll just keep the rest of it, okay. And then we need to make sure that we have sections, F3 is there for the same thing. If it's not there, we might have to—
+
+Preeti / Speaker D: Maybe you also have the sections from your efficacy animals, some salines, you can even stain them and say no dendrimer control. Yeah. I did that one time.
+
+Spencer / Speaker C: Yeah, yeah, that makes sense. Yeah, I'll look back.
+
+Preeti / Speaker D: It's difficult to create the model again, so we use—
+
+Spencer / Speaker C: Yeah, I think creating the model is easier though than all the biodistribution stuff, because like the actual sacrificing and dissection, all that, that takes a lot of time, but then sectioning and imaging takes so much more time.
+
+Preeti / Speaker D: Yeah.
+
+Spencer / Speaker C: This is by far the biggest, like the heaviest part of the whole project.
+
+Preeti / Speaker D: Yeah.
+
+Spencer / Speaker C: By like—
+
+Kannan / Speaker A: I think that's the thing. See, this is done, so that's why I don't want to add to it and make this more complicated. Okay? Okay. Hey, Kristen.
+
+Preeti / Speaker D: Hey, how are you?
+
+Kannan / Speaker A: Good. How are you?
+
+Spencer / Speaker C: Good.
+
+Kannan / Speaker A: I wanted to talk— I was thinking about your COX-2 yesterday. Okay. So I need to tell you guys something. Let me finish this and then, you know, or otherwise I'll text you about it. Okay, it's
+
+Kristen / Speaker E: okay.
+
+Kannan / Speaker A: I think we have a good plan for that.
+
+Preeti / Speaker D: Oh, can you give it to me?
+
+Kristen / Speaker E: Yeah.
+
+Preeti / Speaker D: Because you worked with rats, you cannot go in. I'll put it back.
+
+Kristen / Speaker E: Okay, thank you.
+
+Kannan / Speaker A: Okay, so this is the thing that— So we
+
+Spencer / Speaker C: have a pretty
+
+Kannan / Speaker A: Yes. Yeah. I think that is it. That's the one biodistribution. We're not going to do biodistribution for everybody. It doesn't matter. Not necessary. I think this is good enough. Okay. Okay. So efficacy— That's
+
+Spencer / Speaker C: such a relief. At one point I think we were planning like a 21-animal biodistribution.
+
+Kannan / Speaker A: No, no. Never. Yeah. Never. The only thing that— oh, the only other thing we may need to do With your DRG, when are you starting treatment?
+
+Spencer / Speaker C: I give it immediately after the surgery, so like within— the surgery is 10 minutes, I give it at the end of 10 minutes.
+
+Kannan / Speaker A: I'm just thinking at some— at each of these— for each of these models, I think it'd be nice to show that there is increase in CB2 receptors. Do you think we should just do it with an ELISA?
+
+Preeti / Speaker D: It's easier with ELISA.
+
+Kannan / Speaker A: I think when you do— you know what, when you do your— but I'm just thinking, you know, on the neurons, the DRG neurons, it may not be going up, but it might be going up in the glia, in the macrophages, and the DRG is probably where the CP2 receptor is going to be overexpressed. If— I'm just saying that with the existing sections that we have—
+
+Preeti / Speaker D: We just stain?
+
+Kannan / Speaker A: We just stain and see if we get anything. I mean, if we did the— if we do the protein expression, we may not—
+
+Preeti / Speaker D: How much time do we
+
+Kristen / Speaker E: have? 10 minutes.
+
+Preeti / Speaker D: 10 units. Okay. She cannot go in because—
+
+Kannan / Speaker A: Yeah, I know, but you're writing it and you're wrong.
+
+Preeti / Speaker D: No, I forget, so I have to make sure I enter it correctly.
+
+Spencer / Speaker C: Yeah, this figure we already talked about too, I guess.
+
+Kannan / Speaker A: Yeah, yeah. So, if we show that, I think that will kind of be I don't think the paper has to be held up for it, okay? If you have evidence, if you're able to get literature evidence that CB2 goes up, then it's fine. But I was just thinking that if we have some regions, like for the cells we're going to show increase in CB2—
+
+Preeti / Speaker D: Mm-hmm.
+
+Kannan / Speaker A: In the neurons and the macrophages.
+
+Preeti / Speaker D: Do you want me to run ELISA also?
+
+Kannan / Speaker A: No, no, if you do ELISA, we're showing it in all of the tissue, right? What I'm trying to say is we are saying that this is— the dendrimer goes into the— dendrimer goes into DRG neurons and DRG glia. We already have the biodistribution for that. DRG neurons and DRG glia overexpress CB2 after the incision. or after injury. So it can either be this one or it can be the paw incision model, any of them. Same thing for seizures.
+
+Preeti / Speaker D: Mm-hmm.
+
+Kannan / Speaker A: You know, neurons are overexpressing CB2. So therefore this, which is a stronger CB2 agonist, works better than CBD. GD-CBD is a stronger CB2 agonist, so it's working. That's essentially the story. And I don't think we have strong literature-based evidence that all of these cells are over— I think there are bits and pieces here and there that say that it increases it, but if we say in this model it's going up, then, you know, I think the whole story is like completely tied.
+
+Preeti / Speaker D: Okay.
+
+Kannan / Speaker A: Okay. So in some fashion between the 3 models we should kind of show.
+
+Preeti / Speaker D: That C2 expression.
+
+Kannan / Speaker A: Yeah, yeah, yeah, yeah. And I would say, you know, that's why I'm like, don't like try to quantify or do too much, just show like an image and say it's more, it's less, that's good enough. I mean, if you— anyway, in your tissue, if you want to throw in, if there is an ELISA plate or an MSD that will harvest the You can use BV2 for your seizure model because you have the brain.
+
+Preeti / Speaker D: From every group?
+
+Kannan / Speaker A: Yeah, you have. You can just throw it in if you want, but you know, it's not going to do anything to the BV2 levels. That's not an efficacy endpoint.
+
+Preeti / Speaker D: Yeah. So it doesn't—
+
+Kannan / Speaker A: Which is essentially the same thing as the COX-2 that Kristin was showing. That's what I was going to say. You know, that high COX-2 that she showed in this final It actually doesn't matter. Other people have shown it too. It doesn't matter because the ketorolac is there. Even if it goes up, it's binding it. That's not the endpoint. It's just the endpoint is downstream, so it doesn't matter. Yeah, so, okay. I think if we have that, then we are set. We have seizures. I think you have enough animals.
+
+Preeti / Speaker D: Yeah. We don't need to do anything else.
+
+Kannan / Speaker A: Yeah. Done.
+
+Spencer / Speaker C: Okay.
+
+Kannan / Speaker A: So flank incision is— I think you should have— show me your stats.
+
+Spencer / Speaker C: You were not able to get—
+
+Preeti / Speaker D: You have AUC and all?
+
+Spencer / Speaker C: I do, yeah.
+
+Kannan / Speaker A: You do— you did AUC also?
+
+Preeti / Speaker D: And is the H&E already done or we have to send it out?
+
+Kannan / Speaker A: Why are we doing H&E?
+
+Preeti / Speaker D: He had something, sorry.
+
+Kannan / Speaker A: Okay.
+
+Spencer / Speaker C: This is the AC.
+
+Kannan / Speaker A: Okay.
+
+Spencer / Speaker C: So
+
+Kannan / Speaker A: you have significance there.
+
+Spencer / Speaker C: Yeah.
+
+Kannan / Speaker A: You have a spread, but— Yeah. See, these 2 are tight. This is funny. Normally with the dendrimer, we never get This is a little strange.
+
+Preeti / Speaker D: Oh, you are saying that it is not as tight?
+
+Spencer / Speaker C: Yeah, I also—
+
+Kannan / Speaker A: dendrimer is always very tight. Free drug is the one that is not tight usually. Usually dendrimer is very tight. So something is—
+
+Spencer / Speaker C: What I wondered about—
+
+Kannan / Speaker A: Durga, I can only look at you. I think it is the conjugate.
+
+Spencer / Speaker C: It could be, yeah.
+
+Preeti / Speaker D: It could be. So, one same person did all surgeries, right?
+
+Spencer / Speaker C: Yeah, I think it's— so, my working hypothesis has been that it was more of a behavioral thing, like there was some kind of behavioral effect of the drug and this GD was making that more apparent. Like, they're just very robust, like they They really don't care about von Frey threads. So, but I don't know, I don't know. I've driven myself totally crazy trying to work every single corner on this model, and this is the culmination of that. This is the very best that we've got.
+
+Kannan / Speaker A: So your baseline is what you're starting with, right?
+
+Spencer / Speaker C: Yeah.
+
+Kannan / Speaker A: These are no different from your baseline, correct?
+
+Spencer / Speaker C: They're above baseline, so.
+
+Kannan / Speaker A: They're all above baseline?
+
+Spencer / Speaker C: Yeah.
+
+Kannan / Speaker A: Yeah. This is AUC for each animal, right? Is that how you've got it? Area under the curve per animal?
+
+Preeti / Speaker D: Oh, what is it?
+
+Spencer / Speaker C: I think so.
+
+Kannan / Speaker A: What is it?
+
+Preeti / Speaker D: The area of the mean.
+
+Kannan / Speaker A: He's got the individual dots, that's why I was thinking it must be individual animal, right?
+
+Spencer / Speaker C: I can go back and look at that though.
+
+Kannan / Speaker A: How else would you— can you cut— can you show— do you have the graph for that? Do you have the AUC calculations?
+
+Spencer / Speaker C: I just did it in Python.
+
+Kannan / Speaker A: Okay.
+
+Spencer / Speaker C: I won't be able to find that. Okay. Okay.
+
+Kannan / Speaker A: You can do it on Prism too, right? Yeah. Do you mind sharing the data with Preeti?
+
+Spencer / Speaker C: Yeah.
+
+Kannan / Speaker A: Yeah, okay. Recalculate the AUC on Prism. And then the other way I'm wondering is if you do— What is the bottom time point? Peak— what is our peak time point? 48 hours? 72 hours? These are all similar.
+
+Preeti / Speaker D: It's plateaued.
+
+Spencer / Speaker C: It's plateaued, right?
+
+Kannan / Speaker A: Yeah. 48 to 96 is a plateau.
+
+Spencer / Speaker C: Yeah.
+
+Durgadas / Speaker B: But in the first 6 hours, you won't see much drug release, that's for sure.
+
+Preeti / Speaker D: So drug releases after 6 hours?
+
+Kannan / Speaker A: After 6 hours. So 72 hours, everything should be out, right?
+
+Preeti / Speaker D: That's when it is 48.
+
+Durgadas / Speaker B: As glucose, you get nearly 50% released.
+
+Kannan / Speaker A: 50% is released at 72 hours? Yeah. Okay, let's pick 72 hours. If we picked 72 hours, if we did a slope From baseline to 72 hours. And we compared the slope per animal.
+
+Spencer / Speaker C: Interesting.
+
+Kannan / Speaker A: All of these guys would be negative and this would be positive.
+
+Spencer / Speaker C: Yeah, that's a cleaner plot.
+
+Kannan / Speaker A: Yeah, so maybe we can, you know, look at it as just compare the slopes.
+
+Spencer / Speaker C: Okay.
+
+Kannan / Speaker A: And we can just explain. We'll just add that as a different— add that as an extra graph. That's it.
+
+Spencer / Speaker C: Okay. Okay.
+
+Kannan / Speaker A: We'll still show this, but we'll add that as an extra. And you have SD or SEM here?
+
+Spencer / Speaker C: These are SD.
+
+Kannan / Speaker A: SD? Okay, good. We have some hope of making it look smaller. Okay.
+
+Preeti / Speaker D: SEM is—
+
+Kannan / Speaker A: I know it's not like perfect, but at least it's something we can do. We can say, we'll just say we did SEM and, you know, it's still fine. I mean, the stats are not going to change anyway.
+
+Durgadas / Speaker B: Yeah, the first 2 batches that released were like this one.
+
+Kannan / Speaker A: What is your now, your current batch, how is it?
+
+Durgadas / Speaker B: The current one? No, we haven't tested the new batch. We're going to test it. We haven't done the release yet.
+
+Kannan / Speaker A: When are your rats coming?
+
+Spencer / Speaker C: They're here, I'm starting habituation.
+
+Kannan / Speaker A: How can you do the experiments if we haven't tested it?
+
+Durgadas / Speaker B: No, it is releasing, I tested, but not like the curve over a week.
+
+Kannan / Speaker A: Do we know it's active?
+
+Durgadas / Speaker B: Yeah.
+
+Kannan / Speaker A: You did the binding for it?
+
+Durgadas / Speaker B: Yeah.
+
+Kannan / Speaker A: Is it similar to the previous one? Yeah. Characterization is exactly the same?
+
+Durgadas / Speaker B: Yeah, binding we did the HMC TNF-alpha, that's the one shown there. That is tested twice.
+
+Kannan / Speaker A: And this is similar to the first cohort? Yeah. Is this exactly the same or slightly different or how is it?
+
+Durgadas / Speaker B: Exactly same.
+
+Kannan / Speaker A: Okay, fine.
+
+Durgadas / Speaker B: Binding is best similar to the previous one, IC50 match. It showed even TNF-alpha twice experiment independently verified. CB2 binding tested independently verified twice. At least a quick release tested The free drug is coming out, but we haven't tested over the weekend.
+
+Kannan / Speaker A: Okay, okay, so fine. Then you have 3 per group in this? 3 free CBD, 3 CBD alone, and 3 saline, right? So it's 9 animals. Okay, that's a lot. Fine. Okay. Then if this compound is working, one option may be that you just do— What salines are these? Are these the salines he's sharing with Ketrolac?
+
+Preeti / Speaker D: I don't think so. For Javier's— No, we always did like a comparison.
+
+Kannan / Speaker A: Yeah, yeah, but he did saline, Ketrolac, CBD, he did all of them together.
+
+Preeti / Speaker D: So we have to ask him.
+
+Kannan / Speaker A: Yeah, we need to check with him. Can you check with him? Okay, I text him. Yeah, because if these are Not separate animals, then we might have to do— I was thinking you might be able to just do 3 CBD and 1 saline for paw incision and get a sense.
+
+Spencer / Speaker C: Yeah.
+
+Kannan / Speaker A: Alternately, you might have to do 3 CBDs and 3 paw incision— 3 salines for paw incision. No need to do free CBD. This is because that's going to be a final confirmatory model. That's it.
+
+Spencer / Speaker C: Yeah, that would be great.
+
+Kannan / Speaker A: So that way we can throw that also in If not, we let go of that model and then just do these 2.
+
+Spencer / Speaker C: Yeah, that would be great because we certainly have had trouble trying to get this free CBD into solution.
+
+Kannan / Speaker A: Yeah, yeah, I would not like— I wouldn't bother with it. Okay. And this one, in fact, actually a free CBD looks pretty tight.
+
+Spencer / Speaker C: I agree there.
+
+Kannan / Speaker A: So you can— you may— I mean, the right way to do it is— Preeti, do you have any reasonable— what if he did more for the GD-CBD here?
+
+Preeti / Speaker D: I dextered him.
+
+Kannan / Speaker A: No, no, no. I'm talking about the incision, flank incision model.
+
+Spencer / Speaker C: I think actually my end for free CBD is less here.
+
+Kannan / Speaker A: Is it?
+
+Spencer / Speaker C: Yeah, I think it might be.
+
+Kannan / Speaker A: 1, 2, 3, 4, 5, 6. If you did 6, look 6.
+
+Spencer / Speaker C: Yeah, okay.
+
+Kannan / Speaker A: If your AUC is that, yeah. Right? You don't— you think you had less?
+
+Spencer / Speaker C: Yeah, I don't know why, but I'll look back and make sure. But if it's in there, then it's—
+
+Kannan / Speaker A: I thought your PRISM file showed 6 and 6. No?
+
+Preeti / Speaker D: He's typing something. He says different ones.
+
+Kannan / Speaker A: Oh, but he has more saline than—
+
+Spencer / Speaker C: Yeah, you're right.
+
+Kannan / Speaker A: CBD. Right, you have 6.
+
+Spencer / Speaker C: You had some issue with this? Yeah, I'll have to see.
+
+Kannan / Speaker A: You did 3 CBD, you did 10 CBD. Okay, what is this?
+
+Spencer / Speaker C: These are other cohorts that I've— like I tried 10, 30, 50.
+
+Kannan / Speaker A: And did you see any difference between 10, 30, and 40?
+
+Spencer / Speaker C: None of those worked. Oh, the 40 worked a little bit.
+
+Kannan / Speaker A: Oh, this was the bad one?
+
+Spencer / Speaker C: Well, several, yeah.
+
+Preeti / Speaker D: So he's saying the salines, he has dedicated salines for both papers separately.
+
+Kannan / Speaker A: Oh, okay, okay. He did more salines?
+
+Preeti / Speaker D: Yeah, so they are not shared between papers.
+
+Kannan / Speaker A: Okay, fine. But, but he has 6 or 7 salines for point of incision for CBD? And only 3 for CBD, or has he done 6 CBD? How many did he do for GD-Ket? How many?
+
+Preeti / Speaker D: We did only 1 cohort of CBD, and I didn't use those salines for analysis of ketrolac, but how many did—
+
+Kannan / Speaker A: That means 3 and 3? How many salines and how many— How many per group does he have? Just ask him that. Okay. I think we— so I think the 2 things to do are share the— share the data form with Preeti so she can run the AUCs and look at it. Okay. And then do the slope up to 70%. to, or, you know, you share it with Preeti, you can also cross-check it and then plot them as individual slopes. So each animal will have a slope and then potentially these guys will be negative and this will be positive.
+
+Spencer / Speaker C: Great. Yeah, that sounds good. And then for this current cohort, not do free CBD? Or should we just do it just in case?
+
+Kannan / Speaker A: No, I guess we should— I'm just trying to see if we can do more GD-CBD? Is there a— can you give me a scientific explanation for doing more GD-CBD than CBD? Because I think we are struggling with formulating it, right?
+
+Preeti / Speaker D: So we will have higher number of GD-CBD animals here, so that's our forever problem. We just We were struggling to answer this in previous cohort also. Okay, so for unequal number of sites, because—
+
+Kannan / Speaker A: Fine, just do it then. Okay, sorry.
+
+Spencer / Speaker C: It's okay.
+
+Kannan / Speaker A: I was just thinking, you know, if you had to toss out some animals, then, you know, we can probably— if you did 4 GD-CBD and, you know, something didn't work and you wanted to toss Toss one of them so you'll have a little stronger number. If your goal is— one way to think about it is actually you just need to add 2 more animals per group. The others look fine.
+
+Spencer / Speaker C: Okay.
+
+Kannan / Speaker A: So if you want to just add 2 more animals per group, then you can have like, you know, one extra on that and then you say, you know, you pick the 2 that seem to— That
+
+Spencer / Speaker C: sounds great.
+
+Kannan / Speaker A: Be the most responsive. You know, you're always going to have some animals that's going to behave weird. So you just want a little room to be able to toss out one.
+
+Preeti / Speaker D: N of 2 for CBD, 3 mg/kg. N of 3 for CBD, 0.3 mg/kg. N of 1 for saline.
+
+Kannan / Speaker A: That's it. N of 1 for saline.
+
+Preeti / Speaker D: Yeah.
+
+Kannan / Speaker A: So that all of that saline that's added is quite a bit. So we may or may not be able to do this because you're going to have to do a lot of animals.
+
+Spencer / Speaker C: Okay, well, let's get this covered.
+
+Kannan / Speaker A: Is Kristen working with rats or mice?
+
+Preeti / Speaker D: She's doing mice.
+
+Kannan / Speaker A: She's doing mice now, okay. I mean, we can ask her to churn through like— she'll whip it through because it's an incision model, but then we'll have to
+
+Preeti / Speaker D: And it will be variability in the person doing it?
+
+Kannan / Speaker A: No, no, no, she can't add it to this, she'll just have to do a whole new set. But I'm not sure it's worth it because it's going to be like—
+
+Spencer / Speaker C: How much is it going to be?
+
+Preeti / Speaker D: All the tissue Milan, Kavi, and Durga received it for this. You have this tissue, right?
+
+Durgadas / Speaker B: No, or maybe gave to Milan.
+
+Preeti / Speaker D: Milan, maybe it's the same.
+
+Kannan / Speaker A: You guys are playing hot potato with it. No, I— It's not me, it's not me, it's not me. This issue is all tissue.
+
+Durgadas / Speaker B: Nobody knows issues comes to me.
+
+Kannan / Speaker A: Not me, not me, not me.
+
+Preeti / Speaker D: I think you need to really ask Milan where it is. I think it's— he placed it somewhere and somebody moved it.
+
+Kannan / Speaker A: You know what, let's just keep it at these 2. Okay.
+
+Spencer / Speaker C: Okay.
+
+Kannan / Speaker A: I think we're going to just nix the paw edema model, paw incision model.
+
+Spencer / Speaker C: Okay.
+
+Kannan / Speaker A: Because the only way I feel like— these numbers aren't enough. So either we're going to have to do a whole cohort of animals for this, which means like a whole— we essentially need to do a full study for it. I would say just remove it. I think, you know, you have this, you have your flank incision, you have your seizure, so this is not a pain paper, this is a CBD paper.
+
+Spencer / Speaker C: Yeah, yeah, I would feel way better about the pain side of it if we did on-surgery.
+
+Kannan / Speaker A: Yeah, but that's okay. This is, uh, we are saying this is a compound, this is a paper about GDCBD. That's it. Hey guys.
+
+Preeti / Speaker D: What up?
+
+Kannan / Speaker A: Hi. Hello.
+
+Spencer / Speaker C: Okay.
+
+Durgadas / Speaker B: So the Poidema, are we adding it supporting?
+
+Kannan / Speaker A: No.
+
+Durgadas / Speaker B: No.
+
+Kannan / Speaker A: We're mixing it. Okay. If you feel we want to make this a clean paper, then we'll do a full cohort of Poidema, but I really think we have, we have enough of a story here. Essentially we are saying that we have a GD-CBD compound which is a better CB2 agonist than free CBD. Better formulation, it's more soluble, it can be used in multiple models. And we are giving you 2 examples of commonly used reasons. One is pain and one is seizures. That's it.
+
+Durgadas / Speaker B: And it's showing through the overexpression of CB2 and the GD receptor inhibition.
+
+Kannan / Speaker A: Right, yeah, yeah.
+
+Spencer / Speaker C: What's the follow-on plan, like development plan for this? Is this— we're just going to make Get it to here and then focus on other things, or— because if we push it further, we want to do a pain paper.
+
+Kannan / Speaker A: I mean, we can do a pain paper. I think, you know, this is perfect for— this is the kind of data that's perfect. We'll actually— we could probably dump all of this data into the grant. If you can give me whatever is there or give it to Kunal, then maybe we can add all this to— I think this will strengthen the grant to study it further.
+
+Spencer / Speaker C: Okay.
+
+Kannan / Speaker A: This is essentially to say that we have a compound, it works well, it's existing in vivo, we can now study it further in better models where it will be more representative. Okay. And I think ideally you want to— we want to think about it for chronic pain or, you know, chronic models, right? So I think we have provided the justification that we have a compound that works well. That's, that's all we can do now.
+
+Spencer / Speaker C: Yeah.
+
+Kannan / Speaker A: Okay, and I don't want to, like, this is not something that we will develop for acute pain, right? So there's— we shouldn't be hashing it too much for acute pain.
+
+Preeti / Speaker D: Even I don't know about seizures, it will go ahead?
+
+Kannan / Speaker A: Yeah, it might, but I don't think we will do it for acute seizures.
+
+Preeti / Speaker D: Exactly.
+
+Kannan / Speaker A: Yeah, we're not going to be doing it for acute seizures.
+
+Preeti / Speaker D: I have like 4 4 animal per group, 3 or 4 for delayed therapy also.
+
+Kannan / Speaker A: Does that work better?
+
+Preeti / Speaker D: It does, I mean, but are we going to put it—
+
+Kannan / Speaker A: No, I would—
+
+Preeti / Speaker D: I don't know if we're going to do more animals.
+
+Kannan / Speaker A: If we do that, I will think of it more for TLE, one of the chronic like Dravet kind of models, so not this. So I think this is fine to say, so that's why we'll shift the focus a little more to say that this is a good compound, this is going to work well. We will, you know, so let's not beat the acute pain model more than it's already beaten. So—
+
+Spencer / Speaker C: Sounds good.
+
+Kannan / Speaker A: So—
+
+Spencer / Speaker C: Great. Well, thank you.
+
+Kannan / Speaker A: Okay. I think we can have a decent outline and get the paper ready by December hopefully, right?
+
+Spencer / Speaker C: Yeah.
+
+Durgadas / Speaker B: Yeah.
+
+Spencer / Speaker C: Okay.
+
+Kannan / Speaker A: Okay. Okay. Great. Who's presenting this at SFN? CBD? Anybody's presenting? No.
