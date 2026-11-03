@@ -1,3 +1,8 @@
+# SUPERSEDED 2026-11-03: cut per the 2026-11-02 PI working session. A standalone
+# cross-indication cytokine figure has no counterpart in what was actually discussed -
+# cytokines came up as the in vitro efficacy readout (one MSD plate, one species) inside
+# the in vitro figure, not a dedicated marker figure. Kept here as historical record only;
+# fig5_box_layout.png has been removed from the active figure set. Do not regenerate.
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.gridspec import GridSpec

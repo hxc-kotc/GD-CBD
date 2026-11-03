@@ -5,9 +5,9 @@ from matplotlib.gridspec import GridSpec
 from matplotlib.patches import FancyArrow, FancyBboxPatch
 from mock_helpers import watermark, status_tag, panel_letter, RNG
 
-fig = plt.figure(figsize=(11, 9.2))
-fig.suptitle("Figure 1 — Chemistry and characterization of GD-CBD (MOCKUP)", fontsize=14, fontweight="bold", x=0.02, ha="left", y=0.985)
-gs = GridSpec(3, 2, figure=fig, hspace=0.6, wspace=0.35, top=0.92, bottom=0.14, left=0.08, right=0.95, height_ratios=[1, 1, 0.75])
+fig = plt.figure(figsize=(11, 8))
+fig.suptitle("Figure 1 — Chemistry and characterization of GD-CBD (MOCKUP)", fontsize=14, fontweight="bold", x=0.02, ha="left", y=0.98)
+gs = GridSpec(2, 2, figure=fig, hspace=0.5, wspace=0.35, top=0.89, bottom=0.17, left=0.08, right=0.95)
 
 # 1a: synthesis scheme - REAL scheme (panel c of the chemist's own synthesis figure,
 # cropped from the source image; the ketamine-conjugate panel (b) in that source figure
@@ -78,48 +78,20 @@ ax_d.set_title("¹H NMR, stacked traces", fontsize=9)
 panel_letter(ax_d, "d")
 status_tag(ax_d, "Box")
 
-# 1e: hemocompatibility / complement activation - mock. No comparator paper runs this
-# assay (checked: none of the four report hemolysis/complement/CARPA data), so these
-# values are NOT calibrated to a specific paper - they're set in line with the published
-# hydroxyl-PAMAM/glucose-dendrimer biocompatibility literature generally (hydroxyl-terminated
-# dendrimers are consistently reported as non-hemolytic, well below the <5% hemolysis /
-# <2-fold complement-activation thresholds used to call a nanomaterial "safe" in that
-# literature) - unlike amine-terminated dendrimers, which are not. All three assays plotted
-# as fold-vs-baseline so they share one y-axis; dotted line marks a common "flag for
-# follow-up" convention (2x baseline), not a true normal-range ceiling like panel 4g's.
-ax_e = fig.add_subplot(gs[2, :])
-assays = ["Hemolysis\n(fold vs. PBS control)", "C3a\n(fold vs. baseline)", "Platelet activation\n(fold vs. baseline)"]
-gd_alone = [1.1, 1.1, 1.05]
-gd_cbd = [1.2, 1.15, 1.1]
-gd_alone_err = [0.15, 0.15, 0.1]
-gd_cbd_err = [0.2, 0.2, 0.15]
-xpos = np.arange(3)
-w = 0.32
-ax_e.axhline(2.0, color="#D32F2F", linewidth=0.8, linestyle=":")
-ax_e.text(2.35, 2.05, "flag for follow-up (2x)", fontsize=6.5, color="#D32F2F", va="bottom")
-ax_e.bar(xpos - w / 2, gd_alone, width=w, yerr=gd_alone_err, color="#5B8DB8", capsize=3, label="GD alone", edgecolor="white")
-ax_e.bar(xpos + w / 2, gd_cbd, width=w, yerr=gd_cbd_err, color="#2E7D32", capsize=3, label="GD-CBD", edgecolor="white")
-ax_e.set_xticks(xpos); ax_e.set_xticklabels(assays, fontsize=7.5)
-ax_e.set_ylim(0, 2.6)
-ax_e.set_ylabel("Fold vs. negative control", fontsize=8)
-ax_e.legend(fontsize=7.5, frameon=False, loc="upper left")
-watermark(ax_e, "MOCK")
-ax_e.set_title("Hemocompatibility and complement activation (CARPA panel)", fontsize=9)
-panel_letter(ax_e, "e")
-status_tag(ax_e, "Box")
+# Panel 1e (hemocompatibility/CARPA) cut 2026-11-03: never discussed at the 2026-11-02
+# PI session, this repo's own anticipatory addition, and it sat oddly next to a paper
+# that session settled firmly against making any safety claims for. Not cut on
+# inference - the user confirmed the cut after an explicit ask.
 
 fig.text(0.02, 0.01,
          "Figure 1. Synthesis and characterization of GD-CBD. (a) Synthesis scheme: CBD + azido-PEG4-COOH gives a bifunctional PEG linker-CBD; GD2 (OH96) + propargyl "
          "bromide gives GD2-acetylene; CuAAC click of the two gives GD-CBD. (b) Physicochemical characterization: size (DLS), zeta potential, CBD loading, HPLC purity, and "
          "molecular weight. (c) In vitro CBD release under lysosomal-mimetic (pH 5.5) vs. plasma-mimetic (pH 7.4) conditions. (d) Stacked 1H NMR traces for CBD, the linker "
-         "intermediate, and GD-CBD. (e) Hemolysis, complement activation (C3a), and platelet activation, GD alone vs. GD-CBD, anticipating a standard nanomedicine preclinical "
-         "question not otherwise in this plan. "
-         "Panel a is the chemist's real synthesis scheme, not a mockup. Values in b/c/d/e are illustrative placeholders, not measurements. Panels b and c are scaled to "
+         "intermediate, and GD-CBD. "
+         "Panel a is the chemist's real synthesis scheme, not a mockup. Values in b/c/d are illustrative placeholders, not measurements. Panels b and c are scaled to "
          "Sharma 2024's GD2-VPA data (same GD platform, same CuAAC click linker chemistry: 4.4 nm, near-neutral zeta, 6 wt% loading, 99% purity, ~80% release by day 7 at "
-         "pH 5.5 vs. <6% by day 7 at pH 7.4), not arbitrary numbers. Panel e has no comparator-paper precedent (none of the four run this assay) — scaled instead to "
-         "published hydroxyl-dendrimer biocompatibility ranges. Real data pending: Batch 4 identity (~Oct 23), release profile, spectra; panel e is not yet a planned assay "
-         "— included to show the shape if added.",
+         "pH 5.5 vs. <6% by day 7 at pH 7.4), not arbitrary numbers. Real data pending: Batch 4 identity (~Oct 23), release profile, spectra.",
          fontsize=7, color="#555555", wrap=True)
 plt.savefig("/home/user/gd-cbd/figures/mockups/fig1_box_layout.png", dpi=200, bbox_inches="tight")
 plt.close()
-print("Saved fig1_box_layout.png (5 panels: a-e)")
+print("Saved fig1_box_layout.png (4 panels: a-d)")
