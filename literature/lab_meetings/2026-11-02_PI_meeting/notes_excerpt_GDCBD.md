@@ -4,13 +4,16 @@ Source: diarized transcript of a working session (Spencer, Sujatha, Durgadas, Pr
 
 **Speaker-label correction:** the transcript labels one speaker "Kannan / Speaker A." That label is wrong. **Every line attributed to Speaker A in the source file is Sujatha.** All attributions below use the corrected name. Other labels (Durgadas/B, Spencer/C, Preeti/D, Kristen/E) are as given.
 
+**Audited 2026-11-03** by an independent session (Opus) against `transcript_raw.txt` in this folder: speaker attribution and most quotes checked out; two substantive gaps (the 3 existing paw-incision rats, the Lin Peng figure-quality directive) and several stitched/reordered quotes were found and corrected below. See git history for the pre-audit version if needed.
+
 ---
 
 ## 1. Bottom line
 
 - **Framing narrowed, deliberately.** Sujatha: "this is not a pain paper, this is a CBD paper," and "we are saying this is a compound, this is a paper about GD-CBD. That's it." The claim set: GD-CBD is a better CB<sub>2</sub> agonist than free CBD, better formulated and more soluble, and works in two commonly used models (incision pain, seizures) as examples.
-- **Paw incision / paw edema model: cut.** "I think we're going to just nix the paw edema model, paw incision model." Existing numbers are too thin and a clean version would need a full new cohort. "I really think we have, we have enough of a story here."
-- **No toxicity figure, settled against.** "We are not going to be able to show toxicity with CBD because CBD itself is not that toxic. All of its toxicity are chronic toxicity and so we're not going to be able to show that."
+- **Paw incision / paw edema model: cut** — despite 3 existing animals already on hand ("We have the 3 paw incision animals already, the rats" — Sujatha). "I think we're going to just nix the paw edema model, paw incision model." A clean version would need a full new cohort beyond what exists. "I really think we have, we have enough of a story here."
+- **No toxicity figure.** Durgadas framed the liver work as about stability, not toxicity, in the first place: "we are looking for the stability of not toxicity because CBD won't show any toxicity." Sujatha agreed and extended it: "We are not going to be able to show toxicity with CBD because CBD itself is not that toxic. All of its toxicity are chronic toxicity and so we're not going to be able to show that."
+- **Figure quality standard set explicitly.** Sujatha, after seeing Spencer's placeholder mock-ups: "those graphs are ugly, okay? You're not going to make those... They're not going to look like Excel graphs." **Lin Peng's papers are the named model** for how figures should look (nanomedicine/dendrimer field, not pain-specific — "it doesn't matter whether it's pain space or not... it's only to see how the pictures are going to look"). Preeti to share the paper.
 - **Biodistribution scope settled small.** Existing GD-Cy5 images from the flank-incision model only. No SE biodistribution ("we've already done it in 10 different ways in the SE"). No new large study — Spencer: "At one point I think we were planning like a 21-animal biodistribution." Sujatha: "No, no. Never." **IVIS out of the paper entirely:** "We're struggling with IVIS, let's take that out."
 - **New required throughline: CB<sub>2</sub> overexpression after insult, in each system used.** In vitro (LPS-microglia, glutamate-injured neurons), DRG (neurons and glia after incision), brain (neurons after seizures). "In some fashion between the 3 models we should kind of show" it. This is what makes a CB<sub>2</sub>-agonist conjugate make sense: "we have to show that the target is there and we're going after the target."
 - **New analysis for the flank-incision data:** per-animal slope from baseline to 72 h, added alongside the existing time course and AUC. 72 h is where roughly half the conjugated drug has released.
@@ -20,8 +23,9 @@ Source: diarized transcript of a working session (Spencer, Sujatha, Durgadas, Pr
 
 | Item | Decision | Who |
 |---|---|---|
-| Paw incision / paw edema model | Cut from the paper, not even supporting. Durgadas: "the paw edema, are we adding it supporting?" Sujatha: "No." | Sujatha |
-| Toxicity / safety data | Not pursued. CBD's toxicity is chronic; this design cannot show it. | Sujatha (Durgadas raised it) |
+| Paw incision / paw edema model | Cut from the paper, not even supporting, despite 3 existing animals on hand. Durgadas: "the paw edema, are we adding it supporting?" Sujatha: "No." | Sujatha |
+| Toxicity / safety data | Not pursued. The liver work is framed as stability (Durgadas's framing, Sujatha agreed), not toxicity; CBD's toxicity is chronic and this design cannot show it. | Durgadas framed it, Sujatha confirmed |
+| Figure quality standard | Follow Lin Peng's papers as the visual model; current placeholder graphs explicitly rejected | Sujatha |
 | IVIS | Out of the paper | Preeti proposed, Sujatha agreed |
 | Biodistribution compound | GD-Cy5, existing flank-incision material. Not GD-CBD-Cy5, no new dosing study | Sujatha |
 | SE biodistribution | Not shown — already published several ways | Sujatha |
@@ -48,6 +52,7 @@ Source: diarized transcript of a working session (Spencer, Sujatha, Durgadas, Pr
 - Efficacy readout after that: inflammatory cytokines (TNF-α and the rest of the panel) in both cell types.
 - **Weight of the paper:** "it should be heavy quite a bit on the in vitro stuff."
 - **Liver metabolism retained** — free CBD vs GD-CBD, "especially CBD."
+- **Synthesis figure assigned.** Sujatha, to Durgadas: "So synthesis, you have all of that, right? This is all set for Durga."
 
 ## 5. Candidate addition: computational modeling (Gokul)
 
@@ -61,7 +66,7 @@ Source: diarized transcript of a working session (Spencer, Sujatha, Durgadas, Pr
 ### Batch and cohort structure
 - The plotted data is two cohorts from the **first chemistry batch**, which Spencer called the best functioning batch "by far" (Dec 2024 and Jan 2025).
 - Program-wide: roughly 4-5 chemistry batches and about 8 rat cohorts. The Dalton-sourced batch failed in every model, free drug included, and has been removed from all analyses. A third batch worked partially, at 40 mg/kg.
-- **Nesting by formulation was raised and then dropped** because the plotted data is one batch: "this is one batch. So, I don't think we need to do batch variability... then maybe we won't nest." Reason given against nesting generally: "we might lose power if we nest things."
+- **Nesting by formulation was raised and then dropped** because the plotted data is one batch. Sujatha, across two turns: "this is one batch. So, I don't think we need to do batch variability," then, after confirming with Preeti, "Okay, then maybe we won't nest." Reason given against nesting generally: "we might lose power if we nest things."
 
 ### Methodology points
 - **Baseline = average of the three pre-surgery days**, not the max. Spencer had tested both; Sujatha: "average will be better. I would not — yeah, the max might just give us a false value."
@@ -69,6 +74,7 @@ Source: diarized transcript of a working session (Spencer, Sujatha, Durgadas, Pr
 - Von Frey up-down protocol walked through in detail. The adaptive protocol cannot be retrospectively corrected — Spencer: "you can't retrospectively really change it or like pull a point. So we're kind of stuck with the data that we have." The remaining option is to exclude a whole animal.
 - Sujatha asked for **video review of the outlier time points** ("the ones that are off, we need to do an observation to see if the animal is behaving like a little strange"). Spencer has video of every session.
 - Log scale was asked about and had already been tried.
+- **Treatment timing:** dosed immediately post-surgery — "I give it immediately after the surgery, so like within— the surgery is 10 minutes, I give it at the end of 10 minutes."
 
 ### What the data shows
 - **Free CBD: an acute effect only, not significant, and highly variable.** Sujatha: "with CBD alone, it's interesting because you have an acute effect." Spencer: "it's highly variable, but yes... there's something."
@@ -85,16 +91,16 @@ Source: diarized transcript of a working session (Spencer, Sujatha, Durgadas, Pr
 ## 7. Animal numbers
 
 - **Current incoming cohort: 3 per group, 9 animals** (GD-CBD, free CBD, saline). Rats already arrived; Spencer is starting habituation.
-- **Add about 2 more animals per group.** Sujatha: "one way to think about it is actually you just need to add 2 more animals per group. The others look fine... if you had to toss out some animals... you'll have a little stronger number." Purpose is explicitly room to drop a non-responder: "you're always going to have some animals that's going to behave weird. So you just want a little room to be able to toss out one."
+- **Add about 2 more animals per group.** Sujatha's reasoning, in the order given: "if you had to toss out some animals, then, you know, we can probably... if you did 4 GD-CBD and, you know, something didn't work and you wanted to toss [one] so you'll have a little stronger number... one way to think about it is actually you just need to add 2 more animals per group. The others look fine." Purpose is explicitly room to drop a non-responder: "you're always going to have some animals that's going to behave weird. So you just want a little room to be able to toss out one."
 - **Unequal group sizes are accepted for GD-CBD.** Sujatha first asked for a scientific justification for running more GD-CBD than free CBD; Preeti's answer was the formulation problem ("we will have higher number of GD-CBD animals here, so that's our forever problem"), and Sujatha accepted it: "Fine, just do it then."
 - **Free CBD for the new cohort: optional.** Spencer asked whether to run it; Sujatha would not bother given the formulation difficulty, and in the historical data free CBD "looks pretty tight" already. Historical free-CBD n in the flank data needs checking — Spencer thinks it is lower than he had assumed and will go back through the Prism file.
-- **Historical paw-incision numbers (now moot, model cut):** n=2 CBD 3 mg/kg, n=3 CBD 0.3 mg/kg, n=1 saline. Salines are dedicated per paper, not shared. Sujatha's view before cutting the model: it would need 3 GD-CBD plus 3 saline minimum, i.e. a full study.
+- **Historical paw-incision numbers (now moot, model cut):** n=2 CBD 3 mg/kg, n=3 CBD 0.3 mg/kg, n=1 saline — on top of the 3 existing paw-incision rats noted in §1. Salines are dedicated per paper, not shared; whether Javier's saline animals are shared across papers was an open question Sujatha took on ("Can you check with him? Okay, I text him."). Before settling on cutting the model, Sujatha floated two cheaper fallback designs: "3 CBD and 1 saline for paw incision and get a sense," or "3 CBDs and... 3 salines for paw incision. No need to do free CBD. This is because that's going to be a final confirmatory model" — i.e., even the cheap version was framed as a confirmatory add-on, not a figure in its own right. Neither was adopted; "I think we're going to just nix" it instead (§1).
 - **Epilepsy:** the plotted cohort is 6-7 animals; Preeti has at least 3-4 more per group to add, excluding the partially-working batch ("Do we want to add the one that partially worked or no?" — "No"). Sujatha: "why don't we put that in." Delayed-therapy groups (3-4 per group) exist but stay out of this paper.
 - **New batch release curve not yet run.** Durgadas has confirmed release qualitatively, binding (IC<sub>50</sub> match), and TNF-α twice, all matching the first batch, but not the week-long release curve. Sujatha flagged the timing: "How can you do the experiments if we haven't tested it?"
 
 ## 8. Biodistribution and localization
 
-- **Keep it phenotypic and small.** "I wouldn't want — I think we should just keep this heavily phenotypic-based." Spencer asked whether more sectioning was needed beyond what exists; the answer was no.
+- **Keep it phenotypic and small, and don't try to cover every model.** "I wouldn't want — I think we should just keep this heavily phenotypic-based," and, on biodistribution specifically, "we don't need to show everything for everybody, okay." Spencer asked whether more sectioning was needed beyond what exists; the answer was no.
 - **Use the existing GD-Cy5 flank-incision images** (Javier's). Sujatha confirmed on screen that these are GD-Cy5 alone, not GD-CBD-Cy5, and that they show DRG neurons and DRG glia. "We'll just show that and say it's getting into the DRG neurons, DRG glia." The equivalent grant figure is the better-looking version of the same material.
 - **No SE biodistribution:** "we're not going to show biodistribution here because we've already done it in 10 different ways in the SE... it's not going to give us anything more."
 - **No new large study:** "At one point I think we were planning like a 21-animal biodistribution." — "No, no. Never."
@@ -113,6 +119,8 @@ This is the clearest new structural requirement from the meeting, and it cuts ac
 - **Method: staining on existing sections, not new assays.** ELISA was raised and rejected because it averages across the whole tissue: "if you do ELISA, we're showing it in all of the tissue." Also, deliberately low-effort: "don't try to quantify or do too much, just show like an image and say it's more, it's less, that's good enough."
 - **Literature evidence is an acceptable fallback, and the paper is not gated on this.** "I don't think the paper has to be held up for it. If you have evidence, if you're able to get literature evidence that CB<sub>2</sub> goes up, then it's fine." But Sujatha's own read is that the published evidence is thin — "there are bits and pieces here and there" — and showing it in these models would mean "the whole story is like completely tied."
 - Related note on CB<sub>2</sub> in neurons, raised in the seizure context: Preeti cited expression in a subpopulation of neurons (CA1, CA2, dentate gyrus); Sujatha's framing was simply that seizing neurons overexpress CB<sub>2</sub>, which is enough for the paper's logic without resolving the mechanism.
+- **Mechanistic rationale for CB<sub>2</sub> agonism, stated separately:** "It triggers ionic current changes that shifts the cells to its hyperpolarization. So this decreases neuronal excitability. Okay, so then if you give an agonist, that helps the — so it's essentially a protective mechanism."
+- **CB<sub>2</sub>/BV2 expression levels are not an efficacy endpoint — made via a cross-project analogy, not a tangent.** On whether BV2 CB<sub>2</sub> levels need to move for the paper's logic to hold: "it's not going to do anything to the BV2 levels. That's not an efficacy endpoint." Sujatha then drew the comparison explicitly to a different project's COX-2 result (Kristen's): "Which is essentially the same thing as the COX-2 that Kristin was showing... it actually doesn't matter... because the ketorolac is there. Even if it goes up, it's binding it. That's not the endpoint. It's just the endpoint is downstream, so it doesn't matter." The COX-2 project itself is out of scope for this record, but this specific exchange is reasoning about the GD-CBD paper's own logic and is included for that reason.
 
 ## 10. Scope of the paper going forward
 
@@ -137,4 +145,4 @@ This is the clearest new structural requirement from the meeting, and it cuts ac
 - Speaker A is mislabeled "Kannan" throughout the source file and is in fact Sujatha. Corrected everywhere above.
 - Several numbers were read aloud off screen-shared plots without units stated (the CB<sub>2</sub> EC<sub>50</sub> "80," the in vitro millimolar-to-mg/mL conversions). Treat them as read-aloud approximations and confirm against the source data before any of them goes in a figure or manuscript. Do not convert between drug-basis and conjugate-basis concentrations from these numbers by hand.
 - A few exchanges about cell-line names, tissue custody, and the "HU" CB<sub>2</sub> agonist are partly garbled in the transcript; the conclusions are clear but individual identifiers are not.
-- Short unrelated exchanges (a COX-2 question for another project, scheduling) are omitted here.
+- Short exchanges with no bearing on this paper (scheduling, a brief personal aside, a different rabbit study's logistics) are omitted here. The COX-2 exchange is **not** in that category — it is included in §9 because Sujatha uses it as a direct analogy about CB<sub>2</sub>/efficacy-endpoint logic for this paper, even though the COX-2 project itself is unrelated.
