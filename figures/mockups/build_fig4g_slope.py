@@ -124,6 +124,72 @@ plt.tight_layout(rect=[0, 0.08, 1, 1])
 plt.savefig("/home/user/gd-cbd/figures/mockups/fig4g_slope.png", dpi=200, bbox_inches="tight")
 plt.close()
 
+# ========== Paired baseline -> ~72h, individual lines per animal ==========
+pooled_pct72 = {"Vehicle": [], "CBD": [], "GD-CBD": []}
+for cohort in COHORT_ORDER:
+    arms = DATA[cohort]
+    for arm in ARM_ORDER:
+        if arm not in arms:
+            continue
+        baselines, hours, values = arms[arm]
+        idx = nearest_hour_index(hours, TARGET_HOUR)
+        for b, series in zip(baselines, values):
+            pooled_pct72[arm].append(100.0 * series[idx] / b)
+
+fig, ax = plt.subplots(figsize=(5.5, 4))
+gap = 1.0
+pair_width = 0.5
+centers = {"Vehicle": 0.0, "CBD": gap + pair_width, "GD-CBD": 2 * (gap + pair_width)}
+rng = np.random.default_rng(1)
+
+for arm in ARM_ORDER:
+    vals = pooled_pct72[arm]
+    if not vals:
+        continue
+    c = centers[arm]
+    x_base, x_72 = c - pair_width / 2, c + pair_width / 2
+    jitter = rng.uniform(-0.04, 0.04, size=len(vals))
+    for v, j in zip(vals, jitter):
+        ax.plot([x_base + j, x_72 + j], [100.0, v], color=COLOR[arm], alpha=0.55, linewidth=1.2, zorder=2)
+        ax.scatter([x_base + j, x_72 + j], [100.0, v], color=COLOR[arm], s=28, zorder=3,
+                    edgecolor="white", linewidth=0.4)
+    mean_72 = np.mean(vals)
+    ax.plot([x_base, x_72], [100.0, mean_72], color=COLOR[arm], linewidth=3, zorder=4,
+            solid_capstyle="round")
+    ax.scatter([x_base, x_72], [100.0, mean_72], color=COLOR[arm], s=70, zorder=5,
+               edgecolor="black", linewidth=0.8)
+
+ax.axhline(100, color="#bbbbbb", linewidth=0.8, linestyle=":")
+tick_pos, tick_lab = [], []
+for arm in ARM_ORDER:
+    if arm not in pooled_pct72 or not pooled_pct72[arm]:
+        continue
+    c = centers[arm]
+    tick_pos += [c - pair_width / 2, c + pair_width / 2]
+    tick_lab += ["Baseline", "~72h"]
+ax.set_xticks(tick_pos)
+ax.set_xticklabels(tick_lab, fontsize=8)
+
+ymax = max(max(pooled_pct72[a]) for a in ARM_ORDER if pooled_pct72[a]) * 1.15
+ax.set_ylim(0, max(ymax, 110))
+for arm in ARM_ORDER:
+    if arm not in pooled_pct72 or not pooled_pct72[arm]:
+        continue
+    ax.text(centers[arm], ax.get_ylim()[1] * 0.97,
+             f"{arm}\n(n={len(pooled_pct72[arm])})", ha="center", va="top", fontsize=8.5, fontweight="bold",
+             color=COLOR[arm])
+
+ax.set_ylabel("% of baseline threshold")
+ax.set_title("Figure 4g — baseline vs. ~72h, individual animals\nV12+V13 pooled", fontsize=10, fontweight="bold")
+fig.text(0.01, -0.07,
+         "REAL — same pooled V12+V13 per-animal data as panels b/c. Baseline is 100% by definition (t=0); "
+         "~72h is the timepoint nearest 72h per cohort (73.5h in V12, 68h in V13). Thin lines = individual "
+         "animals; thick line = arm mean.",
+         fontsize=7.5, color="#555555", wrap=True)
+plt.tight_layout(rect=[0, 0.07, 1, 1])
+plt.savefig("/home/user/gd-cbd/figures/mockups/fig4g_paired.png", dpi=200, bbox_inches="tight")
+plt.close()
+
 print("Timepoints used for the ~72h slope:", used_hours)
 for arm in ARM_ORDER:
     vals = pooled[arm]
