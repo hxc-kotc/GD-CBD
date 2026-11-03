@@ -9,10 +9,12 @@ and are not broken out by cohort anywhere in the figure, not even in panel
 titles - that distinction lives in Methods/Table S1 only. The old panel d
 (discovery-vs-new-cohort comparison) is cut entirely: once pooled, there is
 no separate "old" and "new" to plot against each other in the main figure.
-Panels relettered a-f, contiguous, no gap.
+Panels relettered a-g, contiguous, no gap.
 
-Panels a/d/e/f are boxes (no data yet). Panels b/c use the real V12+V13
-data, pooled with no cohort distinction.
+Panels a/d/e/f are boxes (no data yet). Panels b/c/g use the real V12+V13
+data, pooled with no cohort distinction. Panel g (per-animal slope,
+baseline-to-72h) replaces the old panels g/h (ALT/AST, open-field),
+which the 2026-11-02 PI meeting settled against building as a figure.
 """
 import numpy as np
 import matplotlib.pyplot as plt
@@ -78,6 +80,20 @@ def time_weighted_mean_pct(hours, pct_series):
     return [np.trapezoid(np.array(s, dtype=float), h) / (h[-1] - h[0]) for s in pct_series]
 
 
+def slope_to_72h(hours, pct_series):
+    """Per-animal slope from baseline (100% at t=0) to the reading nearest 72h -
+    the PI-meeting-requested reanalysis (2026-11-02): 'if we did a slope from
+    baseline to 72 hours... all of these guys would be negative and this would
+    be positive.' 72h was chosen because ~50% of conjugated drug has released
+    by then (Durgadas) and the behavioral data plateaus 48-96h. Real cohorts
+    don't sample exactly at 72h, so this uses each animal's own closest reading
+    (73.5h for V12, 68h for V13) rather than interpolating - the same kind of
+    honest-to-the-real-sampling choice as the 24h-chunk binning in panel b."""
+    h = np.array(hours, dtype=float)
+    idx = int(np.argmin(np.abs(h - 72)))
+    return [(s[idx] - 100.0) / h[idx] for s in pct_series], h[idx]
+
+
 def box_panel(ax, title, desc, status):
     status_color = {"Have": "#2E7D32", "Partial": "#B8860B", "Box": "#9E9E9E"}
     status_face = {"Have": "#E8F5E9", "Partial": "#FFF8E1", "Box": "#F7F7F7"}
@@ -91,12 +107,12 @@ def box_panel(ax, title, desc, status):
     ax.text(0.91, 0.14, status, fontsize=8, fontweight="bold", ha="right", color=status_color[status])
 
 
-fig = plt.figure(figsize=(13, 9.0))
+fig = plt.figure(figsize=(13, 6.5))
 fig.suptitle("Figure 4 — Flank-incision efficacy (MOCKUP, composite page)", fontsize=14, fontweight="bold", x=0.02, ha="left", y=0.99)
-gs = GridSpec(3, 12, figure=fig, hspace=0.45, wspace=0.9, top=0.86, bottom=0.15, left=0.05, right=0.97, height_ratios=[1, 1, 0.85])
+gs = GridSpec(2, 15, figure=fig, hspace=0.45, wspace=0.95, top=0.86, bottom=0.17, left=0.045, right=0.98)
 
 # Panel a: schematic
-ax_a = fig.add_subplot(gs[0, 0:4])
+ax_a = fig.add_subplot(gs[0, 0:5])
 box_panel(ax_a, "Study design / timeline", "Surgery -> single IP dose -> daily von Frey to 168h -> ropivacaine", "Have")
 ax_a.text(-0.08, 1.15, "a", transform=ax_a.transAxes, fontsize=13, fontweight="bold")
 
@@ -110,7 +126,7 @@ ax_a.text(-0.08, 1.15, "a", transform=ax_a.transAxes, fontsize=13, fontweight="b
 # schedules. No significance brackets are drawn - this is real pooled data but a
 # simplified calculation (caption says so), not the locked rank-based primary analysis,
 # so there's no p-value yet to annotate honestly.
-ax_b = fig.add_subplot(gs[0, 4:12])
+ax_b = fig.add_subplot(gs[0, 5:15])
 n_chunks = 8  # 0-24, 24-48, ..., 168-192
 for arm in ARM_ORDER:
     chunk_vals = [[] for _ in range(n_chunks)]
@@ -138,6 +154,7 @@ fig.legend(handles=handles, loc="upper right", ncol=3, frameon=False, fontsize=8
 
 # Panel c: AUC, pooled
 ax_c = fig.add_subplot(gs[1, 0:3])
+
 pooled_vals = {"Vehicle": [], "CBD": [], "GD-CBD": []}
 for cohort in COHORTS:
     for arm in ARM_ORDER:
@@ -171,58 +188,50 @@ ax_f = fig.add_subplot(gs[1, 9:12])
 box_panel(ax_f, "Wound histology", "H&E + injury-marker quantification\n[template: Porterfield Fig. 6c-d]", "Box")
 ax_f.text(-0.08, 1.18, "f", transform=ax_f.transAxes, fontsize=13, fontweight="bold")
 
-# Panels g, h: anticipate predicate-literature questions (CBD-field reviewers, not just
-# this lab's own precedent) - hepatotoxicity and a locomotor/sedation confound control.
-# Neither is a planned assay yet; included so the shape exists if the terminal serum
-# turns out to be banked (g) or an open-field check gets added as a cheap bump-up (h).
-# Flat/normal values in both panels are literature-grounded, not a reassuring default:
-# published acute rodent CBD hepatotoxicity only appears at >=738 mg/kg (our dose, 30
-# mg/kg, is ~25x below that), and published locomotor suppression only emerges at
-# >=100 mg/kg acute or with chronic (6-week) 20 mg/kg dosing; a single 3-30 mg/kg acute
-# dose is below both thresholds.
-ax_g = fig.add_subplot(gs[2, 0:6])
-groups = ["Vehicle", "CBD", "GD-CBD"]
-alt = [38, 42, 40]; alt_err = [6, 7, 6]
-ast = [95, 102, 98]; ast_err = [12, 14, 11]
-xpos = np.arange(3)
-w = 0.32
-ax_g.bar(xpos - w / 2, alt, width=w, yerr=alt_err, color="#9E9E9E", capsize=3, label="ALT (U/L)", edgecolor="white")
-ax_g.bar(xpos + w / 2, ast, width=w, yerr=ast_err, color="#5B8DB8", capsize=3, label="AST (U/L)", edgecolor="white")
-ax_g.axhline(55, color="#9E9E9E", linewidth=0.8, linestyle=":")
-ax_g.axhline(130, color="#5B8DB8", linewidth=0.8, linestyle=":")
-ax_g.set_xticks(xpos); ax_g.set_xticklabels(groups, fontsize=8)
-ax_g.set_ylabel("U/L", fontsize=8)
-ax_g.legend(fontsize=7.5, frameon=False)
-watermark(ax_g, "MOCK")
-ax_g.set_title("Hepatic transaminases, terminal serum (dotted = normal range ceiling)", fontsize=8.5)
-ax_g.text(-0.08, 1.18, "g", transform=ax_g.transAxes, fontsize=13, fontweight="bold")
-status_tag(ax_g, "Box")
-
-ax_h = fig.add_subplot(gs[2, 6:12])
-dist = [48, 44, 41]; dist_err = [9, 8, 7]
-ax_h.bar(xpos, dist, width=0.5, yerr=dist_err, color=[COLOR["Vehicle"], COLOR["CBD"], COLOR["GD-CBD"]], capsize=3, edgecolor="white")
-ax_h.set_xticks(xpos); ax_h.set_xticklabels(groups, fontsize=8)
-ax_h.set_ylabel("Open-field distance (m, 10 min)", fontsize=8)
-watermark(ax_h, "MOCK")
-ax_h.set_title("Locomotor/sedation control — rules out motor confound in von Frey", fontsize=8.5)
-ax_h.text(-0.06, 1.18, "h", transform=ax_h.transAxes, fontsize=13, fontweight="bold")
-status_tag(ax_h, "Box")
+# Panel g: per-animal slope, baseline to ~72h - real data, added per the 2026-11-02 PI
+# working session as a prespecified SECONDARY readout alongside the primary AUC (panel
+# c), not a replacement for it. Replaces the old panels g/h (ALT/AST, open-field), which
+# the same meeting settled against: "we are not going to be able to show toxicity with
+# CBD because CBD itself is not that toxic" (Sujatha). Those are now a Limitations
+# sentence in the plan doc, not a figure.
+ax_g = fig.add_subplot(gs[1, 12:15])
+slope_vals = {"Vehicle": [], "CBD": [], "GD-CBD": []}
+slope_hour_used = None
+for cohort in COHORTS:
+    for arm in ARM_ORDER:
+        if arm not in cohort:
+            continue
+        b, h, v = cohort[arm]
+        slopes, hour_used = slope_to_72h(h, pct_baseline(b, v))
+        slope_vals[arm].extend(slopes)
+        slope_hour_used = hour_used if slope_hour_used is None else slope_hour_used
+xpos3 = {"Vehicle": 0, "CBD": 1, "GD-CBD": 2}
+rng2 = np.random.default_rng(1)
+for arm in ARM_ORDER:
+    vals = slope_vals[arm]
+    xs = xpos3[arm] + rng2.uniform(-0.08, 0.08, size=len(vals))
+    ax_g.scatter(xs, vals, color=COLOR[arm], s=26, zorder=3, edgecolor="white", linewidth=0.4)
+    ax_g.hlines(np.mean(vals), xpos3[arm] - 0.2, xpos3[arm] + 0.2, color=COLOR[arm], linewidth=2.2, zorder=2)
+ax_g.axhline(0, color="#bbbbbb", linewidth=0.7, linestyle=":")
+ax_g.set_xticks([0, 1, 2]); ax_g.set_xticklabels(["Veh", "CBD", "GD-CBD"], fontsize=7.5)
+ax_g.set_ylabel("Slope, %Δ baseline / h", fontsize=7.5)
+ax_g.set_title("Slope, baseline→~72h (secondary)", fontsize=8)
+ax_g.text(-0.1, 1.18, "g", transform=ax_g.transAxes, fontsize=13, fontweight="bold")
 
 fig.text(0.02, 0.01,
          "Figure 4. GD-CBD efficacy in flank-incision mechanical allodynia. (a) Study design and dosing timeline. (b) Time course of 50% mechanical withdrawal "
          "threshold (von Frey), mean ± SEM per arm in 24h bins, vehicle vs. free CBD vs. GD-CBD, pooled across the discovery cohort; an independent replication "
          "cohort pools in without cohort distinction once dosed. (c) Area under the threshold-vs-time curve (time-weighted mean, % of baseline), individual animals, same "
-         "pooling. (d) Responder analysis: fraction of animals recovering to >=50% of baseline threshold by arm. (e) Ropivacaine positive-control validation of "
-         "the mechanical-threshold assay. (f) Wound histology, H&E/IHC with injury-marker quantification. (g) Hepatic transaminases (ALT/AST) from terminal "
-         "serum, anticipating the most common CBD-field safety question. (h) Open-field locomotor activity, ruling out a motor-confound explanation for the "
-         "von Frey result. "
-         "Panels b/c use real V12+V13 data, pooled (n=4 vehicle, 3 CBD, 6 GD-CBD; simplified time-weighted-mean calculation, not the locked rank-based primary "
-         "analysis). Panels a/d/e/f are placeholders. Panels g/h are not yet planned assays - included to show the shape if terminal serum is banked (g) or an "
-         "open-field check is added (h). The flat/normal shape in both is literature-grounded, not assumed: published acute rodent CBD hepatotoxicity needs "
-         ">=738 mg/kg (our dose is ~25x below that) and published locomotor suppression needs >=100 mg/kg acute or chronic 20 mg/kg dosing; a single 3-30 mg/kg "
-         "dose is below both. V12 and V13 are the same preparation and are not distinguished anywhere in this figure - that detail lives in Methods and Table S1.",
+         "pooling - primary endpoint. (d) Responder analysis: fraction of animals recovering to >=50% of baseline threshold by arm. (e) Ropivacaine positive-control "
+         "validation of the mechanical-threshold assay. (f) Wound histology, H&E/IHC with injury-marker quantification. (g) Per-animal slope, baseline to ~72h "
+         "(individual animal's nearest reading; ~50% of conjugated drug released and behavioral plateau onset by 72h) - prespecified secondary readout, not a "
+         "replacement for (c). "
+         "Panels b/c/g use real V12+V13 data, pooled (n=4 vehicle, 3 CBD, 6 GD-CBD; simplified time-weighted-mean/slope calculation, not the locked rank-based "
+         "primary analysis). Panels a/d/e/f are placeholders. No toxicity/safety panel: settled against at the 2026-11-02 PI meeting (CBD's toxicity is chronic, "
+         "not detectable at this acute dose) - a Limitations sentence covers it instead. V12 and V13 are the same preparation and are not distinguished anywhere "
+         "in this figure - that detail lives in Methods and Table S1.",
          fontsize=7, color="#555555", wrap=True)
 
 plt.savefig("/home/user/gd-cbd/figures/mockups/fig4_composite.png", dpi=200, bbox_inches="tight")
 plt.close()
-print("Saved fig4_composite.png (8 panels: a-h)")
+print("Saved fig4_composite.png (7 panels: a-g)")
