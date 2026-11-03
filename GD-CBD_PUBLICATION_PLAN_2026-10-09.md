@@ -68,6 +68,7 @@ A background check so claims in this paper don't contradict or duplicate what's 
 - **Dose:** GD-CBD 3 mg/kg CBD-equivalent, IP, immediately after closure, saline + 5% ACN. Same vehicle in every arm.
 - **Match the original cohorts:** sex, weight at surgery (the program's own matching variable; age was never tracked), supplier, operator, filaments, up-down method, original von Frey technique.
 - **Blinding:** chemistry team code-labels syringes. Randomize stratified by cage. Testers never see the key. Wound photos scored blind. Analysis script frozen before unblinding.
+- **Exclusion rule, prespecified (added 2026-11-03):** an animal may be excluded only for a reason unrelated to its von Frey outcome — failed or complicated surgery, illness, death, or a documented technical failure of the up-down testing protocol (e.g. an aborted or clearly invalid session). **Never** for being a weak or non-responsive animal in its arm — "pick the ones that look most responsive" is selection on outcome and would invalidate the test. If a small per-arm cushion (beyond the 4/3/2 above) is added later, its stated purpose is to cover exactly this objective-exclusion risk, not to allow discretionary trimming after unblinding.
 - **Time points:** baseline, two days pre-surgery. 2, 4, 6 h. Daily 24 to 168 h. Ropivacaine in vehicle animals after the final test. Volume to reconcile (200 vs 400 µL in the existing records).
 - **Historical vehicle animals: reference band only,** from cohorts using the original method, sex, and vehicle. Do not replace the concurrent vehicle.
 
@@ -268,6 +269,9 @@ Checked 2026-10-15 against current CBD safety/PK literature, not just this lab's
 | **No locomotor/sedation control** | Acknowledge; a brief open-field/rotarod check on already-dosed animals is a cheap possible bump-up. | "A locomotor or sedation control was not included." |
 | **Overclaiming relative to what's already public** | Check the manuscript against this lab's own 2025 CRS conference abstract and the Feng 2025 nano-micelle paper before submission; claim neither less nor more than the data support. | n/a — this is an internal check, not a manuscript statement. |
 | **Publication timing vs. pending patent** | Confirm with Hopkins tech transfer / patent counsel before submission. | n/a |
+| **New batch's week-long release curve not yet run** | Binding, TNF-α, and a quick qualitative release check are confirmed on the new batch; the full multi-day release curve is not. Rats are already in habituation as of 2026-11-02. Run the full curve in parallel; if it diverges from the first batch's curve before dosing, stop and reassess rather than dosing on an unconfirmed release profile. | "The current batch's full release kinetics were confirmed [before / after — update at dosing] the efficacy cohort was dosed." |
+| **Habituation/surgery date mismatch** | The plan's surgery date (11-04) and the 10-28–11-03 habituation window don't obviously square with Spencer's 11-02 statement that habituation was just starting. Confirm the real dates before treating downstream gates (Gate 3, 11-14) as live. | n/a — resolve before surgery, not a manuscript statement. |
+| **Historical free-CBD n unverified** | The plan's "n=6 historical at this dose" for free CBD needs a recount — read as 6-and-6 off the Prism file in the 2026-11-02 session, but Spencer flagged his own number as possibly lower and said he'd check. | n/a — verify before citing the number in the manuscript or using it to justify the smaller free-CBD arm. |
 
 # Open items
 
@@ -278,6 +282,7 @@ Checked 2026-10-15 against current CBD safety/PK literature, not just this lab's
 - **Retained material:** whether any failed batch, or the original, has material left for the in vitro comparison.
 - **Release and CB<sub>1</sub>/CB<sub>2</sub> data:** whether they already exist.
 - **Patent/publication timing:** confirm with Hopkins tech transfer or patent counsel before submission — patent family confirmed pending (PCT/US2023/072955), scope is broad and already covers CBD-dendrimer-pain; the open question is disclosure timing, not whether coverage exists.
+- **From the 2026-11-02 PI session, to ask rather than assume (added 2026-11-03):** does Gokul's intracellular CBD-CB2 docking model exist yet (candidate figure, not confirmed — Sujatha said she'd ask); do the n=3 GD-Cy5 flank-incision sections and a no-dendrimer negative control actually exist in hand (vs. needing to be located — "you guys are playing hot potato with it" re: tissue custody); where that tissue physically is (last discussed as possibly with Milan); whether the existing AUC calculation is confirmed per-animal (not area-of-the-mean — nobody in the room was certain); the real historical free-CBD n (see Risks).
 
 # Change history
 
