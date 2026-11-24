@@ -166,6 +166,8 @@ Order placed 2026-10-14 (one day later than the original 10-13 target; absorbed 
 
 **Actual (confirmed 2026-11-23):** habituation complete; surgery is 2026-11-24, not 11-04 — a 20-day slip from the original schedule, confirmed only once it was already imminent. Every downstream in-vivo date below shifts by the same ~20 days (72h read ~11-27, 168h read ~12-01/02, Gate 3 ~12-03/04, Gate 4 ~12-17/18). The 12-29 submission target has not been reconciled against this — see the new Risks row below. **Also unresolved at this date:** the new batch's full release curve has not been run, per the user (2026-11-23), and dosing is imminent. This is the exact condition the Risks table's mitigation for that row says to stop on, not proceed through — flagged for a PM decision before surgery, not resolved here.
 
+**Update, 2026-11-24:** surgery and dosing done, reported as going well. First-day von Frey readings (~2h, ~4.5h) in progress today per the corrected Time points line above. Next read ~22-24h (11-25). The release-curve and submission-timeline risks below are unchanged by this — still open.
+
 | Dates | Who | Action |
 |:---|:---|:---|
 | **10-14** | You | **Order 21 rats** (9 efficacy, 6 satellite, 5 biodistribution, 1 spare), weight 250-350 g at surgery (original cohorts V12: 300-350 g, V13: 250-300 g; this program orders by weight, not age). Confirm habituation length against the original protocol (draft says 10 days, outline says 8). Ask the other PIs about the combined paper. |
